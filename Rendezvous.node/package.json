@@ -8,8 +8,6 @@
     "email": ""
   },
   "dependencies": {
-    "docpad": "^6.69.1",
-    "docpad-plugin-vash": "^2.0.0",
     "express": "3.4.4",
     "stylus": "*",
     "vash": "^0.7.12-1"
