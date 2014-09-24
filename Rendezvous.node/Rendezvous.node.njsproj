@@ -81,6 +81,12 @@
     <Content Include="public\img\portfolio-2.jpg" />
     <Content Include="public\img\portfolio-3.jpg" />
     <Content Include="public\img\portfolio-4.jpg" />
+    <Content Include="public\img\services\CustomWood.jpg" />
+    <Content Include="public\img\services\Green.jpg" />
+    <Content Include="public\img\services\Historic.jpg" />
+    <Content Include="public\img\services\TimberFrame.jpg" />
+    <Content Include="public\img\services\WesternContemporary.jpg" />
+    <Content Include="public\img\services\WesternModern.jpg" />
     <Content Include="README.md" />
     <Content Include="views\index.vash" />
     <Content Include="views\layout.vash" />
@@ -94,6 +100,7 @@
     <Folder Include="public\font-awesome-4.1.0\less\" />
     <Folder Include="public\font-awesome-4.1.0\scss\" />
     <Folder Include="public\img\" />
+    <Folder Include="public\img\services\" />
     <Folder Include="public\js\" />
     <Folder Include="public\fonts\" />
     <Folder Include="public\css\" />

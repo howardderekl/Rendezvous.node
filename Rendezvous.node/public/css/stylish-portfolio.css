@@ -175,6 +175,10 @@ hr.small {
     padding: 50px 0;
 }
 
+.img-service {
+    margin: 0 auto;
+}
+
 .service-item {
     margin-bottom: 30px;
 }

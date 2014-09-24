@@ -35,10 +35,7 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
+                                <img class="img-service img-responsive" src="/img/services/CustomWood.jpg">
                                 <h4>
                                     <strong>Custom Wood</strong>
                                 </h4>
@@ -48,10 +45,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
+                                <img class="img-service img-responsive" src="/img/services/TimberFrame.jpg">
                                 <h4>
                                     <strong>Timber Frame</strong>
                                 </h4>
@@ -61,10 +55,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
+                                <img class="img-service img-responsive" src="/img/services/WesternContemporary.jpg">
                                 <h4>
                                     <strong>Western Contemporary</strong>
                                 </h4>
@@ -74,10 +65,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                                </span>
+                                <img class="img-service img-responsive" src="/img/services/WesternModern.jpg">
                                 <h4>
                                     <strong>Western Modern</strong>
                                 </h4>
@@ -87,10 +75,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                                </span>
+                                <img class="img-service img-responsive" src="/img/services/Historic.jpg">
                                 <h4>
                                     <strong>Historic</strong>
                                 </h4>
@@ -100,10 +85,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
+                                <img class="img-service img-responsive" src="/img/services/Green.jpg">
                                 <h4>
                                     <strong>Green</strong>
                                 </h4>
