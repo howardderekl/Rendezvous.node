@@ -12,7 +12,7 @@ var path = require('path');
 var app = express();
 
 // all environments
-app.set('port', 1337 || 3000);
+app.set('port', 1337);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'vash');
 app.use(express.favicon());
