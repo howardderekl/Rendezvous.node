@@ -16,8 +16,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                    <h2>RCH Custom Homes in Jackson, Wyoming</h2>
+                    <p class="lead">Rendezvous Custom Homes was started in September of 2011 with the objective of prividing clients with a unique building experience.  We, Paul Wetzel and Jeff Jeppesen, have a combined forty-two years of experience.  We have taken the positives accumulated during our careers and combined them with the practices that we believe provide a better product at an appealing price point.</p>
+                    <ul class="list-unstyled">
+                        <li>We operate out of mobile office trailers.</li>
+                        <li>We have an open book policy regarding invoices.</li>
+                        <li>We price and manage our own projects.</li>
+                        <li>We only self-perform carpentry work.  We hire qualified subcontracots and let them do what they do best.  We feel this achieves better quality, price and timeframe.</li>
+                    </ul>
                 </div>
             </div>
             <!-- /.row -->
@@ -102,13 +108,6 @@
         </div>
         <!-- /.container -->
     </section>
-
-	<!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
-        </div>
-    </aside>
 
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
