@@ -35,7 +35,7 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <img class="img-service img-responsive" src="/img/services/CustomWood.jpg">
+                                <span class="fa-stack fa-4x"><img class="img-service img-responsive" src="/img/services/CustomWood.jpg"></span>
                                 <h4>
                                     <strong>Custom Wood</strong>
                                 </h4>
@@ -45,7 +45,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <img class="img-service img-responsive" src="/img/services/TimberFrame.jpg">
+                                <span class="fa-stack fa-4x"><img class="img-service img-responsive" src="/img/services/TimberFrame.jpg"></span>
                                 <h4>
                                     <strong>Timber Frame</strong>
                                 </h4>
@@ -55,7 +55,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <img class="img-service img-responsive" src="/img/services/WesternContemporary.jpg">
+                                <span class="fa-stack fa-4x"><img class="img-service img-responsive" src="/img/services/WesternContemporary.jpg"></span>
                                 <h4>
                                     <strong>Western Contemporary</strong>
                                 </h4>
@@ -65,7 +65,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <img class="img-service img-responsive" src="/img/services/WesternModern.jpg">
+                                <span class="fa-stack fa-4x"><img class="img-service img-responsive" src="/img/services/WesternModern.jpg"></span>
                                 <h4>
                                     <strong>Western Modern</strong>
                                 </h4>
@@ -75,7 +75,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <img class="img-service img-responsive" src="/img/services/Historic.jpg">
+                                <span class="fa-stack fa-4x"><img class="img-service img-responsive" src="/img/services/Historic.jpg"></span>
                                 <h4>
                                     <strong>Historic</strong>
                                 </h4>
@@ -85,7 +85,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <img class="img-service img-responsive" src="/img/services/Green.jpg">
+                                <span class="fa-stack fa-4x"><img class="img-service img-responsive" src="/img/services/Green.jpg"></span>
                                 <h4>
                                     <strong>Green</strong>
                                 </h4>

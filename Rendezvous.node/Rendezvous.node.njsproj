@@ -100,6 +100,7 @@
     <Folder Include="public\font-awesome-4.1.0\less\" />
     <Folder Include="public\font-awesome-4.1.0\scss\" />
     <Folder Include="public\img\" />
+    <Folder Include="public\img\portfolio\" />
     <Folder Include="public\img\services\" />
     <Folder Include="public\js\" />
     <Folder Include="public\fonts\" />
