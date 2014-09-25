@@ -120,21 +120,21 @@
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="http://placehold.it/450x300">
+                                    <img class="img-portfolio img-responsive" src="/img/portfolio/baxter/proj01.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="http://placehold.it/450x300">
+                                    <img class="img-portfolio img-responsive" src="/img/portfolio/kaswan/proj01.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="http://placehold.it/450x300">
+                                    <img class="img-portfolio img-responsive" src="/img/portfolio/paustenbach/proj01.jpg">
                                 </a>
                             </div>
                         </div>

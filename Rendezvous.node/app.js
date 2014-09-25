@@ -23,6 +23,7 @@ app.use(app.router);
 app.use(require('stylus').middleware(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
+
 // Map the routes
 controllers.init(app);
 
