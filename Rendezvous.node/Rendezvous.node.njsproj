@@ -33,6 +33,7 @@
     <Compile Include="app.js" />
     <Compile Include="controllers\homeController.js" />
     <Compile Include="controllers\index.js" />
+    <Compile Include="gruntfile.js" />
     <Compile Include="public\js\ie10-viewport-bug-workaround.js" />
     <Content Include=".bowerrc" />
     <Content Include="package.json" />
@@ -77,10 +78,25 @@
     <Content Include="public\img\bg.jpg" />
     <Content Include="public\img\callout.jpg" />
     <Content Include="public\img\kaswan.jpg" />
+    <Content Include="public\img\meettheteam\jjeppesen.jpg" />
     <Content Include="public\img\portfolio-1.jpg" />
     <Content Include="public\img\portfolio-2.jpg" />
     <Content Include="public\img\portfolio-3.jpg" />
     <Content Include="public\img\portfolio-4.jpg" />
+    <Content Include="public\img\portfolio\baxter\proj01.jpg" />
+    <Content Include="public\img\portfolio\kaswan\proj01_450x300.jpg" />
+    <Content Include="public\img\portfolio\kaswan\proj01_700x300.jpg" />
+    <Content Include="public\img\portfolio\kaswan\proj02_750x500.jpg" />
+    <Content Include="public\img\portfolio\kaswan\proj03_750x500.jpg" />
+    <Content Include="public\img\portfolio\kaswan\proj04_750x500.jpg" />
+    <Content Include="public\img\portfolio\kaswan\proj05_750x500.jpg" />
+    <Content Include="public\img\portfolio\kaswan\proj06_750x500.jpg" />
+    <Content Include="public\img\portfolio\kaswan\proj07_750x500.jpg" />
+    <Content Include="public\img\portfolio\kaswan\proj08_750x500.jpg" />
+    <Content Include="public\img\portfolio\kaswan\proj09_750x500.jpg" />
+    <Content Include="public\img\portfolio\kaswan\proj10_750x500.jpg" />
+    <Content Include="public\img\portfolio\kaswan\proj11_750x500.jpg" />
+    <Content Include="public\img\portfolio\paustenbach\proj01.jpg" />
     <Content Include="public\img\services\CustomWood.jpg" />
     <Content Include="public\img\services\Green.jpg" />
     <Content Include="public\img\services\Historic.jpg" />
@@ -92,6 +108,7 @@
     <Content Include="views\layout.vash" />
     <Content Include="views\layout2.vash" />
     <Content Include="views\portfolio\index.vash" />
+    <Content Include="views\portfolio\kaswan\index.vash" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
@@ -103,13 +120,18 @@
     <Folder Include="public\font-awesome-4.1.0\less\" />
     <Folder Include="public\font-awesome-4.1.0\scss\" />
     <Folder Include="public\img\" />
+    <Folder Include="public\img\meettheteam\" />
     <Folder Include="public\img\portfolio\" />
+    <Folder Include="public\img\portfolio\baxter\" />
+    <Folder Include="public\img\portfolio\kaswan\" />
+    <Folder Include="public\img\portfolio\paustenbach\" />
     <Folder Include="public\img\services\" />
     <Folder Include="public\js\" />
     <Folder Include="public\fonts\" />
     <Folder Include="public\css\" />
     <Folder Include="views\" />
     <Folder Include="views\portfolio\" />
+    <Folder Include="views\portfolio\kaswan\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
   <ProjectExtensions>
