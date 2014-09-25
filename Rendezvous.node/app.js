@@ -4,8 +4,7 @@
  */
 
 var express = require('express');
-var routes = require('./routes');
-var user = require('./routes/user');
+var controllers = require('./controllers');
 var http = require('http');
 var path = require('path');
 
@@ -24,13 +23,13 @@ app.use(app.router);
 app.use(require('stylus').middleware(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Map the routes
+controllers.init(app);
+
 // development only
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
-
-app.get('/', routes.index);
-app.get('/users', user.list);
 
 http.createServer(app).listen(1337, function(){
   console.log('Express server listening on port ' + app.get('port'));

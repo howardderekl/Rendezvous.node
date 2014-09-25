@@ -53,6 +53,9 @@
                 <a href="#portfolio">Portfolio</a>
             </li>
             <li>
+                <a href="#meettheteam">Meet The Team</a>
+            </li>
+            <li>
                 <a href="#contact">Contact</a>
             </li>
         </ul>
@@ -62,6 +65,7 @@
 
 	<!-- Footer -->
     <footer>
+    <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
@@ -79,17 +83,18 @@
                             <a href="https://www.facebook.com/pages/Rendezvous-Custom-Homes/553360531377779" target="_new"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
                         </li>
                         <!--<li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                        </li> -->
+                                <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                            </li> -->
                     </ul>
                     <hr class="small">
                     <p class="text-muted">Copyright &copy; Rendezvous Custom Homes 2014</p>
                 </div>
             </div>
         </div>
+    </section>
     </footer>
 
     <!-- jQuery -->

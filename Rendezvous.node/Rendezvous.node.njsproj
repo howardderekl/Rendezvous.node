@@ -31,9 +31,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="controllers\homeController.js" />
+    <Compile Include="controllers\index.js" />
     <Compile Include="public\js\ie10-viewport-bug-workaround.js" />
-    <Compile Include="routes\index.js" />
-    <Compile Include="routes\user.js" />
     <Content Include=".bowerrc" />
     <Content Include="package.json" />
     <Content Include="public\css\stylish-portfolio.css" />
@@ -90,9 +90,12 @@
     <Content Include="README.md" />
     <Content Include="views\index.vash" />
     <Content Include="views\layout.vash" />
+    <Content Include="views\layout2.vash" />
+    <Content Include="views\portfolio\index.vash" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
+    <Folder Include="controllers\" />
     <Folder Include="public\" />
     <Folder Include="public\font-awesome-4.1.0\" />
     <Folder Include="public\font-awesome-4.1.0\css\" />
@@ -105,8 +108,8 @@
     <Folder Include="public\js\" />
     <Folder Include="public\fonts\" />
     <Folder Include="public\css\" />
-    <Folder Include="routes\" />
     <Folder Include="views\" />
+    <Folder Include="views\portfolio\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
   <ProjectExtensions>

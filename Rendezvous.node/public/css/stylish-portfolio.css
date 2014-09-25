@@ -16,6 +16,10 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+body.layout2 {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -241,4 +245,8 @@ hr.small {
 
 footer {
     padding: 100px 0;
+}
+
+footer.layout2 {
+    margin: 50px 0;
 }
