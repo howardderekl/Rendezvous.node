@@ -69,7 +69,8 @@
     <div class="container">
         
         @html.block("body")
-
+        
+        <hr/>
         <!-- Footer -->
         <footer class="layout2">
             <div class="row">

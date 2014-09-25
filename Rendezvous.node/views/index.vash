@@ -126,8 +126,8 @@
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="/img/portfolio/kaswan/proj01.jpg">
+                                <a href="/portfolio/kaswan">
+                                    <img class="img-portfolio img-responsive" src="/img/portfolio/kaswan/proj01_450x300.jpg">
                                 </a>
                             </div>
                         </div>

@@ -10,5 +10,9 @@
             res.render('portfolio/index', { title: 'Rendezvous Custom Homes - Portfolio' });
         });
 
+        app.get("/portfolio/kaswan", function (req, res) {
+            res.render('portfolio/kaswan/index', { title: 'Rendezvous Custom Homes - Portfolio - Kaswan Project' });
+        });
+
     };
 })(module.exports);
