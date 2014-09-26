@@ -51,7 +51,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="/img/services/timberframe.jpg" width="242" height="200" alt="Timber Frame Homes">
+                        <img class="img-responsive" src="/img/services/TimberFrame.jpg" width="242" height="200" alt="Timber Frame Homes">
                         <div class="caption">
                             <h3>Timber Frame</h3>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -60,7 +60,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="/img/services/westerncontemporary.jpg" alt="Western Contemporary Homes">
+                        <img class="img-responsive" src="/img/services/WesternContemporary.jpg" alt="Western Contemporary Homes">
                         <div class="caption">
                             <h3>Western Contemporary</h3>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -69,7 +69,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="/img/services/westernmodern.jpg" alt="Western Modern Homes">
+                        <img class="img-responsive" src="/img/services/WesternModern.jpg" alt="Western Modern Homes">
                         <div class="caption">
                             <h3>Western Modern</h3>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -78,7 +78,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="/img/services/historic.jpg" alt="Historic Remodels">
+                        <img class="img-responsive" src="/img/services/Historic.jpg" alt="Historic Remodels">
                         <div class="caption">
                             <h3>Historic</h3>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -87,7 +87,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="/img/services/green.jpg" alt="Ultra Green Homes">
+                        <img class="img-responsive" src="/img/services/Green.jpg" alt="Ultra Green Homes">
                         <div class="caption">
                             <h3>Green</h3>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
