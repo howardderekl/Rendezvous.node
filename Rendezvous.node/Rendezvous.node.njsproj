@@ -97,18 +97,19 @@
     <Content Include="public\img\portfolio\kaswan\proj10_750x500.jpg" />
     <Content Include="public\img\portfolio\kaswan\proj11_750x500.jpg" />
     <Content Include="public\img\portfolio\paustenbach\proj01.jpg" />
-    <Content Include="public\img\services\CustomWood.jpg" />
     <Content Include="public\img\services\Green.jpg" />
     <Content Include="public\img\services\Historic.jpg" />
     <Content Include="public\img\services\TimberFrame.jpg" />
     <Content Include="public\img\services\WesternContemporary.jpg" />
     <Content Include="public\img\services\WesternModern.jpg" />
+    <Content Include="public\img\services\wood.jpg" />
     <Content Include="README.md" />
     <Content Include="views\index.vash" />
     <Content Include="views\layout.vash" />
     <Content Include="views\layout2.vash" />
     <Content Include="views\portfolio\index.vash" />
     <Content Include="views\portfolio\kaswan\index.vash" />
+    <Content Include="views\services\index.vash" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
@@ -130,6 +131,7 @@
     <Folder Include="public\fonts\" />
     <Folder Include="public\css\" />
     <Folder Include="views\" />
+    <Folder Include="views\services\" />
     <Folder Include="views\portfolio\" />
     <Folder Include="views\portfolio\kaswan\" />
   </ItemGroup>
