@@ -18,5 +18,13 @@
             res.render('portfolio/kaswan/index', { title: 'Rendezvous Custom Homes - Portfolio - Kaswan Project' });
         });
 
+        app.get("/portfolio/springcreek", function (req, res) {
+            res.render('portfolio/springcreek/index', { title: 'Rendezvous Custom Homes - Portfolio - Spring Creek Project' });
+        });
+
+        app.get("/portfolio/baxter", function (req, res) {
+            res.render('portfolio/baxter/index', { title: 'Rendezvous Custom Homes - Portfolio - Baxter Project' });
+        });
+
     };
 })(module.exports);

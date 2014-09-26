@@ -51,7 +51,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="http://placehold.it/200x200" alt="...">
+                        <img class="img-responsive" src="/img/services/timberframe.jpg" width="242" height="200" alt="Timber Frame Homes">
                         <div class="caption">
                             <h3>Timber Frame</h3>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -60,18 +60,16 @@
                 </div>
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="http://placehold.it/200x200" alt="...">
+                        <img class="img-responsive" src="/img/services/westerncontemporary.jpg" alt="Western Contemporary Homes">
                         <div class="caption">
                             <h3>Western Contemporary</h3>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="http://placehold.it/200x200" alt="...">
+                        <img class="img-responsive" src="/img/services/westernmodern.jpg" alt="Western Modern Homes">
                         <div class="caption">
                             <h3>Western Modern</h3>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -80,7 +78,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="http://placehold.it/200x200" alt="...">
+                        <img class="img-responsive" src="/img/services/historic.jpg" alt="Historic Remodels">
                         <div class="caption">
                             <h3>Historic</h3>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -89,7 +87,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="http://placehold.it/200x200" alt="...">
+                        <img class="img-responsive" src="/img/services/green.jpg" alt="Ultra Green Homes">
                         <div class="caption">
                             <h3>Green</h3>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -115,7 +113,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
+                                <a href="/portfolio/baxter">
                                     <img class="img-portfolio img-responsive" src="/img/portfolio/baxter/proj01.jpg">
                                 </a>
                             </div>
@@ -129,15 +127,8 @@
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
+                                <a href="/portfolio/springcreek">
                                     <img class="img-portfolio img-responsive" src="/img/portfolio/paustenbach/proj01.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="http://placehold.it/450x300">
                                 </a>
                             </div>
                         </div>
@@ -165,7 +156,7 @@
                     <div class="row">
                         <div class="col-md-3">
                             <a href="#">
-                                <img class="img-responsive" src="/img/meettheteam/jjeppesen.jpg" alt="Jeff Jeppesen - Co-owner, Co-founder">
+                                <img class="img-responsive" src="http://placehold.it/242x200" alt="Jeff Jeppesen - Co-owner, Co-founder">
                             </a>
                         </div>
                         <div class="col-md-8">
@@ -185,7 +176,7 @@
                     <div class="row">
                         <div class="col-md-3">
                             <a href="#">
-                                <img class="img-responsive" src="http://placehold.it/200x200" alt="">
+                                <img class="img-responsive" src="http://placehold.it/242x200" alt="">
                             </a>
                         </div>
                         <div class="col-md-8">
@@ -205,7 +196,7 @@
                     <div class="row">
                         <div class="col-md-3">
                             <a href="#">
-                                <img class="img-responsive" src="http://placehold.it/200x200" alt="">
+                                <img class="img-responsive" src="http://placehold.it/242x200" alt="">
                             </a>
                         </div>
                         <div class="col-md-8">
