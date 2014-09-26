@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Rendezvous.node", "Rendezvous.node\Rendezvous.node.njsproj", "{83AAC9F6-1094-40FC-8CE9-2CA0FE8CCBAC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{4B0843BA-E239-4989-92D7-0D4A4A780956}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\temp\deploy-order-import.sh = ..\..\temp\deploy-order-import.sh
+		..\..\temp\magento-import-api.conf = ..\..\temp\magento-import-api.conf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

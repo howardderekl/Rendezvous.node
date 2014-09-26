@@ -12,102 +12,98 @@
 	</header>
 
 	<!-- About -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>RCH Custom Homes in Jackson, Wyoming</h2>
-                    <p class="lead">Rendezvous Custom Homes was started in September of 2011 with the objective of prividing clients with a unique building experience.  We, Paul Wetzel and Jeff Jeppesen, have a combined forty-two years of experience.  We have taken the positives accumulated during our careers and combined them with the practices that we believe provide a better product at an appealing price point.</p>
-                    <ul class="list-unstyled">
-                        <li>We operate out of mobile office trailers.</li>
-                        <li>We have an open book policy regarding invoices.</li>
-                        <li>We price and manage our own projects.</li>
-                        <li>We only self-perform carpentry work.  We hire qualified subcontracots and let them do what they do best.  We feel this achieves better quality, price and timeframe.</li>
-                    </ul>
-                </div>
+<section id="about" class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>RCH Custom Homes in Jackson, Wyoming</h2>
+                <p class="lead">Rendezvous Custom Homes was started in September of 2011 with the objective of prividing clients with a unique building experience.  We, Paul Wetzel and Jeff Jeppesen, have a combined forty-two years of experience.  We have taken the positives accumulated during our careers and combined them with the practices that we believe provide a better product at an appealing price point.</p>
+                <ul class="list-group">
+                    <li class="list-group-item">We operate out of mobile office trailers.</li>
+                    <li class="list-group-item">We have an open book policy regarding invoices.</li>
+                    <li class="list-group-item">We price and manage our own projects.</li>
+                    <li class="list-group-item">We only self-perform carpentry work.  We hire qualified subcontracots and let them do what they do best.  We feel this achieves better quality, price and timeframe.</li>
+                </ul>
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
-    </section>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
 
-    <!-- Services -->
-    <section id="services" class="services bg-primary">
-        <div class="container">
+<!-- Services -->
+<section id="services" class="services bg-primary">
+    <div class="container">
+        <div class="col-lg-10 col-lg-offset-1">
             <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Services</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x"><img class="img-service img-responsive" src="/img/services/CustomWood.jpg"></span>
-                                <h4>
-                                    <strong>Custom Wood</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x"><img class="img-service img-responsive" src="/img/services/TimberFrame.jpg"></span>
-                                <h4>
-                                    <strong>Timber Frame</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x"><img class="img-service img-responsive" src="/img/services/WesternContemporary.jpg"></span>
-                                <h4>
-                                    <strong>Western Contemporary</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x"><img class="img-service img-responsive" src="/img/services/WesternModern.jpg"></span>
-                                <h4>
-                                    <strong>Western Modern</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x"><img class="img-service img-responsive" src="/img/services/Historic.jpg"></span>
-                                <h4>
-                                    <strong>Historic</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x"><img class="img-service img-responsive" src="/img/services/Green.jpg"></span>
-                                <h4>
-                                    <strong>Green</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
+                <h2>Our Services</h2>
+                <hr class="small">    
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="/img/services/wood.jpg" alt="Custom Wood Homes">
+                        <div class="caption">
+                            <h3>Custom Wood</h3>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                         </div>
                     </div>
-                    <!-- /.row (nested) -->
                 </div>
-                <!-- /.col-lg-10 -->
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="http://placehold.it/200x200" alt="...">
+                        <div class="caption">
+                            <h3>Timber Frame</h3>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="http://placehold.it/200x200" alt="...">
+                        <div class="caption">
+                            <h3>Western Contemporary</h3>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- /.row -->
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="http://placehold.it/200x200" alt="...">
+                        <div class="caption">
+                            <h3>Western Modern</h3>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="http://placehold.it/200x200" alt="...">
+                        <div class="caption">
+                            <h3>Historic</h3>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="http://placehold.it/200x200" alt="...">
+                        <div class="caption">
+                            <h3>Green</h3>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+            <div class="row text-center">
+                <a href="/services" class="btn btn-light">Learn More</a>    
+            </div>
         </div>
-        <!-- /.container -->
-    </section>
+    </div>
+    
+</section>
 
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
