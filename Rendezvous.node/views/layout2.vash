@@ -17,6 +17,9 @@
 
     <!-- Custom CSS -->
     <link href="/css/stylish-portfolio.css" rel="stylesheet">
+    
+    <!-- Gallaria CSS -->
+    <link href="/lib/jquery-galleria/src/themes/classic/galleria.classic.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -113,6 +116,20 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    <!-- galleria -->
+    <script src="/lib/jquery-galleria/src/galleria.js"></script>
+    <script>
+        Galleria.loadTheme('/lib/jquery-galleria/src/themes/classic/galleria.classic.js');
+        Galleria.configure({
+            imageCrop: true,
+            transition: 'fade',
+            height: 500,
+            width: 750,
+            autoplay: true
+        });
+        Galleria.run('.galleria');
+    </script>
 
 </body>
 

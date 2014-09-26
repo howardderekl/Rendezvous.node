@@ -219,6 +219,9 @@ hr.small {
     opacity: 0.8;
 }
 
+.galleria {
+    height: 500px;
+}
 /* Call to Action */
 
 .call-to-action {
