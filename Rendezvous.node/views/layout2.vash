@@ -124,8 +124,6 @@
         Galleria.configure({
             imageCrop: true,
             transition: 'fade',
-            height: 500,
-            width: 750,
             autoplay: true
         });
         Galleria.run('.galleria');

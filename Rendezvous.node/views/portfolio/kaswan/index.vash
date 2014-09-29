@@ -19,16 +19,16 @@
 
             <div class="col-md-8">
                 <div class="galleria">
-                    <img src="/img/portfolio/kaswan/proj02_750x500.jpg">
-                    <img src="/img/portfolio/kaswan/proj03_750x500.jpg">
-                    <img src="/img/portfolio/kaswan/proj04_750x500.jpg">
-                    <img src="/img/portfolio/kaswan/proj05_750x500.jpg">
-                    <img src="/img/portfolio/kaswan/proj06_750x500.jpg">
-                    <img src="/img/portfolio/kaswan/proj07_750x500.jpg">
-                    <img src="/img/portfolio/kaswan/proj08_750x500.jpg">
-                    <img src="/img/portfolio/kaswan/proj09_750x500.jpg">
-                    <img src="/img/portfolio/kaswan/proj10_750x500.jpg">
-                    <img src="/img/portfolio/kaswan/proj11_750x500.jpg">
+                    <img class="img-responsive" src="/img/portfolio/kaswan/proj02_750x500.jpg">
+                    <img class="img-responsive" src="/img/portfolio/kaswan/proj03_750x500.jpg">
+                    <img class="img-responsive" src="/img/portfolio/kaswan/proj04_750x500.jpg">
+                    <img class="img-responsive" src="/img/portfolio/kaswan/proj05_750x500.jpg">
+                    <img class="img-responsive" src="/img/portfolio/kaswan/proj06_750x500.jpg">
+                    <img class="img-responsive" src="/img/portfolio/kaswan/proj07_750x500.jpg">
+                    <img class="img-responsive" src="/img/portfolio/kaswan/proj08_750x500.jpg">
+                    <img class="img-responsive" src="/img/portfolio/kaswan/proj09_750x500.jpg">
+                    <img class="img-responsive" src="/img/portfolio/kaswan/proj10_750x500.jpg">
+                    <img class="img-responsive" src="/img/portfolio/kaswan/proj11_750x500.jpg">
                 </div>
             </div>
 
