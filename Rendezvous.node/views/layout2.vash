@@ -127,7 +127,10 @@
             autoplay: true,
             height: 500
         });
-        Galleria.run('.galleria');
+        if ($('.galleria').length > 0) {
+            Galleria.run('.galleria');
+        }
+        
     </script>
 
 </body>
