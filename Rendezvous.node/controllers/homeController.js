@@ -1,9 +1,18 @@
 ﻿(function(homeController) {
 
-    homeController.init = function(app) {
+    homeController.init = function (app) {
 
-        app.get("/", function(req, res) {
-            res.render('index', { title: 'Rendezvous Custom Homes' });
+        var data = require("../data");
+
+        app.get("/", function (req, res) {
+            data.getProjects(function (prjErr, prjResults) {
+                data.getServices(function (srvErr, srvResults) {
+                    data.getTeamMembers(function(tmErr, tmResults) {
+                        res.render('index', { title: 'Rendezvous Custom Homes', error: prjErr + ' - ' + srvErr + ' - ' + tmErr, projects: prjResults, services: srvResults, teamMembers: tmResults });
+                    });
+                    
+                });
+            });
         });
         
         app.get("/services", function (req, res) {

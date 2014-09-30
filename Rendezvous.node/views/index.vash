@@ -40,60 +40,17 @@
                 <hr class="small">    
             </div>
             <div class="row">
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img class="img-responsive" src="/img/services/wood.jpg" alt="Custom Wood Homes">
-                        <div class="caption">
-                            <h3>Custom Wood</h3>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                @model.services.forEach(function (service) {
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img class="img-responsive" src='@service.homepageImage' alt='@service.name'>
+                            <div class="caption">
+                                <h3>@service.name</h3>
+                                <p>@service.description</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img class="img-responsive" src="/img/services/TimberFrame.jpg" width="242" height="200" alt="Timber Frame Homes">
-                        <div class="caption">
-                            <h3>Timber Frame</h3>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img class="img-responsive" src="/img/services/WesternContemporary.jpg" alt="Western Contemporary Homes">
-                        <div class="caption">
-                            <h3>Western Contemporary</h3>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img class="img-responsive" src="/img/services/WesternModern.jpg" alt="Western Modern Homes">
-                        <div class="caption">
-                            <h3>Western Modern</h3>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img class="img-responsive" src="/img/services/Historic.jpg" alt="Historic Remodels">
-                        <div class="caption">
-                            <h3>Historic</h3>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img class="img-responsive" src="/img/services/Green.jpg" alt="Ultra Green Homes">
-                        <div class="caption">
-                            <h3>Green</h3>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        </div>
-                    </div>
-                </div>
+                })
             </div>        
             <div class="row text-center">
                 <a href="/services" class="btn btn-light">Learn More</a>    
@@ -111,27 +68,15 @@
                     <h2>Our Work</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="/portfolio/baxter">
-                                    <img class="img-portfolio img-responsive" src="/img/portfolio/baxter/proj01.jpg">
-                                </a>
+                        @model.projects.forEach(function (project) {
+                            <div class="col-md-6">
+                                <div class="portfolio-item">
+                                    <a href='@project.portfolioLink'>
+                                        <img class="img-portfolio img-responsive" src='@project.homepageImage'>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="/portfolio/kaswan">
-                                    <img class="img-portfolio img-responsive" src="/img/portfolio/kaswan/proj01_450x300.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="/portfolio/springcreek">
-                                    <img class="img-portfolio img-responsive" src="/img/portfolio/paustenbach/proj01.jpg">
-                                </a>
-                            </div>
-                        </div>
+                        })
                     </div>
                     <!-- /.row (nested) -->
                     <a href="/portfolio" class="btn btn-dark">View Our Portfolio</a>
@@ -153,72 +98,33 @@
                         <hr class="small">
                     </div>
                     <!-- Team Member One -->
-                    <div class="row">
-                        <div class="col-md-3">
-                            <a href="#">
-                                <img class="img-responsive" src="http://placehold.it/450x300" alt="Jeff Jeppesen - Co-owner, Co-founder">
-                            </a>
+                    @model.teamMembers.forEach(function (teamMember) {
+                        <div class="row">
+                            <div class="col-md-3">
+                                    <img class="img-responsive" src='@teamMember.homepageImage' alt='@teamMember.name - @teamMember.title'>
+                            </div>
+                            <div class="col-md-8">
+                                <h3>@teamMember.name</h3>
+                                <h4>@teamMember.title</h4>
+                                <p>@teamMember.description</p>
+                                <ul class="list-unstyled list-inline bg-info">
+                                    <li><a href='mailto:@teamMember.contactInfo.email' class="fa-fw"><i class="fa fa-envelope-o fa-fw fa-2x"></i></a></li>
+                                    @if (teamMember.contactInfo.facebook) {<li><a href='@teamMember.contactInfo.facebook' target="_new"><i class="fa fa-facebook-square fa-2x"></i></a></li>}
+                                    @if (teamMember.contactInfo.twitter) {<li><a href="@teamMember.contactInfo.twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>}
+                                </ul>
+                            </div>
                         </div>
-                        <div class="col-md-8">
-                            <h3>Jeff Jeppesen</h3>
-                            <h4>Co-Owner and Co-Founder</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                            <ul class="list-unstyled list-inline bg-info">
-                                <li><a href="mailto:jeff@rchjh.com" class="fa-fw"><i class="fa fa-envelope-o fa-fw fa-2x"></i></a></li>
-                                <li><a href="https://www.facebook.com/jeffrchjh" target="_new"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <hr/>
-                    <!-- /.row -->
-                    <!-- Team Member Two -->
-                    <div class="row">
-                        <div class="col-md-3">
-                            <a href="#">
-                                <img class="img-responsive" src="http://placehold.it/450x300" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-8">
-                            <h3>Paul Wetzel</h3>
-                            <h4>Co-Owner and Co-Founder</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                            <ul class="list-unstyled list-inline bg-info">
-                                <li><a href="mailto:paul@rchjh.com" class="fa-fw"><i class="fa fa-envelope-o fa-fw fa-2x"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <hr/>
-                    <!-- /.row -->
-                    <!-- Team Member Three -->
-                    <div class="row">
-                        <div class="col-md-3">
-                            <a href="#">
-                                <img class="img-responsive" src="http://placehold.it/450x300" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-8">
-                            <h3>Chad Thompson</h3>
-                            <h4>Supervisor</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                            <ul class="list-unstyled list-inline bg-info">
-                                <li><a href="mailto:chad@rchjh.com" class="fa-fw"><i class="fa fa-envelope-o fa-fw fa-2x"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <hr/>
-                    <!-- /.row -->
+                        <hr/>
+                    })
+                    
+                    
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Map -->
-<section id="contactmap" class="map">
+    <section id="contactmap" class="map">
         <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23162.664574617807!2d-110.77559745!3d43.474519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53531a58fccf7f4b%3A0x3d1c01cbb13a835c!2sJackson%2C+WY!5e0!3m2!1sen!2sus!4v1411487770283"></iframe>
         <br />
         <small>
@@ -226,5 +132,13 @@
         </small>
     </section>
 
-	})
+@if (model.error) {
+    <section id="error">
+        <div class="row bg-warning">
+            <p>Error occurred: @model.error</p>
+        </div>
+    </section>
+}
+
+})
 })

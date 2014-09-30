@@ -16,7 +16,6 @@
 
         <!-- Portfolio Item Row -->
         <div class="row">
-
             <div class="col-md-8">
                 <div class="galleria">
                     <img class="img-responsive" src="/img/portfolio/kaswan/proj02_750x500.jpg">
@@ -35,13 +34,30 @@
             <div class="col-md-4">
                 <h3>Kaswan Project</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                <h3>Project Details</h3>
-                <ul>
-                    <li>Project Type: Timber Frame</li>
-                    <li>Dolor Sit Amet</li>
-                    <li>Consectetur</li>
-                    <li>Adipiscing Elit</li>
-                </ul>
+                <h3>Home Specs</h3>
+                <dl class="dl-horizontal">
+                    <dt>Project Type</dt>
+                    <dd>Timber Frame</dd>
+                    <dt>Square ft</dt>
+                    <dd>9,500</dd>
+                    <dt>Bedrooms</dt>
+                    <dd>4</dd>
+                    <dt>Bathrooms</dt>
+                    <dd>3</dd>
+                    <dt>Plan Design</dt>
+                    <dd>Custom Design Firm</dd>
+                    <h3>Awards</h3>
+                    <ul>
+                        <li>2012 Jackson Valley Best Home Design</li>
+                        <li>Best Interior Design</li>
+                    </ul>    
+                </dl>
+                
+                    <blockquote>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                    </blockquote>    
+                
             </div>
 
         </div>
