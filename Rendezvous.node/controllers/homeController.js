@@ -8,7 +8,16 @@
             data.getProjects(function (prjErr, prjResults) {
                 data.getServices(function (srvErr, srvResults) {
                     data.getTeamMembers(function(tmErr, tmResults) {
-                        res.render('index', { title: 'Rendezvous Custom Homes', error: prjErr + ' - ' + srvErr + ' - ' + tmErr, projects: prjResults, services: srvResults, teamMembers: tmResults });
+                        res.render('index', {
+                            title: 'Rendezvous Custom Homes', 
+                            prjError: prjErr,
+                            srvError: srvErr,
+                            tmError: tmErr, 
+                            newPrjError: req.flash("newProjectName"),
+                            projects: prjResults, 
+                            services: srvResults, 
+                            teamMembers: tmResults
+                        });
                     });
                     
                 });
@@ -16,11 +25,16 @@
         });
         
         app.get("/services", function (req, res) {
-            res.render('services/index', { title: 'Rendezvous Custom Homes - Services' });
+            data.getServices(function(err, results) {
+                res.render('services/index', { title: 'Rendezvous Custom Homes - Services', error: err, services: results });
+            });
         });
-
-        app.get("/portfolio", function(req, res) {
-            res.render('portfolio/index', { title: 'Rendezvous Custom Homes - Portfolio' });
+        
+        // Portfolio Section
+        app.get("/portfolio", function (req, res) {
+            data.getProjects(function(err, results) {
+                res.render('portfolio/index', { title: 'Rendezvous Custom Homes - Portfolio', error: err, projects: results });
+            });
         });
 
         app.get("/portfolio/kaswan", function (req, res) {
@@ -35,5 +49,29 @@
             res.render('portfolio/baxter/index', { title: 'Rendezvous Custom Homes - Portfolio - Baxter Project' });
         });
 
+        // Admin Section
+        app.get("/admin", function(req, res) {
+            res.render('admin/index', {
+                title: 'Rendezvous Admin Panel - Add Project',
+                newPrjError: req.flash("newProjectName"),
+            });
+        });
+
+
+        // POSTS
+        app.post("/newProject", function(req, res) {
+            var projectName = req.body.projectName;
+
+            data.createNewProject(projectName, function(err) {
+                if (err) {
+                    //handle error
+                    console.log(err);
+                    req.flash("newProjectName", err);
+                    res.redirect("/admin");
+                } else {
+                    res.redirect("/portfolio/" + projectName);
+                }
+            });
+        });
     };
 })(module.exports);

@@ -50,6 +50,36 @@
             }
         });
     };
+    
+    data.createNewProject = function(projectName, next) {
+        database.getDb(function(err, db) {
+            if (err) {
+                next(err);
+            } else {
+                db.projects.find({ name: projectName }).count(function(err, count) {
+                    if (err) {
+                        next(err);
+                    } else {
+                        if (count != 0) {
+                            next("Project already exists");
+                        } else {
+                            var proj = {
+                                name: projectName,
+                                description: ""
+                            };
+                            db.projects.insert(proj, function (err) {
+                                if (err) {
+                                    next(err);
+                                } else {
+                                    next(null);
+                                }
+                            });     
+                        }
+                    }
+                });
+            }
+        });
+    }
 
     function seedDatabase() {
         database.getDb(function(err, db) {

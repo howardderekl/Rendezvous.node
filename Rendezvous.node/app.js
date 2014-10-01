@@ -7,6 +7,7 @@ var express = require('express');
 var controllers = require('./controllers');
 var http = require('http');
 var path = require('path');
+var flash = require("connect-flash");
 
 var app = express();
 
@@ -17,11 +18,19 @@ app.set('view engine', 'vash');
 app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(express.json());
+
+
+// opt into services
 app.use(express.urlencoded());
 app.use(express.methodOverride());
 app.use(app.router);
 app.use(require('stylus').middleware(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.use(express.cookieParser());
+app.use(express.session({ secret: "RendezvousCustomHomes" }));
+app.use(flash());
+
 
 
 // Map the routes

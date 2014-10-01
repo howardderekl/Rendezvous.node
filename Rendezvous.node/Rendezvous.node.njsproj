@@ -115,6 +115,7 @@
     <Content Include="public\img\services\WesternModern.jpg" />
     <Content Include="public\img\services\wood.jpg" />
     <Content Include="README.md" />
+    <Content Include="views\admin\index.vash" />
     <Content Include="views\index.vash" />
     <Content Include="views\layout.vash" />
     <Content Include="views\layout2.vash" />
@@ -144,6 +145,7 @@
     <Folder Include="public\fonts\" />
     <Folder Include="public\css\" />
     <Folder Include="views\" />
+    <Folder Include="views\admin\" />
     <Folder Include="views\portfolio\baxter\" />
     <Folder Include="views\portfolio\springcreek\" />
     <Folder Include="views\services\" />
