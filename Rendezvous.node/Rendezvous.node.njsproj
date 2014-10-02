@@ -33,6 +33,7 @@
     <Compile Include="app.js" />
     <Compile Include="controllers\homeController.js" />
     <Compile Include="controllers\index.js" />
+    <Compile Include="controllers\projectsController.js" />
     <Compile Include="data\database.js" />
     <Compile Include="data\index.js" />
     <Compile Include="data\seedData.js" />
@@ -122,6 +123,7 @@
     <Content Include="views\portfolio\baxter\index.vash" />
     <Content Include="views\portfolio\index.vash" />
     <Content Include="views\portfolio\kaswan\index.vash" />
+    <Content Include="views\portfolio\project\index.vash" />
     <Content Include="views\portfolio\springcreek\index.vash" />
     <Content Include="views\services\index.vash" />
   </ItemGroup>
@@ -147,6 +149,7 @@
     <Folder Include="views\" />
     <Folder Include="views\admin\" />
     <Folder Include="views\portfolio\baxter\" />
+    <Folder Include="views\portfolio\project\" />
     <Folder Include="views\portfolio\springcreek\" />
     <Folder Include="views\services\" />
     <Folder Include="views\portfolio\" />

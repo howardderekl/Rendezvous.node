@@ -132,7 +132,7 @@
         </small>
     </section>
 
-@if (model.prjError || model.srvError || tmError) {
+@if (model.prjError || model.srvError || model.tmError) {
     <section id="error">
         <div class="row bg-warning">
             @if (model.prjError) { <p class="text-warning">Error occurred: @model.prjError</p>}

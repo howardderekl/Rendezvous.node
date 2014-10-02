@@ -13,7 +13,6 @@
                             prjError: prjErr,
                             srvError: srvErr,
                             tmError: tmErr, 
-                            newPrjError: req.flash("newProjectName"),
                             projects: prjResults, 
                             services: srvResults, 
                             teamMembers: tmResults
@@ -37,6 +36,14 @@
             });
         });
 
+        app.get("/portfolio/project/:projectId", function (req, res) {
+            var projectId = req.params.projectId;
+
+            data.getProject(projectId, function (err, results) {
+                res.render('portfolio/project/index', { title: 'Rendezvous Custom Homes - Project - ' + projectId, error: err, project: results });
+            });
+        });
+
         app.get("/portfolio/kaswan", function (req, res) {
             res.render('portfolio/kaswan/index', { title: 'Rendezvous Custom Homes - Portfolio - Kaswan Project' });
         });
@@ -50,6 +57,7 @@
         });
 
         // Admin Section
+        /*
         app.get("/admin", function(req, res) {
             res.render('admin/index', {
                 title: 'Rendezvous Admin Panel - Add Project',
@@ -73,5 +81,6 @@
                 }
             });
         });
+        */
     };
 })(module.exports);

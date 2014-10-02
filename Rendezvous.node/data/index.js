@@ -19,6 +19,38 @@
         });
     };
 
+    data.getProject = function(projectId, next) {
+        database.getDb(function(err, db) {
+            if (err) {
+                next(err);
+            } else {
+                db.projects.findOne({ projectId: projectId }, next);
+            }
+        });
+    };
+    
+    // put, delete, patch
+    data.addProject = function(projectToInsert, next) {
+        database.getDb(function (err, db) {
+            if (err) {
+                next(err);
+            } else {
+                db.projects.find({ projectId: projectId }).count(function(err, count) {
+                    if (err) {
+                        next(err);
+                    } else {
+                        if (count != 0) {
+                            next("Project already exists");
+                        } else {
+                            db.projects.insert(projectToInsert, next);
+                        }
+                    }
+                });
+            }
+        });
+    }
+
+
     data.getServices = function(next) {
         database.getDb(function(err, db) {
             if (err) {
@@ -51,12 +83,12 @@
         });
     };
     
-    data.createNewProject = function(projectName, next) {
+    data.createNewProject = function(projectId, next) {
         database.getDb(function(err, db) {
             if (err) {
                 next(err);
             } else {
-                db.projects.find({ name: projectName }).count(function(err, count) {
+                db.projects.find({ projectId: projectId}).count(function(err, count) {
                     if (err) {
                         next(err);
                     } else {
@@ -64,7 +96,7 @@
                             next("Project already exists");
                         } else {
                             var proj = {
-                                name: projectName,
+                                projectId: projectId,
                                 description: ""
                             };
                             db.projects.insert(proj, function (err) {

@@ -17,11 +17,11 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'vash');
 app.use(express.favicon());
 app.use(express.logger('dev'));
-app.use(express.json());
-
 
 // opt into services
 app.use(express.urlencoded());
+// needed for api calls
+app.use(express.json());
 app.use(express.methodOverride());
 app.use(app.router);
 app.use(require('stylus').middleware(path.join(__dirname, 'public')));
