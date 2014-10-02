@@ -120,11 +120,8 @@
     <Content Include="views\index.vash" />
     <Content Include="views\layout.vash" />
     <Content Include="views\layout2.vash" />
-    <Content Include="views\portfolio\baxter\index.vash" />
     <Content Include="views\portfolio\index.vash" />
-    <Content Include="views\portfolio\kaswan\index.vash" />
     <Content Include="views\portfolio\project\index.vash" />
-    <Content Include="views\portfolio\springcreek\index.vash" />
     <Content Include="views\services\index.vash" />
   </ItemGroup>
   <ItemGroup>
@@ -148,12 +145,9 @@
     <Folder Include="public\css\" />
     <Folder Include="views\" />
     <Folder Include="views\admin\" />
-    <Folder Include="views\portfolio\baxter\" />
     <Folder Include="views\portfolio\project\" />
-    <Folder Include="views\portfolio\springcreek\" />
     <Folder Include="views\services\" />
     <Folder Include="views\portfolio\" />
-    <Folder Include="views\portfolio\kaswan\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
   <ProjectExtensions>
