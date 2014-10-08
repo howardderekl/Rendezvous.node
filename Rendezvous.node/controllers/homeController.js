@@ -22,6 +22,12 @@
                 });
             });
         });
+
+        app.get("/about", function (req, res) {
+           data.getTeamMembers(function(err, results) {
+              res.render("about/index", { title: 'Rendezvous Custom Homes - About Us', error: err, teamMembers: results })
+           });
+        });
         
         app.get("/services", function (req, res) {
             data.getServices(function(err, results) {

@@ -16,115 +16,40 @@
     		</div>
     	</div>
         <div class="row-fluid met_portfolio_row">
+            @model.projects.forEach(function (project) {
+            <div class="span6 clearfix">
+                <div class="met_portfolio_item_preview">
+                    <div class="met_portfolio_item_slider_wrap clearfix">
+                        <div class="met_portfolio_item_slider">
+                            @project.gallery.forEach(function (image) {
+                            <a href='@project.portfolioLink'><img src='@image.src' alt='@image.alt'/></a>
+                            })
+                        </div>
+                        <a href="#" class="met_portfolio_item_slider_nav_prev"><i class="fa fa-chevron-left"></i></a>
+                        <a href="#" class="met_portfolio_item_slider_nav_next"><i class="fa fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="met_portfolio_item_details clearfix">
+                    <div class="met_portfolio_item_descr met_bgcolor3">
+                        <div class="met_color2">
+                            <a href='@project.portfolioLink'><h3 class="met_color2 met_bold_one met_color_transition">@project.name</h3></a>
+                            <p>@project.projectDescription</p>
+                        </div>
+                    </div>
+                    <div class="met_portfolio_item_share met_color2 met_bgcolor">
+                        <span>SHARE</span>
+                        <div class="met_portfolio_item_socials">
+                            <div>
+                                <a class="met_color2" title="Share This on Facebook" target="_blank" href="http://www.facebook.com/sharer.php?u=http://www.rendezvouscustomhomes.com@project.portfolioLink"><i class="fa fa-facebook fa-fw"></i></a>
+                                <a class="met_color2" title="Tweet This on Twitter" target="_blank" href="http://twitter.com/home?status=Rendezvous Custom Homes - http://www.rendezvouscustomhomes.com@project.portfolioLink"><i class="fa fa-twitter fa-fw"></i></a>
+                                <a class="met_color2" title="Share This on Google+" target="_blank" href="https://plus.google.com/share?url=http://www.rendezvouscustomhomes.com@project.portfolioLink"><i class="fa fa-google-plus fa-fw"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            })
 
-            <div class="span6 clearfix">
-                <div class="met_portfolio_item_preview">
-                    <div class="met_portfolio_item_slider_wrap clearfix">
-                        <div class="met_portfolio_item_slider">
-                            <a href="/portfolio/project/kaswan"><img src="/img/portfolio/kaswan/proj02_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/kaswan"><img src="/img/portfolio/kaswan/proj03_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/kaswan"><img src="/img/portfolio/kaswan/proj04_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/kaswan"><img src="/img/portfolio/kaswan/proj05_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/kaswan"><img src="/img/portfolio/kaswan/proj06_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/kaswan"><img src="/img/portfolio/kaswan/proj07_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/kaswan"><img src="/img/portfolio/kaswan/proj08_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/kaswan"><img src="/img/portfolio/kaswan/proj09_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/kaswan"><img src="/img/portfolio/kaswan/proj10_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/kaswan"><img src="/img/portfolio/kaswan/proj11_750x500.jpg" alt=""/></a>
-                        </div>
-                        <a href="#" class="met_portfolio_item_slider_nav_prev"><i class="fa fa-chevron-left"></i></a>
-                        <a href="#" class="met_portfolio_item_slider_nav_next"><i class="fa fa-chevron-right"></i></a>
-                    </div>
-                </div>
-                <div class="met_portfolio_item_details clearfix">
-                    <div class="met_portfolio_item_descr met_bgcolor3">
-                        <div class="met_color2">
-                            <a href="/portfolio/project/kaswan"><h3 class="met_color2 met_bold_one met_color_transition">Kaswan Project</h3></a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                        </div>
-                    </div>
-                    <div class="met_portfolio_item_share met_color2 met_bgcolor">
-                        <span>SHARE</span>
-                        <div class="met_portfolio_item_socials">
-                            <div>
-                                <a class="met_color2" title="Share This on Facebook" target="_blank" href="http://www.facebook.com/sharer.php?u=http://metcreative.com/demo/demo_cacoon/blog_detail.php"><i class="fa fa-facebook fa-fw"></i></a>
-                                <a class="met_color2" title="Tweet This on Twitter" target="_blank" href="http://twitter.com/home?status=Get Cacoon Now - http://metcreative.com/demo/demo_cacoon/blog_detail.php"><i class="fa fa-twitter fa-fw"></i></a>
-                                <a class="met_color2" title="Share This on Google+" target="_blank" href="https://plus.google.com/share?url=http://metcreative.com/demo/demo_cacoon/blog_detail.php"><i class="fa fa-google-plus fa-fw"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="span6 clearfix">
-                <div class="met_portfolio_item_preview">
-                    <div class="met_portfolio_item_slider_wrap clearfix">
-                        <div class="met_portfolio_item_slider">
-                            <a href="/portfolio/project/baxter"><img src="/img/portfolio/baxter/proj02_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/baxter"><img src="/img/portfolio/baxter/proj03_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/baxter"><img src="/img/portfolio/baxter/proj04_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/baxter"><img src="/img/portfolio/baxter/proj05_750x500.jpg" alt=""/></a>
-                        </div>
-                        <a href="#" class="met_portfolio_item_slider_nav_prev"><i class="fa fa-chevron-left"></i></a>
-                        <a href="#" class="met_portfolio_item_slider_nav_next"><i class="fa fa-chevron-right"></i></a>
-                    </div>
-                </div>
-                <div class="met_portfolio_item_details clearfix">
-                    <div class="met_portfolio_item_descr met_bgcolor3">
-                        <div class="met_color2">
-                            <a href="/portfolio/project/baxter"><h3 class="met_color2 met_bold_one met_color_transition">Baxter Project</h3></a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                        </div>
-                    </div>
-                    <div class="met_portfolio_item_share met_color2 met_bgcolor">
-                        <span>SHARE</span>
-                        <div class="met_portfolio_item_socials">
-                            <div>
-                                <a class="met_color2" title="Share This on Facebook" target="_blank" href="http://www.facebook.com/sharer.php?u=http://metcreative.com/demo/demo_cacoon/blog_detail.php"><i class="fa fa-facebook fa-fw"></i></a>
-                                <a class="met_color2" title="Tweet This on Twitter" target="_blank" href="http://twitter.com/home?status=Get Cacoon Now - http://metcreative.com/demo/demo_cacoon/blog_detail.php"><i class="fa fa-twitter fa-fw"></i></a>
-                                <a class="met_color2" title="Share This on Google+" target="_blank" href="https://plus.google.com/share?url=http://metcreative.com/demo/demo_cacoon/blog_detail.php"><i class="fa fa-google-plus fa-fw"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="span6 clearfix">
-                <div class="met_portfolio_item_preview">
-                    <div class="met_portfolio_item_slider_wrap clearfix">
-                        <div class="met_portfolio_item_slider">
-                            <a href="/portfolio/project/spring_creek"><img src="/img/portfolio/paustenbach/proj02_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/spring_creek"><img src="/img/portfolio/paustenbach/proj03_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/spring_creek"><img src="/img/portfolio/paustenbach/proj04_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/spring_creek"><img src="/img/portfolio/paustenbach/proj05_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/spring_creek"><img src="/img/portfolio/paustenbach/proj06_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/spring_creek"><img src="/img/portfolio/paustenbach/proj07_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/spring_creek"><img src="/img/portfolio/paustenbach/proj08_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/spring_creek"><img src="/img/portfolio/paustenbach/proj09_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/spring_creek"><img src="/img/portfolio/paustenbach/proj10_750x500.jpg" alt=""/></a>
-                            <a href="/portfolio/project/spring_creek"><img src="/img/portfolio/paustenbach/proj11_750x500.jpg" alt=""/></a>
-                        </div>
-                        <a href="#" class="met_portfolio_item_slider_nav_prev"><i class="fa fa-chevron-left"></i></a>
-                        <a href="#" class="met_portfolio_item_slider_nav_next"><i class="fa fa-chevron-right"></i></a>
-                    </div>
-                </div>
-                <div class="met_portfolio_item_details clearfix">
-                    <div class="met_portfolio_item_descr met_bgcolor3">
-                        <div class="met_color2">
-                            <a href="/portfolio/project/spring_creek"><h3 class="met_color2 met_bold_one met_color_transition">Spring Creek Project</h3></a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                        </div>
-                    </div>
-                    <div class="met_portfolio_item_share met_color2 met_bgcolor">
-                        <span>SHARE</span>
-                        <div class="met_portfolio_item_socials">
-                            <div>
-                                <a class="met_color2" title="Share This on Facebook" target="_blank" href="http://www.facebook.com/sharer.php?u=http://metcreative.com/demo/demo_cacoon/blog_detail.php"><i class="fa fa-facebook fa-fw"></i></a>
-                                <a class="met_color2" title="Tweet This on Twitter" target="_blank" href="http://twitter.com/home?status=Get Cacoon Now - http://metcreative.com/demo/demo_cacoon/blog_detail.php"><i class="fa fa-twitter fa-fw"></i></a>
-                                <a class="met_color2" title="Share This on Google+" target="_blank" href="https://plus.google.com/share?url=http://metcreative.com/demo/demo_cacoon/blog_detail.php"><i class="fa fa-google-plus fa-fw"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
 })
 })

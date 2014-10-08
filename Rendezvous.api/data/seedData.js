@@ -5,6 +5,7 @@
             name: "Kaswan Project",
             projectDesription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.",
             homepageImage: "/img/portfolio/kaswan/proj01_450x300.jpg",
+            portfolioDetailImage: "/img/portfolio/kaswan/proj01_1100x300.jpg",
             portfolioLink: "/portfolio/project/kaswan",
             homeSpecs :
             {
@@ -70,6 +71,8 @@
             name: "Spring Creek Project",
             projectDesription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.",
             homepageImage: "/img/portfolio/paustenbach/proj01.jpg",
+            portfolioDetailImage: "/img/portfolio/paustenbach/proj01_1100x300.jpg",
+
             portfolioLink: "/portfolio/project/spring_creek",
             homeSpecs :
             {
@@ -90,35 +93,35 @@
             gallery: [
                 {
                     src: "/img/portfolio/paustenbach/proj02_750x500.jpg",
-                    alt: "Spring Creek Custom Log Project",
+                    alt: "Kaswan Timber Frame Project",
                     order: "0"
                 }, {
                     src: "/img/portfolio/paustenbach/proj03_750x500.jpg",
-                    alt: "Spring Creek Custom Log Project",
+                    alt: "Kaswan Timber Frame Project",
                     order: "5"
                 }, {
                     src: "/img/portfolio/paustenbach/proj04_750x500.jpg",
-                    alt: "Spring Creek Custom Log Project",
+                    alt: "Kaswan Timber Frame Project",
                     order: "10"
                 }, {
                     src: "/img/portfolio/paustenbach/proj05_750x500.jpg",
-                    alt: "Spring Creek Custom Log Project",
+                    alt: "Kaswan Timber Frame Project",
                     order: "15"
                 }, {
                     src: "/img/portfolio/paustenbach/proj06_750x500.jpg",
-                    alt: "Spring Creek Custom Log Project",
+                    alt: "Kaswan Timber Frame Project",
                     order: "20"
                 }, {
                     src: "/img/portfolio/paustenbach/proj07_750x500.jpg",
-                    alt: "Spring Creek Custom Log Project",
+                    alt: "Kaswan Timber Frame Project",
                     order: "25"
                 }, {
                     src: "/img/portfolio/paustenbach/proj08_750x500.jpg",
-                    alt: "Spring Creek Custom Log Project",
+                    alt: "Kaswan Timber Frame Project",
                     order: "30"
                 }, {
                     src: "/img/portfolio/paustenbach/proj09_750x500.jpg",
-                    alt: "Spring Creek Custom Log Project",
+                    alt: "Kaswan Timber Frame Project",
                     order: "35"
                 }]
         }, {
@@ -126,6 +129,7 @@
             name: "Baxter Project",
             projectDesription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.",
             homepageImage: "/img/portfolio/baxter/proj01.jpg",
+            portfolioDetailImage: "/img/portfolio/baxter/proj01_1100x300.jpg",
             portfolioLink: "/portfolio/project/baxter",
             homeSpecs :
             {
@@ -146,23 +150,23 @@
             gallery: [
                 {
                     src: "/img/portfolio/baxter/proj01_750x500.jpg",
-                    alt: "Baxter Custom Log Project",
+                    alt: "Kaswan Timber Frame Project",
                     order: "0"
                 }, {
                     src: "/img/portfolio/baxter/proj02_750x500.jpg",
-                    alt: "Baxter Custom Log Project",
+                    alt: "Kaswan Timber Frame Project",
                     order: "3"
                 }, {
                     src: "/img/portfolio/baxter/proj03_750x500.jpg",
-                    alt: "Baxter Custom Log Project",
+                    alt: "Kaswan Timber Frame Project",
                     order: "5"
                 }, {
                     src: "/img/portfolio/baxter/proj04_750x500.jpg",
-                    alt: "Baxter Custom Log Project",
+                    alt: "Kaswan Timber Frame Project",
                     order: "10"
                 }, {
                     src: "/img/portfolio/baxter/proj05_750x500.jpg",
-                    alt: "Baxter Custom Log Project",
+                    alt: "Kaswan Timber Frame Project",
                     order: "15"
                 }]
         }

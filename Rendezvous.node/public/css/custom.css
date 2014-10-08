@@ -2523,115 +2523,115 @@ footer > .met_content {
 	Background Images and Patterns
 ------------------------------*/
 .bgpattern1 {
-    background-image : url("../img/bgpatterns/bgimage1.jpg");
+    background-image : url("/img/bgpatterns/bgimage1.jpg");
 }
 
 .bgpattern2 {
-    background-image : url("../img/bgpatterns/bgimage2.jpg");
+    background-image : url("/img/bgpatterns/bgimage2.jpg");
 }
 
 .bgpattern3 {
-    background-image : url("../img/bgpatterns/bgimage3.jpg");
+    background-image : url("/img/bgpatterns/bgimage3.jpg");
 }
 
 .bgpattern4 {
-    background-image : url("../img/bgpatterns/bgimage4.jpg");
+    background-image : url("/img/bgpatterns/bgimage4.jpg");
 }
 
 .bgpattern5 {
-    background-image : url("../img/bgpatterns/bgimage5.jpg");
+    background-image : url("/img/bgpatterns/bgimage5.jpg");
 }
 
 .bgpattern6 {
-    background-image : url("../img/bgpatterns/bgimage6.jpg");
+    background-image : url("/img/bgpatterns/bgimage6.jpg");
 }
 
 .bgpattern7 {
-    background-image : url("../img/bgpatterns/bgimage7.jpg");
+    background-image : url("/img/bgpatterns/bgimage7.jpg");
 }
 
 .bgpattern8 {
-    background-image : url("../img/bgpatterns/bgimage8.jpg");
+    background-image : url("/img/bgpatterns/bgimage8.jpg");
 }
 
 .bgpattern9 {
-    background-image : url("../img/bgpatterns/bgimage9.jpg");
+    background-image : url("/img/bgpatterns/bgimage9.jpg");
 }
 
 .bgpattern10 {
-    background-image : url("../img/bgpatterns/bgimage10.jpg");
+    background-image : url("/img/bgpatterns/bgimage10.jpg");
 }
 
 .bgpattern11 {
-    background-image : url("../img/bgpatterns/bgimage11.jpg");
+    background-image : url("/img/bgpatterns/bgimage11.jpg");
 }
 
 .bgpattern12 {
-    background-image : url("../img/bgpatterns/bgimage12.jpg");
+    background-image : url("/img/bgpatterns/bgimage12.jpg");
 }
 
 .bgpattern13 {
-    background-image : url("../img/bgpatterns/bgimage13.jpg");
+    background-image : url("/img/bgpatterns/bgimage13.jpg");
 }
 
 .bgpattern14 {
-    background-image : url("../img/bgpatterns/bgimage14.jpg");
+    background-image : url("/img/bgpatterns/bgimage14.jpg");
 }
 
 .bgpattern15 {
-    background-image : url("../img/bgpatterns/bgimage15.jpg");
+    background-image : url("/img/bgpatterns/bgimage15.jpg");
 }
 
 .bgpattern16 {
-    background-image : url("../img/bgpatterns/bgimage16.jpg");
+    background-image : url("/img/bgpatterns/bgimage16.jpg");
 }
 
 .bgpattern17 {
-    background-image : url("../img/bgpatterns/bgimage17.jpg");
+    background-image : url("/img/bgpatterns/bgimage17.jpg");
 }
 
 .bgpattern18 {
-    background-image : url("../img/bgpatterns/bgimage18.jpg");
+    background-image : url("/img/bgpatterns/bgimage18.jpg");
 }
 
 .bgpattern19 {
-    background-image : url("../img/bgpatterns/bgimage19.jpg");
+    background-image : url("/img/bgpatterns/bgimage19.jpg");
 }
 
 .bgpattern20 {
-    background-image : url("../img/bgpatterns/bgimage20.jpg");
+    background-image : url("/img/bgpatterns/bgimage20.jpg");
 }
 
 .bgpattern21 {
-    background-image : url("../img/bgpatterns/bgimage21.jpg");
+    background-image : url("/img/bgpatterns/bgimage21.jpg");
 }
 
 .bgpattern22 {
-    background-image : url("../img/bgpatterns/bgimage22.jpg");
+    background-image : url("/img/bgpatterns/bgimage22.jpg");
 }
 
 .bgpattern23 {
-    background-image : url("../img/bgpatterns/bgimage23.jpg");
+    background-image : url("/img/bgpatterns/bgimage23.jpg");
 }
 
 .bgpattern24 {
-    background-image : url("../img/bgpatterns/bgimage24.jpg");
+    background-image : url("/img/bgpatterns/bgimage24.jpg");
 }
 
 .bgpattern25 {
-    background-image : url("../img/bgpatterns/bgimage25.jpg");
+    background-image : url("/img/bgpatterns/bgimage25.jpg");
 }
 
 .bgpattern26 {
-    background-image : url("../img/bgpatterns/bgimage26.jpg");
+    background-image : url("/img/bgpatterns/bgimage26.jpg");
 }
 
 .bgpattern27 {
-    background-image : url("../img/bgpatterns/bgimage27.jpg");
+    background-image : url("/img/bgpatterns/bgimage27.jpg");
 }
 
 .bgpattern28 {
-    background-image : url("../img/bgpatterns/bgimage28.jpg");
+    background-image : url("/img/bgpatterns/bgimage28.jpg");
 }
 
 /*.bgimage1 {
@@ -2662,7 +2662,7 @@ footer > .met_content {
     left       : 0;
     top        : 0;
     z-index    : 5;
-    background : #FFFFFF url('../img/slider_loader.gif') center 100px no-repeat;
+    background : #FFFFFF url('/img/slider_loader.gif') center 100px no-repeat;
 }
 
 .met_thumbnail_slider_1_big {

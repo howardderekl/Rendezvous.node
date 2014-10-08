@@ -1,6 +1,6 @@
 ﻿
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="overflow: hidden;">
 <head>
 	<meta charset="utf-8" />
 
@@ -14,10 +14,10 @@
 
 	<!-- Facebook Share Components -->
 	<meta property="og:image"       content="http://metcreative.com/description_images/cacoon_html_thumb.png"/>
-	<meta property="og:title"       content="CACOON Is Facebook&Google+ Share Ready!"/>
-	<meta property="og:description" content="MetCreative's new theme Cacoon is better than any other previous theme! Buy it from Themeforest now and enjoy your new website running in just 5 minutes! It is believable."/>
-	<meta property="og:url"         content="http://metcreative.com/demo/demo_cacoon/blog_detail.php"/>
-	<meta property="og:site_name"   content="MetCreatives Cacoon Theme"/>
+	<meta property="og:title"       content="Rendezvous Custom Homes"/>
+	<meta property="og:description" content="Rendezvous Custom Homes builds high end custom homes in Jackson Wyoming. "/>
+	<meta property="og:url"         content="http://www.rendezvouscustomhomes.com"/>
+	<meta property="og:site_name"   content="Rendezvous Custom Homes"/>
 	<meta property="og:type"        content="website"/>
 
 
@@ -29,17 +29,18 @@
 	<link href="/css/magnific-popup.css" rel="stylesheet" type='text/css'>
 	<link href="/css/superfish.css" rel="stylesheet" type='text/css'>
 
-	<link href="css/metcreative.audio/nouislider.fox.css" rel="stylesheet" type="text/css">
-	<link href="css/metcreative.audio/nouislider.space.css" rel="stylesheet" type="text/css">
+	<link href="/css/metcreative.audio/nouislider.fox.css" rel="stylesheet" type="text/css">
+	<link href="/css/metcreative.audio/nouislider.space.css" rel="stylesheet" type="text/css">
 
 	<!--[if IE 7]><link type='text/css' rel="stylesheet" href="css/font-awesome-ie7.min.css"><![endif]-->
-	<link href='css/custom.css' rel='stylesheet' type='text/css'>
+	<link href='/css/custom.css' rel='stylesheet' type='text/css'>
+    <link href="/css/stylish-portfolio.css" rel="stylesheet">
 	<!--[if lte IE 8]>
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400" />
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300" />
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700" />
 	<![endif]-->
-	<!--[if lte IE 8]><script src="js/lte-ie9.js"></script><![endif]-->
+	<!--[if lte IE 8]><script src="/js/lte-ie9.js"></script><![endif]-->
 
 
 
@@ -48,13 +49,13 @@
 		
 	</style>
 </head>
-<body class="clearfix " data-smooth-scrolling="1">
-<div class="met_page_wrapper ">
+<body class="clearfix bgpattern3" data-smooth-scrolling="1">
+<div class="met_page_wrapper met_boxed_layout">
 
-		<header class="met_content">
+		<header id="top" class="met_content">
 			<div class="row-fluid">
 				<div class="span12">
-					<a href="/" class="met_logo met_logo_loading"><img src="/img/logo.png" height="44" alt="" /></a>
+					<a href="/" class="met_logo"><img src="/img/logo.png" height="44" alt="" style="margin-top: 53px;" /></a>
 						<aside class="clearfix">
 						<a href="http://www.facebook.com/" target="_blank" class="met_color3 met_color_transition"><i class="fa fa-facebook fa-fw"></i></a>
 						<a href="http://www.twitter.com/" target="_blank" class="met_color3 met_color_transition"><i class="fa fa-twitter fa-fw"></i></a>
@@ -70,20 +71,18 @@
 							</ul>
 						</nav>
 					</aside>
-					<div id="dl-menu" class="dl-menuwrapper">
-						<button class="met_bgcolor met_bgcolor_transition2">MENU</button>
-						<ul class="dl-menu met_bgcolor7">
-							<li>
-								<a href="/">Home</a>
-							</li>
-							<li><a href="#">About Us</a></li>
-							<li><a href="/services">Services</a></li>
-							<li>
-								<a href="/portfolio">Portfolio</a>
-							</li>
-							<li><a href="/contact">Contact</a></li>
-						</ul>
-					</div><!-- /dl-menuwrapper -->
+                    <div id="dl-menu" class="dl-menuwrapper">
+                        <button class="met_bgcolor met_bgcolor_transition2">MENU</button>
+                        <ul class="dl-menu met_bgcolor7">
+                            <li>
+                                <a href="/">Home</a>
+                            </li>
+                            <li><a href="/about">About Us</a></li>
+                            <li><a href="/services">Services</a></li>
+                            <li><a href="/portfolio">Portfolio</a></li>
+                            <li><a href="/contact">Contact</a></li>
+                        </ul>
+                    </div><!-- /dl-menuwrapper -->
 				</div>
 			</div>
 		</header><!-- Header Ends  -->
@@ -91,7 +90,7 @@
 		<nav class="met_content met_main_nav met_bgcolor3 clearfix" >
 			<ul>
 				<li class="met_bgcolor_transition2"><a href="/" class="met_menu_home"><i class="fa fa-home"></i></a></li>
-				<li class="met_bgcolor_transition2"><a href="#">About Us</a></li>
+				<li class="met_bgcolor_transition2"><a href="/about">About Us</a></li>
 				<li class="met_bgcolor_transition2"><a href="/services">Services</a></li>
 				<li class="met_bgcolor_transition2"><a href="/portfolio">Portfolio</a></li>
 				<li class="met_bgcolor_transition2"><a href="/contact">Contact</a></li>
@@ -111,22 +110,6 @@
 </div>
 
 
-
-		<div class="met_twitter_ticker_wrap met_bgcolor">
-			<div class="met_content clearfix">
-				<i class="fa fa-twitter fa-2x pull-left met_color2"></i>
-				<div class="met_twitter_ticker_pager pull-right">
-					<a href="#"><i class="fa-angle-left fa-large"></i></a>
-					<a href="#"><i class="fa-angle-right fa-large"></i></a>
-				</div>
-
-				<div class="met_news_ticker_wrapper clearfix">
-					<div class="met_twitter_ticker">
-
-					</div>
-				</div>
-			</div>
-		</div>
 
 		<footer class="met_bgcolor3 clearfix">
 			<div class="met_content">
@@ -172,26 +155,29 @@
 	<!-- Scripts -->
 	<script src="/lib/jquery/dist/jquery.js"></script>
 
-	<!--[if (gte IE 6)&(lte IE 8)]><script src="js/selectivizr-min.js"></script><![endif]-->
-	<script src="js/retina.js"></script>
-	<script src="js/hoverIntent.js"></script>
-	<script src="js/superfish.js"></script>
+	<!--[if (gte IE 6)&(lte IE 8)]><script src="/js/selectivizr-min.js"></script><![endif]-->
+	<script src="/js/modernizr.js"></script>
+    <script>
+        var color = "#18ADB5";
+    </script>
+    <script src="/js/retina.js"></script>
+	<script src="/js/hoverIntent.js"></script>
+	<script src="/js/superfish.js"></script>
 	<script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="js/caroufredsel.js"></script>
-	<script src="js/fullscreenr.js"></script>
-
-	<script src="js/jquery.nouislider.min.js"></script>
-	<script src="js/metcreative.html5audio.js"></script>
+	<script src="/js/caroufredsel.js"></script>
+	<script src="/js/fullscreenr.js"></script>
+    <script src="/js/custom.js"></script>
+	<script src="/js/jquery.nouislider.min.js"></script>
+	<script src="/js/metcreative.html5audio.js"></script>
 
 	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-	<script src="js/gmaps.js"></script>
-	<script src="js/nicescroll.js"></script>
-	<script src="js/jquery.dlmenu.js"></script>
-	<script src="js/jquery.knob.js"></script>
-	<script src="js/mobile_detector.js"></script>
-	<script src="js/jquery.easing.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/custom.js"></script>
+	<script src="/js/gmaps.js"></script>
+	<script src="/js/nicescroll.js"></script>
+	<script src="/js/jquery.dlmenu.js"></script>
+	<script src="/js/jquery.knob.js"></script>
+	<script src="/js/mobile_detector.js"></script>
+	<script src="/js/jquery.easing.js"></script>
+	<script src="/js/jquery.magnific-popup.min.js"></script>
 
 </body>
 </html>

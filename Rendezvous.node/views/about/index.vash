@@ -1,0 +1,119 @@
+@html.extend('layout2', function(model) {
+@html.block('body', function(model) {
+
+<div class="row-fluid">
+    <div class="span12">
+        <div class="met_page_header met_bgcolor5 clearfix">
+            <h1 class="met_bgcolor met_color2">ABOUT US</h1>
+            <h2 class="met_color2">We build highly end custom homes</h2>
+
+            <ul>
+                <li><a href="/" class="met_color2">Home</a></li>
+                <li class="met_color2">About</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="row-fluid">
+    <div class="span9">
+
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="met_text_block">
+                    <h2 class="met_bold_one">WELCOME TO Rendezvous Custom Homes</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                        <br><br>
+                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                    <br>
+                    <h4 class="met_bold_one">WHY CHOOSE US ?</h4>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui <span class="met_color">officia deserunt mollitia distinctio</span>. Nam libero tempore, cum soluta nobis est eligendi optio volu dolor repellendus.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row-fluid">
+            @model.teamMembers.forEach(function (teamMember) {
+            <div class="span4">
+                <div class="met_team_member">
+                    <div class="met_team_member_preview">
+                        <img src="http://placehold.it/275x245" alt='@teamMember.name - @teamMember.title' />
+                        <div class="met_team_member_overlay">
+                            <div class="met_team_member_skill"><div style="width: 90%"><span class="met_bgcolor_trans met_color2">Project Management</span></div></div>
+                            <div class="met_team_member_skill"><div style="width: 60%"><span class="met_bgcolor_trans met_color2">Bidding</span></div></div>
+                            <div class="met_team_member_skill"><div style="width: 70%"><span class="met_bgcolor_trans met_color2">Customer Service</span></div></div>
+                            <div class="met_team_member_skill"><div style="width: 65%"><span class="met_bgcolor_trans met_color2">Scheduling</span></div></div>
+                        </div>
+                    </div>
+                    <div class="met_team_member_details met_bgcolor3 met_color2">
+                        <h2 class="met_title_stack">@teamMember.title</h2>
+                        <h3 class="met_title_stack met_bold_one">@teamMember.name</h3>
+                        <p>@teamMember.description</p>
+                    </div>
+                    <div class="met_team_member_socials met_bgcolor clearfix">
+                        @if (teamMember.contactInfo.facebook) {<a href='@teamMember.contactInfo.facebook' target="_blank" class="met_color2"><i class="fa fa-facebook"></i></a>}
+                        @if (teamMember.contactInfo.twitter) {<a href='@teamMember.contactInfo.twitter' target="_blank" class="met_color2"><i class="fa fa-twitter"></i></a>}
+                        <a href="mailto:@teamMember.contactInfo.email" target="_blank" class="met_color2"><i class="fa fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            })
+        </div>
+
+    </div>
+    <div class="span3">
+        <div class="met_cacoon_sidebar met_color2 met_bgcolor3 clearfix">
+            <h2 class="met_title_stack">COMPANY</h2>
+            <h3 class="met_title_stack met_bold_one">NEWS</h3>
+
+            <div class="met_cacoon_sidebar_wrapper">
+                <div class="met_cacoon_sidebar_item clearfix">
+                    <div class="met_dated_blog_posts">
+                        <span class="met_date met_color">29</span>
+                        <span class="met_month met_color">MAY</span>
+                        <article>
+                            <a href="blog_detail.php"><h3 class="met_color2">GOOD IDEA</h3></a>
+                            <p>Duis aute irure dolor inserar reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur relased. </p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="met_cacoon_sidebar_item clearfix">
+                    <div class="met_dated_blog_posts">
+                        <span class="met_date met_color">28</span>
+                        <span class="met_month met_color">MAY</span>
+                        <article>
+                            <a href="blog_detail.php"><h3 class="met_color2">AWESOME DESIGN</h3></a>
+                            <p>Duis aute irure dolor inserar reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur relased. </p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="met_cacoon_sidebar_item clearfix">
+                    <div class="met_dated_blog_posts">
+                        <span class="met_date met_color">27</span>
+                        <span class="met_month met_color">MAY</span>
+                        <article>
+                            <a href="blog_detail.php"><h3 class="met_color2">PERFECT PIXELS</h3></a>
+                            <p>Duis aute irure dolor inserar reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur relased. </p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="met_cacoon_sidebar_item clearfix">
+                    <div class="met_dated_blog_posts">
+                        <span class="met_date met_color">26</span>
+                        <span class="met_month met_color">MAY</span>
+                        <article>
+                            <a href="blog_detail.php"><h3 class="met_color2">UNIQUE COLORS</h3></a>
+                            <p>Duis aute irure dolor inserar reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur relased. </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        })
+})
