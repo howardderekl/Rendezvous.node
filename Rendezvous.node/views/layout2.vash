@@ -24,7 +24,7 @@
 	<!-- CSS -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 	<link href='/css/bootstrap.css' rel='stylesheet' type='text/css'>
-	<link href="/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
+	<link href="/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="/css/dl-menu.css" rel="stylesheet" type='text/css'>
 	<link href="/css/magnific-popup.css" rel="stylesheet" type='text/css'>
 	<link href="/css/superfish.css" rel="stylesheet" type='text/css'>
@@ -40,6 +40,133 @@
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700" />
 	<![endif]-->
 	<!--[if lte IE 8]><script src="js/lte-ie9.js"></script><![endif]-->
+
+
+
+	<style id="colorChanges" type="text/css">
+
+		
+	</style>
+</head>
+<body class="clearfix " data-smooth-scrolling="1">
+<div class="met_page_wrapper ">
+
+		<header class="met_content">
+			<div class="row-fluid">
+				<div class="span12">
+					<a href="/" class="met_logo met_logo_loading"><img src="/img/logo.png" height="44" alt="" /></a>
+						<aside class="clearfix">
+						<a href="http://www.facebook.com/" target="_blank" class="met_color3 met_color_transition"><i class="fa fa-facebook fa-fw"></i></a>
+						<a href="http://www.twitter.com/" target="_blank" class="met_color3 met_color_transition"><i class="fa fa-twitter fa-fw"></i></a>
+						<a href="https://plus.google.com/" target="_blank" class="met_color3 met_color_transition"><i class="fa fa-google-plus fa-fw"></i></a>
+						<a href="http://www.pinterest.com/" target="_blank" class="met_color3 met_color_transition"><i class="fa fa-pinterest fa-fw"></i></a>
+
+
+						<nav>
+							<ul>
+								<li><a href="#" class="met_color_transition">News</a></li>
+								<li><a href="#" class="met_color_transition">FAQ</a></li>
+								<li><a href="/contact" class="met_color_transition">Contact</a></li>
+							</ul>
+						</nav>
+					</aside>
+					<div id="dl-menu" class="dl-menuwrapper">
+						<button class="met_bgcolor met_bgcolor_transition2">MENU</button>
+						<ul class="dl-menu met_bgcolor7">
+							<li>
+								<a href="/">Home</a>
+							</li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="/services">Services</a></li>
+							<li>
+								<a href="/portfolio">Portfolio</a>
+							</li>
+							<li><a href="/contact">Contact</a></li>
+						</ul>
+					</div><!-- /dl-menuwrapper -->
+				</div>
+			</div>
+		</header><!-- Header Ends  -->
+
+		<nav class="met_content met_main_nav met_bgcolor3 clearfix" >
+			<ul>
+				<li class="met_bgcolor_transition2"><a href="/" class="met_menu_home"><i class="fa fa-home"></i></a></li>
+				<li class="met_bgcolor_transition2"><a href="#">About Us</a></li>
+				<li class="met_bgcolor_transition2"><a href="/services">Services</a></li>
+				<li class="met_bgcolor_transition2"><a href="/portfolio">Portfolio</a></li>
+				<li class="met_bgcolor_transition2"><a href="/contact">Contact</a></li>
+			</ul>
+
+			<div class="pull-right met_bgcolor met_menu_search_wrapper">
+				<form class="met_menu_search" method="post" action="?">
+					<input type="text" name="search" class="met_menu_search_text" required="" placeholder="Search">
+					<div class="met_menu_search_submit"><i class="fa fa-search"></i></div>
+				</form>
+			</div>
+		</nav><!-- Menu Ends  -->
+
+
+<div class="met_content">
+    @html.block("body")
+</div>
+
+
+
+		<div class="met_twitter_ticker_wrap met_bgcolor">
+			<div class="met_content clearfix">
+				<i class="fa fa-twitter fa-2x pull-left met_color2"></i>
+				<div class="met_twitter_ticker_pager pull-right">
+					<a href="#"><i class="fa-angle-left fa-large"></i></a>
+					<a href="#"><i class="fa-angle-right fa-large"></i></a>
+				</div>
+
+				<div class="met_news_ticker_wrapper clearfix">
+					<div class="met_twitter_ticker">
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="met_bgcolor3 clearfix">
+			<div class="met_content">
+				<div class="row-fluid">
+					<div class="span4">
+						<h3 class="met_color2">GET IN TOUCH</h3>
+						<span class="met_color2">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+						<div class="met_footer_social_icons">
+							<a class="met_color2 met_color_transition" target="_blank" href="http://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+							<a class="met_color2 met_color_transition" target="_blank" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+							<a class="met_color2 met_color_transition" target="_blank" href="http://www.pinterest.com/"><i class="fa fa-pinterest"></i></a>
+							<a class="met_color2 met_color_transition" target="_blank" href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a>
+						</div>
+					</div>
+					<div class="span8">
+						<ul class="met_footer_menu">
+							<li><a class="met_color2" href="/">Home</a></li>
+							<li><a class="met_color2" href="#">About Us</a></li>
+							<li><a class="met_color2" href="/portfolio">Portfolio</a></li>
+							<li><a class="met_color2" href="/services">Services</a></li>
+                            <li><a class="met_color2" href="/contact">Contact</a></li>
+						</ul>
+						<select class="met_responsive_nav">
+							<option value="/">Home</option>
+							<option value="#">About Us</option>
+							<option value="/portfolio">Portfolio</option>
+                            <option value="/contact">Contact</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="met_footer_copyright clearfix">
+				<div class="met_content">
+					<p class="met_color2">© 2014 Rendezvous Custom Homes.</p>
+				</div>
+			</div>
+		</footer>
+
+
+	</div>
 
 
 	<!-- Scripts -->
@@ -66,213 +193,5 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/custom.js"></script>
 
-	<style id="colorChanges" type="text/css">
-
-		
-	</style>
-</head>
-<body class="clearfix " data-smooth-scrolling="1">
-<div class="met_page_wrapper ">
-
-		<header class="met_content">
-			<div class="row-fluid">
-				<div class="span12">
-					<a href="/" class="met_logo met_logo_loading"><img src="/img/logo.png" height="44" alt="" /></a>
-						<aside class="clearfix">
-						<a href="http://www.facebook.com/" target="_blank" class="met_color3 met_color_transition"><i class="icon-facebook"></i></a>
-						<a href="http://www.twitter.com/" target="_blank" class="met_color3 met_color_transition"><i class="icon-twitter"></i></a>
-						<a href="https://plus.google.com/" target="_blank" class="met_color3 met_color_transition"><i class="icon-google-plus"></i></a>
-						<a href="http://www.pinterest.com/" target="_blank" class="met_color3 met_color_transition"><i class="icon-pinterest"></i></a>
-						<a href="#" class="met_color3 met_color_transition"><i class="icon-rss"></i></a>
-
-						<nav>
-							<ul>
-								<li><a href="#" class="met_color_transition">News</a></li>
-								<li><a href="#" class="met_color_transition">FAQ</a></li>
-								<li><a href="#" class="met_color_transition">Contact</a></li>
-							</ul>
-						</nav>
-					</aside>
-					<div id="dl-menu" class="dl-menuwrapper">
-						<button class="met_bgcolor met_bgcolor_transition2">MENU</button>
-						<ul class="dl-menu met_bgcolor7">
-							<li>
-								<a href="index.php">Home</a>
-							</li>
-							<li><a href="about.php">About Us</a></li>
-							<li><a href="services.php">Services</a></li>
-							<li>
-								<a href="#">Features</a>
-								<ul class="dl-submenu">
-									<li class="dl-back"><a href="#">back</a></li>
-									<li><a href="shortcodes.php">Shortcodes</a></li>
-									<li><a href="index_thumbnail_slider_1.php">Cacoon Slider</a></li>
-									<li>
-										<a href="#">Third Level Menu</a>
-										<ul class="dl-submenu">
-											<li class="dl-back"><a href="#">back</a></li>
-											<li><a href="#">Third Level Menu</a></li>
-											<li><a href="#">Third Level Menu</a></li>
-											<li><a href="#">Third Level Menu</a></li>
-										</ul>
-									</li>
-									<li><a href="404.php">404 Page</a></li>
-									<li><a href="search_results.php">Search Results</a></li>
-									<li><a href="headers.php">Headers</a></li>
-									<li><a href="columns.php">Columns</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Blog</a>
-								<ul class="dl-submenu">
-									<li class="dl-back"><a href="#">back</a></li>
-									<li><a href="blog.php">Blog List</a></li>
-									<li><a href="blog_detail.php">Blog Detail</a></li>
-									<li><a href="blog_detail_vimeo.php">Blog Detail Vimeo</a></li>
-									<li><a href="blog_detail_youtube.php">Blog Detail Youtube</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Portfolio</a>
-								<ul class="dl-submenu">
-									<li class="dl-back"><a href="#">back</a></li>
-									<li><a href="portfolio.php">2 Columns</a></li>
-									<li><a href="portfolio_3_cols.php">3 Columns</a></li>
-									<li><a href="portfolio_detail.php">Portfolio Detail</a></li>
-									<li><a href="portfolio_detail_vimeo.php">Portfolio Detail Vimeo</a></li>
-									<li><a href="portfolio_detail_youtube.php">Portfolio Detail Youtube</a></li>
-								</ul>
-							</li>
-							<li><a href="gallery.php">Gallery</a></li>
-							<li><a href="contact.php">Contact</a></li>
-						</ul>
-					</div><!-- /dl-menuwrapper -->
-				</div>
-			</div>
-		</header><!-- Header Ends  -->
-
-		<nav class="met_content met_main_nav met_bgcolor3 clearfix" >
-			<ul>
-				<li class="met_bgcolor_transition2"><a href="index.php" class="met_menu_home"><i class="icon-home"></i></a></li>
-				<li class="met_bgcolor_transition2"><a href="about.php">About Us</a></li>
-				<li class="met_bgcolor_transition2"><a href="services.php">Services</a></li>
-				<li class="met_bgcolor_transition2">
-					<a href="#">Features</a>
-					<ul>
-						<li><a href="shortcodes.php">Shortcodes</a></li>
-						<li><a href="index_thumbnail_slider_1.php">Cacoon Slider</a></li>
-						<li><a href="404.php">404 Page</a></li>
-						<li><a href="search_results.php">Search Results</a></li>
-						<li class="met_has_lower">
-							<a href="#">3rd Level Menu</a>
-							<ul>
-								<li><a href="#">3rd Level Menu</a></li>
-								<li><a href="#">3rd Level Menu</a></li>
-								<li><a href="#">3rd Level Menu</a></li>
-								<li><a href="#">3rd Level Menu</a></li>
-							</ul>
-						</li>
-						<li><a href="headers.php">Headers</a></li>
-						<li><a href="columns.php">Columns</a></li>
-					</ul>
-				</li>
-				<li class="met_bgcolor_transition2">
-					<a href="blog.php">Blog</a>
-					<ul>
-						<li><a href="blog.php">Blog List</a></li>
-						<li><a href="blog_detail.php">Blog Detail</a></li>
-						<li><a href="blog_detail_slider.php">Blog Slider</a></li>
-						<li><a href="blog_detail_vimeo.php">Blog Vimeo</a></li>
-						<li><a href="blog_detail_youtube.php">Blog Youtube</a></li>
-					</ul>
-				</li>
-				<li class="met_bgcolor_transition2">
-					<a href="portfolio.php">Portfolio</a>
-					<ul>
-						<li><a href="portfolio.php">2 Columns</a></li>
-						<li><a href="portfolio_3_cols.php">3 Columns</a></li>
-						<li><a href="portfolio_detail.php">Portfolio Detail</a></li>
-						<li><a href="portfolio_detail_vimeo.php">Portfolio Vimeo</a></li>
-						<li><a href="portfolio_detail_youtube.php">Portfolio Youtube</a></li>
-					</ul>
-				</li>
-				<li class="met_bgcolor_transition2"><a href="gallery.php">Gallery</a></li>
-				<li class="met_bgcolor_transition2"><a href="contact.php">Contact</a></li>
-			</ul>
-
-			<div class="pull-right met_bgcolor met_menu_search_wrapper">
-				<form class="met_menu_search" method="post" action="?">
-					<input type="text" name="search" class="met_menu_search_text" required="" placeholder="Search">
-					<div class="met_menu_search_submit"><i class="icon-search"></i></div>
-				</form>
-			</div>
-		</nav><!-- Menu Ends  -->
-
-
-<div class="met_content">
-    @html.block("body")
-</div>
-
-
-
-		<div class="met_twitter_ticker_wrap met_bgcolor">
-			<div class="met_content clearfix">
-				<i class="icon-twitter icon-2x pull-left met_color2"></i>
-				<div class="met_twitter_ticker_pager pull-right">
-					<a href="#"><i class="icon-angle-left icon-large"></i></a>
-					<a href="#"><i class="icon-angle-right icon-large"></i></a>
-				</div>
-
-				<div class="met_news_ticker_wrapper clearfix">
-					<div class="met_twitter_ticker">
-
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<footer class="met_bgcolor3 clearfix">
-			<div class="met_content">
-				<div class="row-fluid">
-					<div class="span4">
-						<h3 class="met_color2">GET IN TOUCH</h3>
-						<span class="met_color2">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
-						<div class="met_footer_social_icons">
-							<a class="met_color2 met_color_transition" target="_blank" href="http://www.facebook.com/"><i class="icon-facebook"></i></a>
-							<a class="met_color2 met_color_transition" target="_blank" href="http://twitter.com/"><i class="icon-twitter"></i></a>
-							<a class="met_color2 met_color_transition" target="_blank" href="http://www.pinterest.com/"><i class="icon-pinterest"></i></a>
-							<a class="met_color2 met_color_transition" target="_blank" href="https://plus.google.com/"><i class="icon-google-plus"></i></a>
-							<a class="met_color2 met_color_transition" href="#"><i class="icon-rss"></i></a>
-						</div>
-					</div>
-					<div class="span8">
-						<ul class="met_footer_menu">
-							<li><a class="met_color2" href="index.php">Home</a></li>
-							<li><a class="met_color2" href="aboutus.php">About Us</a></li>
-							<li><a class="met_color2" href="portfolio.php">Portfolio</a></li>
-							<li><a class="met_color2" href="services.php">Services</a></li>
-							<li><a class="met_color2" href="404.php">404</a></li>
-							<li><a class="met_color2" href="blog.php">Blog</a></li>
-						</ul>
-						<select class="met_responsive_nav">
-							<option value="index.php">Home</option>
-							<option value="aboutus.php">About Us</option>
-							<option value="portfolio.php">Portfolio</option>
-							<option value="services.php">Services</option>
-							<option value="404.php">404</option>
-							<option value="blog.php">Blog</option>
-						</select>
-					</div>
-				</div>
-			</div>
-			<div class="met_footer_copyright clearfix">
-				<div class="met_content">
-					<p class="met_color2">© 2013 CACOON Template. All Rights Reserved.</p>
-				</div>
-			</div>
-		</footer>
-
-
-	</div>
 </body>
 </html>

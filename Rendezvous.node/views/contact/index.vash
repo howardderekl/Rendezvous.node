@@ -1,0 +1,63 @@
+@html.extend('layout2', function(model) {
+    @html.block("body", function (model) {
+
+<div class="row-fluid">
+    <div class="span12">
+        <div class="met_page_header met_bgcolor5 clearfix">
+            <h1 class="met_bgcolor met_color2">CONTACT</h1>
+            <h2 class="met_color2">You can always reach us!</h2>
+
+            <ul>
+                <li><a href="index.php" class="met_color2">Home</a></li>
+                <li class="met_color2">Contact</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="row-fluid">
+    <div class="span12">
+        <div id="map">
+            <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23162.664574617807!2d-110.77559745!3d43.474519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53531a58fccf7f4b%3A0x3d1c01cbb13a835c!2sJackson%2C+WY!5e0!3m2!1sen!2sus!4v1411487770283"></iframe>
+            <br />
+            <small>
+                <a href="https://www.google.com/maps/place/Jackson,+WY/@43.474519,-110.7755975,14z/data=!3m1!4b1!4m2!3m1!1s0x53531a58fccf7f4b:0x3d1c01cbb13a835c"></a>
+            </small>
+        </div>
+        <div class="met_contact_map_box met_bgcolor3 met_color2">
+            <div class="met_contact_info">
+                <h3 class="met_bold_one met_color">CONTACT INFORMATION</h3>
+                <i class="fa fa-phone"></i> <span>Telephone</span>: +1 307 733 7477<br>
+                <i class="fa fa-envelope"></i> <span>E-Mail</span>: jeff@rchjh.com<br>
+                <i class="fa fa-map-marker"></i> <span>Address</span>: PO Box 11911 Jackson, WY 83002 US
+            </div>
+
+            <div class="met_contact_socials clearfix">
+                <h3 class="met_bold_one met_color">STAY IN TOUCH</h3>
+                <a class="met_color2 met_color_transition" target="_blank" href="http://www.facebook.com/sharer.php?u=http://metcreative.com/demo/cndm/blog_detail.php"><i class="fa fa-facebook"></i></a>
+                <a class="met_color2 met_color_transition" target="_blank" href="http://twitter.com/home?status=Get Condoma Now - http://metcreative.com/demo/cndm/blog_detail.php"><i class="fa fa-twitter"></i></a>
+                <a class="met_color2 met_color_transition" href="javascript:void((function(){var e=document.createElement('script'); e.setAttribute('type','text/javascript'); e.setAttribute('charset','UTF-8'); e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)})());"><i class="fa fa-pinterest"></i></a>
+                <a class="met_color2 met_color_transition" target="_blank" href="https://plus.google.com/share?url=http://metcreative.com/demo/cndm/blog_detail.php"><i class="fa fa-google-plus"></i></a>
+                <a class="met_color2 met_color_transition" href="#"><i class="icon-rss"></i></a>
+            </div>
+
+            <div class="met_contact_form">
+                <h3 class="met_bold_one met_color">CONTACT FORM</h3>
+                <form method="post" action="?" class="met_contact_form clearfix">
+                    <input type="text" name="NameSurname" required="" placeholder="* Name and Surname">
+                    <input type="email" name="EMail" required="" placeholder="* E-Mail">
+                    <textarea name="Message" required="" placeholder="* Message"></textarea>
+                    <div class="met_contact_thank_you">We've received your message.
+                        <br>Thank you!</div>
+                    <input type="submit" value="SEND" class="met_bgcolor met_color2">
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+    })
+})

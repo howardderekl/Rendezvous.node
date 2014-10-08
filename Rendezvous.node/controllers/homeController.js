@@ -44,6 +44,13 @@
             });
         });
 
+
+        // Contact US
+        app.get("/contact", function (req, res) {
+           res.render('contact/index', { title: 'Rendezvous Custom Homes - Contact'});
+        });
+
+
         // Admin Section
         /*
         app.get("/admin", function(req, res) {
