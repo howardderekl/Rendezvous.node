@@ -1,96 +1,88 @@
 ﻿@html.extend('layout2', function(model) {
-    @html.block('body', function(model) {
+@html.block('body', function(model) {
 
-    <!-- Page Heading Breadcrumbs -->
-        <div class="row-fluid">
-            <div class="span12">
-                <div class="met_page_header met_bgcolor5 clearfix">
-                    <h1 class="met_bgcolor met_color2">PORTFOLIO DETAIL</h1>
-                    <h2 class="met_color2">@model.project.name</h2>
-
-                    <ul>
-                        <li><a href="/" class="met_color2">Home</a></li>
-                        <li><a href="/portfolio" class="met_color2">Portfolio</a></li>
-                        <li class="met_color2">Portfolio Details</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
+<!-- Page Heading Breadcrumbs -->
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">@model.project.name</h1>
+        <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li class="active">@model.project.name</li>
+        </ol>
+    </div>
+</div>
 <!-- /.row -->
-        @if (model.error) {
-        <div class="row-fluid bg-warning">
-            <div class="span10">
-                <p class="text-warning">The project you have requested does not exist. error: @model.error</p>
-            </div>
-        </div>
-        }
+@if (model.error) {
+<div class="row bg-warning">
+    <p class="text-warning">The project you have requested does not exist. error: @model.error</p>
+</div>
+}
 
-        <div class="row-fluid">
-            <div class="span12">
-                <img class="img-responsive" src='@model.project.portfolioDetailImage' alt="" />
-            </div>
+<!-- Portfolio Item Row -->
+<div class="row">
+    <div class="col-md-8">
+        <div class="galleria">
+            @model.project.gallery.forEach(function (img) {
+            <img class="img-responsive" src='@img.src' alt='@img.alt'>
+            })
         </div>
+    </div>
 
-        <div class="row-fluid">
-            <div class="span4">
-                <div class="met_portfolio_service_box">
-                    <h3 class="met_bold_one">Home Specs</h3>
-                    <ul>
-                        <li><span class="text-info">Project Type:</span> @model.project.homeSpecs.projectType</li>
-                        <li><span class="text-info">Square Ft:</span> @model.project.homeSpecs.squareFt</li>
-                        <li><span class="text-info">Bedrooms:</span> @model.project.homeSpecs.bedrooms</li>
-                        <li><span class="text-info">Bathrooms:</span> @model.project.homeSpecs.bathrooms</li>
-                        <li><span class="text-info">Plan Design:</span> @model.project.homeSpecs.planDesign</li>
-                    </ul>
-                </div>
-                <div class="met_portfolio_tag_box">
-                    <h3 clas="met_bold_one">Awards</h3>
-                    <ul>
-                        @model.project.awards.forEach(function (award) {
-                        <li>@award.description</li>
-                        })
-                    </ul>
-                </div>
-            </div>
-            <div class="span8 met_portfolio_detail_box">
-                <h2 class="met_bold_one">@model.project.name</h2>
-                <p>@model.project.projectDesription</p>
+    <div class="col-md-4">
+        <h3>@model.project.name</h3>
+        <p>@model.project.description</p>
+        <h3>Home Specs</h3>
+        <dl class="dl-horizontal">
+            <dt>Project Type</dt>
+            <dd>@model.project.homeSpecs.projectType</dd>
+            <dt>Square ft</dt>
+            <dd>@model.project.homeSpecs.squareFt</dd>
+            <dt>Bedrooms</dt>
+            <dd>@model.project.homeSpecs.bedrooms</dd>
+            <dt>Bathrooms</dt>
+            <dd>@model.project.homeSpecs.bathrooms</dd>
+            <dt>Plan Design</dt>
+            <dd>@model.project.homeSpecs.planDesign</dd>
+            <h3>Awards</h3>
+            <ul>
+                @model.project.awards.forEach(function (award) {
+                <li>@award.description</li>
+                })
+            </ul>
+        </dl>
+        <h3>Testimonial</h3>
+        <blockquote>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+        </blockquote>
 
-                <div class="met_portfolio_item_slider_wrap clearfix">
-                    <div class="met_portfolio_item_slider">
-                        @model.project.gallery.forEach(function (img) {
-                        <img class="img-responsive" src='@img.src' alt='@img.alt'>
-                        })
-                    </div>
-                    <a href="#" class="met_portfolio_item_slider_nav_prev"><i class="fa fa-chevron-left"></i></a>
-                    <a href="#" class="met_portfolio_item_slider_nav_next"><i class="fa fa-chevron-right"></i></a>
-                </div>
-            </div>
-        </div>
+    </div>
+
+</div>
 <!-- /.row -->
 
-        <!-- Related Projects Row -->
-        <div class="row-fluid">
+<!-- Related Projects Row -->
+<div class="row">
 
-            <div class="span12">
-                <h3 class="page-header">Related Projects</h3>
-            </div>
+    <div class="col-lg-12">
+        <h3 class="page-header">Related Projects</h3>
+    </div>
 
-            <div class="span3">
-                <a href="#">
-                    <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
+    <div class="col-sm-3 col-xs-6">
+        <a href="#">
+            <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
+        </a>
+    </div>
 
-            <div class="span3">
-                <a href="#">
-                    <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
+    <div class="col-sm-3 col-xs-6">
+        <a href="#">
+            <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
+        </a>
+    </div>
 
-        </div>
-        <!-- /.row -->
+</div>
+<!-- /.row -->
 
-    })
+})
 })

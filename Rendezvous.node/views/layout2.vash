@@ -1,183 +1,137 @@
-﻿
-<!DOCTYPE html>
-<html lang="en" style="overflow: hidden;">
+﻿<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8" />
 
-	<!-- Set the viewport width to device width for mobile -->
-	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-	<link rel="shortcut icon" href="img/fav.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<title>@model.title</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+    <title>@model.title</title>
 
-	<!-- Facebook Share Components -->
-	<meta property="og:image"       content="http://metcreative.com/description_images/cacoon_html_thumb.png"/>
-	<meta property="og:title"       content="Rendezvous Custom Homes"/>
-	<meta property="og:description" content="Rendezvous Custom Homes builds high end custom homes in Jackson Wyoming. "/>
-	<meta property="og:url"         content="http://www.rendezvouscustomhomes.com"/>
-	<meta property="og:site_name"   content="Rendezvous Custom Homes"/>
-	<meta property="og:type"        content="website"/>
+    <!-- Bootstrap Core CSS -->
+    <link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-
-	<!-- CSS -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-	<link href='/css/bootstrap.css' rel='stylesheet' type='text/css'>
-	<link href="/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="/css/dl-menu.css" rel="stylesheet" type='text/css'>
-	<link href="/css/magnific-popup.css" rel="stylesheet" type='text/css'>
-	<link href="/css/superfish.css" rel="stylesheet" type='text/css'>
-
-	<link href="/css/metcreative.audio/nouislider.fox.css" rel="stylesheet" type="text/css">
-	<link href="/css/metcreative.audio/nouislider.space.css" rel="stylesheet" type="text/css">
-
-	<!--[if IE 7]><link type='text/css' rel="stylesheet" href="css/font-awesome-ie7.min.css"><![endif]-->
-	<link href='/css/custom.css' rel='stylesheet' type='text/css'>
+    <!-- Custom CSS -->
     <link href="/css/stylish-portfolio.css" rel="stylesheet">
-	<!--[if lte IE 8]>
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400" />
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300" />
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700" />
-	<![endif]-->
-	<!--[if lte IE 8]><script src="/js/lte-ie9.js"></script><![endif]-->
 
+    <!-- Gallaria CSS -->
+    <link href="/lib/jquery-galleria/src/themes/classic/galleria.classic.css" rel="stylesheet">
 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-	<style id="colorChanges" type="text/css">
-
-		
-	</style>
 </head>
-<body class="clearfix bgpattern3" data-smooth-scrolling="1">
-<div class="met_page_wrapper met_boxed_layout">
 
-		<header id="top" class="met_content">
-			<div class="row-fluid">
-				<div class="span12">
-					<a href="/" class="met_logo"><img src="/img/logo.png" height="44" alt="" style="margin-top: 53px;" /></a>
-						<aside class="clearfix">
-						<a href="http://www.facebook.com/" target="_blank" class="met_color3 met_color_transition"><i class="fa fa-facebook fa-fw"></i></a>
-						<a href="http://www.twitter.com/" target="_blank" class="met_color3 met_color_transition"><i class="fa fa-twitter fa-fw"></i></a>
-						<a href="https://plus.google.com/" target="_blank" class="met_color3 met_color_transition"><i class="fa fa-google-plus fa-fw"></i></a>
-						<a href="http://www.pinterest.com/" target="_blank" class="met_color3 met_color_transition"><i class="fa fa-pinterest fa-fw"></i></a>
+<body class="layout2">
 
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Rendezvous Custom Homes</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="/#about">About</a>
+                </li>
+                <li>
+                    <a href="/services">Services</a>
+                </li>
+                <li>
+                    <a href="/portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="/#meettheteam">Meet the Team</a>
+                </li>
+                <li>
+                    <a href="/#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<div class="container">
 
-						<nav>
-							<ul>
-								<li><a href="#" class="met_color_transition">News</a></li>
-								<li><a href="#" class="met_color_transition">FAQ</a></li>
-								<li><a href="/contact" class="met_color_transition">Contact</a></li>
-							</ul>
-						</nav>
-					</aside>
-                    <div id="dl-menu" class="dl-menuwrapper">
-                        <button class="met_bgcolor met_bgcolor_transition2">MENU</button>
-                        <ul class="dl-menu met_bgcolor7">
-                            <li>
-                                <a href="/">Home</a>
-                            </li>
-                            <li><a href="/about">About Us</a></li>
-                            <li><a href="/services">Services</a></li>
-                            <li><a href="/portfolio">Portfolio</a></li>
-                            <li><a href="/contact">Contact</a></li>
-                        </ul>
-                    </div><!-- /dl-menuwrapper -->
-				</div>
-			</div>
-		</header><!-- Header Ends  -->
-
-		<nav class="met_content met_main_nav met_bgcolor3 clearfix" >
-			<ul>
-				<li class="met_bgcolor_transition2"><a href="/" class="met_menu_home"><i class="fa fa-home"></i></a></li>
-				<li class="met_bgcolor_transition2"><a href="/about">About Us</a></li>
-				<li class="met_bgcolor_transition2"><a href="/services">Services</a></li>
-				<li class="met_bgcolor_transition2"><a href="/portfolio">Portfolio</a></li>
-				<li class="met_bgcolor_transition2"><a href="/contact">Contact</a></li>
-			</ul>
-
-			<div class="pull-right met_bgcolor met_menu_search_wrapper">
-				<form class="met_menu_search" method="post" action="?">
-					<input type="text" name="search" class="met_menu_search_text" required="" placeholder="Search">
-					<div class="met_menu_search_submit"><i class="fa fa-search"></i></div>
-				</form>
-			</div>
-		</nav><!-- Menu Ends  -->
-
-
-<div class="met_content">
     @html.block("body")
+
+    <hr/>
+    <!-- Footer -->
+    <footer>
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1 text-center">
+                        <h4><strong>Rendezvous Custom Homes</strong>
+                        </h4>
+                        <p>P.O. Box 11911<br>Jackson, WY 83002</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-phone fa-fw"></i> (307) 733-7477</li>
+                            <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:jeff@rchjh.com">jeff@rchjh.com</a>
+                            </li>
+                        </ul>
+                        <br>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/pages/Rendezvous-Custom-Homes/553360531377779" target="_new"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            </li>
+                            <!--<li>
+                                    <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                                </li> -->
+                        </ul>
+                        <hr class="small">
+                        <p class="text-muted">Copyright &copy; Rendezvous Custom Homes 2014</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
 </div>
+<!-- /.container -->
 
+<!-- jQuery Version 1.11.0 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
+<!-- Bootstrap Core JavaScript -->
+<script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
 
-		<footer class="met_bgcolor3 clearfix">
-			<div class="met_content">
-				<div class="row-fluid">
-					<div class="span4">
-						<h3 class="met_color2">GET IN TOUCH</h3>
-						<span class="met_color2">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
-						<div class="met_footer_social_icons">
-							<a class="met_color2 met_color_transition" target="_blank" href="http://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-							<a class="met_color2 met_color_transition" target="_blank" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-							<a class="met_color2 met_color_transition" target="_blank" href="http://www.pinterest.com/"><i class="fa fa-pinterest"></i></a>
-							<a class="met_color2 met_color_transition" target="_blank" href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a>
-						</div>
-					</div>
-					<div class="span8">
-						<ul class="met_footer_menu">
-							<li><a class="met_color2" href="/">Home</a></li>
-							<li><a class="met_color2" href="#">About Us</a></li>
-							<li><a class="met_color2" href="/portfolio">Portfolio</a></li>
-							<li><a class="met_color2" href="/services">Services</a></li>
-                            <li><a class="met_color2" href="/contact">Contact</a></li>
-						</ul>
-						<select class="met_responsive_nav">
-							<option value="/">Home</option>
-							<option value="#">About Us</option>
-							<option value="/portfolio">Portfolio</option>
-                            <option value="/contact">Contact</option>
-						</select>
-					</div>
-				</div>
-			</div>
-			<div class="met_footer_copyright clearfix">
-				<div class="met_content">
-					<p class="met_color2">© 2014 Rendezvous Custom Homes.</p>
-				</div>
-			</div>
-		</footer>
+<!-- galleria -->
+<script src="/lib/jquery-galleria/src/galleria.js"></script>
+<script>
+    Galleria.loadTheme('/lib/jquery-galleria/src/themes/classic/galleria.classic.js');
+    Galleria.configure({
+        imageCrop: true,
+        transition: 'fade',
+        autoplay: true,
+        height: 500
+    });
+    if ($('.galleria').length > 0) {
+        Galleria.run('.galleria');
+    }
 
-
-	</div>
-
-
-	<!-- Scripts -->
-	<script src="/lib/jquery/dist/jquery.js"></script>
-
-	<!--[if (gte IE 6)&(lte IE 8)]><script src="/js/selectivizr-min.js"></script><![endif]-->
-	<script src="/js/modernizr.js"></script>
-    <script>
-        var color = "#18ADB5";
-    </script>
-    <script src="/js/retina.js"></script>
-	<script src="/js/hoverIntent.js"></script>
-	<script src="/js/superfish.js"></script>
-	<script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="/js/caroufredsel.js"></script>
-	<script src="/js/fullscreenr.js"></script>
-    <script src="/js/custom.js"></script>
-	<script src="/js/jquery.nouislider.min.js"></script>
-	<script src="/js/metcreative.html5audio.js"></script>
-
-	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-	<script src="/js/gmaps.js"></script>
-	<script src="/js/nicescroll.js"></script>
-	<script src="/js/jquery.dlmenu.js"></script>
-	<script src="/js/jquery.knob.js"></script>
-	<script src="/js/mobile_detector.js"></script>
-	<script src="/js/jquery.easing.js"></script>
-	<script src="/js/jquery.magnific-popup.min.js"></script>
+</script>
 
 </body>
+
 </html>
