@@ -21,7 +21,7 @@
                     <div class="col-md-8">
                         <div class="galleria">
                             <span ng-repeat="n in project.gallery">
-                                <img class="img-responsive" src='{{ n.src }}' alt='{{ n.alt }}'>
+                                <img class="img-responsive" ng-src='{{ n.src }}' title='{{ n.alt }}'>
                             </span>
                         </div>
                     </div>
