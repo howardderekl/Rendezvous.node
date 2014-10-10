@@ -1,0 +1,15 @@
+﻿@html.extend('layout2', function(model) {
+@html.block('body', function(model) {
+
+<div class="row">
+    @if (model.newProjectError) {
+        <p class="text-warning">@model.newProjectError</p>
+    }
+    <form action="/newProject" role="form" method="POST" class="form-inline">
+        <input type="text" name="projectName" class="form-control" placeholder="project name"/>
+        <input type="submit" value="New Project" class="btn btn-primary"/>
+    </form>
+</div>
+
+})
+})

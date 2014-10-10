@@ -1,0 +1,146 @@
+﻿@html.extend('layout', function(model) {
+	@html.block("body", function (model) {
+
+	<!-- Header -->
+	<header id="top" class="header">
+		<div class="text-vertical-center">
+			<h1>Rendezvous Custom Homes</h1>
+			<h3>High End Homes in Jackson Hole, WY</h3>
+			<br />
+			<a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+		</div>
+	</header>
+
+	<!-- About -->
+<section id="about" class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>RCH Custom Homes in Jackson, Wyoming</h2>
+                <p class="lead">Rendezvous Custom Homes was started in September of 2011 with the objective of prividing clients with a unique building experience.  We, Paul Wetzel and Jeff Jeppesen, have a combined forty-two years of experience.  We have taken the positives accumulated during our careers and combined them with the practices that we believe provide a better product at an appealing price point.</p>
+                <ul class="list-group">
+                    <li class="list-group-item">We operate out of mobile office trailers.</li>
+                    <li class="list-group-item">We have an open book policy regarding invoices.</li>
+                    <li class="list-group-item">We price and manage our own projects.</li>
+                    <li class="list-group-item">We only self-perform carpentry work.  We hire qualified subcontracots and let them do what they do best.  We feel this achieves better quality, price and timeframe.</li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+
+<!-- Services -->
+<section id="services" class="services bg-primary">
+    <div class="container">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="row text-center">
+                <h2>Our Services</h2>
+                <hr class="small">    
+            </div>
+            <div class="row">
+                @model.services.forEach(function (service) {
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img class="img-responsive" src='@service.homepageImage' alt='@service.name'>
+                            <div class="caption">
+                                <h3>@service.name</h3>
+                                <p>@service.description</p>
+                            </div>
+                        </div>
+                    </div>
+                })
+            </div>        
+            <div class="row text-center">
+                <a href="/services" class="btn btn-light">Learn More</a>    
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Our Work</h2>
+                    <hr class="small">
+                    <div class="row">
+                        @model.projects.forEach(function (project) {
+                            <div class="col-md-6">
+                                <div class="portfolio-item">
+                                    <a href='@project.portfolioLink'>
+                                        <img class="img-portfolio img-responsive" src='@project.homepageImage'>
+                                    </a>
+                                </div>
+                            </div>
+                        })
+                    </div>
+                    <!-- /.row (nested) -->
+                    <a href="/portfolio" class="btn btn-dark">View Our Portfolio</a>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Meet The Team -->
+    <section id="meettheteam" class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <h2>Meet The Team</h2>
+                        <hr class="small">
+                    </div>
+                    <!-- Team Member One -->
+                    @model.teamMembers.forEach(function (teamMember) {
+                        <div class="row">
+                            <div class="col-md-3">
+                                    <img class="img-responsive" src='@teamMember.homepageImage' alt='@teamMember.name - @teamMember.title'>
+                            </div>
+                            <div class="col-md-8">
+                                <h3>@teamMember.name</h3>
+                                <h4>@teamMember.title</h4>
+                                <p>@teamMember.description</p>
+                                <ul class="list-unstyled list-inline bg-info">
+                                    <li><a href='mailto:@teamMember.contactInfo.email' class="fa-fw"><i class="fa fa-envelope-o fa-fw fa-2x"></i></a></li>
+                                    @if (teamMember.contactInfo.facebook) {<li><a href='@teamMember.contactInfo.facebook' target="_new"><i class="fa fa-facebook-square fa-2x"></i></a></li>}
+                                    @if (teamMember.contactInfo.twitter) {<li><a href="@teamMember.contactInfo.twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>}
+                                </ul>
+                            </div>
+                        </div>
+                        <hr/>
+                    })
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section id="contactmap" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23162.664574617807!2d-110.77559745!3d43.474519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53531a58fccf7f4b%3A0x3d1c01cbb13a835c!2sJackson%2C+WY!5e0!3m2!1sen!2sus!4v1411487770283"></iframe>
+        <br />
+        <small>
+            <a href="https://www.google.com/maps/place/Jackson,+WY/@43.474519,-110.7755975,14z/data=!3m1!4b1!4m2!3m1!1s0x53531a58fccf7f4b:0x3d1c01cbb13a835c"></a>
+        </small>
+    </section>
+
+@if (model.prjError || model.srvError || model.tmError) {
+    <section id="error">
+        <div class="row bg-warning">
+            @if (model.prjError) { <p class="text-warning">Error occurred: @model.prjError</p>}
+            @if (model.srvError) { <p class="text-warning">Error occurred: @model.prjError</p>}
+            @if (model.tmError) { <p class="text-warning">Error occurred: @model.prjError</p>}
+        </div>
+    </section>
+}
+
+})
+})

@@ -5,11 +5,9 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Rendezvous.node", "Rendezvous.node\Rendezvous.node.njsproj", "{83AAC9F6-1094-40FC-8CE9-2CA0FE8CCBAC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{4B0843BA-E239-4989-92D7-0D4A4A780956}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\temp\deploy-order-import.sh = ..\..\temp\deploy-order-import.sh
-		..\..\temp\magento-import-api.conf = ..\..\temp\magento-import-api.conf
-	EndProjectSection
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Rendezvous.api", "Rendezvous.api\Rendezvous.api.njsproj", "{9E22F8D7-8233-4FD2-A14E-5A51BE543EDC}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Rendezvous.web", "Rendezvous.web\Rendezvous.web.njsproj", "{5CDBCF8D-9EE1-482B-A4D4-CD45CEC1B996}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +19,14 @@ Global
 		{83AAC9F6-1094-40FC-8CE9-2CA0FE8CCBAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83AAC9F6-1094-40FC-8CE9-2CA0FE8CCBAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83AAC9F6-1094-40FC-8CE9-2CA0FE8CCBAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E22F8D7-8233-4FD2-A14E-5A51BE543EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E22F8D7-8233-4FD2-A14E-5A51BE543EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E22F8D7-8233-4FD2-A14E-5A51BE543EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E22F8D7-8233-4FD2-A14E-5A51BE543EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CDBCF8D-9EE1-482B-A4D4-CD45CEC1B996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CDBCF8D-9EE1-482B-A4D4-CD45CEC1B996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CDBCF8D-9EE1-482B-A4D4-CD45CEC1B996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CDBCF8D-9EE1-482B-A4D4-CD45CEC1B996}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
