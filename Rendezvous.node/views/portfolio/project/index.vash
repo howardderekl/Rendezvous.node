@@ -20,11 +20,10 @@
                 <div class="row">
                     <div class="col-md-8">
                         <div class="galleria">
-                            <span ng-repeat="n in project.gallery">
-                                <img class="img-responsive" ng-src='{{ n.src }}' title='{{ n.alt }}'>
-                            </span>
+                            <img ng-repeat="n in project.gallery" class="img-responsive" ng-src="{{ n.src }}" title="{{ n.alt }}" alt="{{ n.alt }}" />
                         </div>
                     </div>
+
 
                     <div class="col-md-4">
                         <h3>{{ project.name }}</h3>

@@ -9,7 +9,9 @@
             data.getProjects(function (err, projects) {
                if (err) {
                    res.send(400, err);
-               } else {
+                } else {
+                    res.header('Access-Control-Allow-Origin', '*');
+                    res.header('Access-Control-Allow-Methods', 'GET,POST');
                    res.set("Content-Type", "application/json");
                    res.send(projects);
                }
@@ -24,6 +26,8 @@
                 if (err) {
                     res.send(400, err);
                 } else {
+                    res.header('Access-Control-Allow-Origin', '*');
+                    res.header('Access-Control-Allow-Methods', 'GET,POST');
                     res.set("Content-Type", "application/json");
                     res.send(project);
                 }
