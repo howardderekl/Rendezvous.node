@@ -14,7 +14,7 @@
             </div>
         </div>
         <!-- /.row -->
-        
+        <div class="row">{{ error }}</div>
         <!-- Project One -->
         <div ng-repeat="project in projects">
         <div class="row">
@@ -30,7 +30,7 @@
                 <a class="btn btn-primary" href="{{ project.portfolioLink }}">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
-            <hr>
+            
         </div>
         <!-- /.row -->
         

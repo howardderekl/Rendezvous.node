@@ -38,6 +38,7 @@
     <Compile Include="data\index.js" />
     <Compile Include="data\seedData.js" />
     <Compile Include="gruntfile.js" />
+    <Compile Include="public\js\portfolioView.js" />
     <Compile Include="public\js\projectView.js" />
     <Content Include=".bowerrc" />
     <Content Include="package.json" />
@@ -102,6 +103,7 @@
     <Content Include="public\img\portfolio\kaswan\proj11_750x500.jpg" />
     <Content Include="public\img\portfolio\paustenbach\proj01.jpg" />
     <Content Include="public\img\portfolio\paustenbach\proj01_700x300.jpg" />
+    <Content Include="public\img\responsive-nav-bg.png" />
     <Content Include="public\img\services\Green.jpg" />
     <Content Include="public\img\services\Historic.jpg" />
     <Content Include="public\img\services\KaswanProjectSlide_1200x300.jpg" />
@@ -109,8 +111,11 @@
     <Content Include="public\img\services\WesternContemporary.jpg" />
     <Content Include="public\img\services\WesternModern.jpg" />
     <Content Include="public\img\services\wood.jpg" />
+    <Content Include="public\img\slider_loader.gif" />
     <Content Include="README.md" />
+    <Content Include="views\about\index.vash" />
     <Content Include="views\admin\index.vash" />
+    <Content Include="views\contact\index.vash" />
     <Content Include="views\index.vash" />
     <Content Include="views\layout.vash" />
     <Content Include="views\layout2.vash" />
@@ -134,7 +139,9 @@
     <Folder Include="public\js\" />
     <Folder Include="public\css\" />
     <Folder Include="views\" />
+    <Folder Include="views\about\" />
     <Folder Include="views\admin\" />
+    <Folder Include="views\contact\" />
     <Folder Include="views\portfolio\project\" />
     <Folder Include="views\services\" />
     <Folder Include="views\portfolio\" />

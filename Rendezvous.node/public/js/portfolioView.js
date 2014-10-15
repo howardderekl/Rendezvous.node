@@ -10,8 +10,8 @@
         };
         
         var onError = function (reason) {
-            $scope.error = "Could not fetch the projects.";
-            console.log("Could not fetch the projects. " + reason);
+            $scope.error = "Could not find any projects.";
+            console.log("Could not find any projects. " + reason);
         };
         
       $http.get("http://localhost:3000/api/projects")
