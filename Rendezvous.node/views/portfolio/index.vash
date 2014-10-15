@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-md-7">
                     <a href="{{ project.portfolioLink}}">
-                        <img class="img-responsive" src="{{ project.portfolioDetailImage }}" alt="">
+                        <img class="img-responsive" ng-src="{{ project.portfolioDetailImage }}" alt="">
                     </a>
                 </div>
                 <div class="col-md-5">
