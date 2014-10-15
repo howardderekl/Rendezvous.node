@@ -12,14 +12,12 @@
     <title>@model.title</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/lib/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- <link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="/lib/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet"> -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
     @html.block("head")
     <!-- Custom CSS -->
     <link href="/css/stylish-portfolio.css" rel="stylesheet">
-
-    <!-- Gallaria CSS -->
-    <link href="/lib/jquery-galleria/src/themes/classic/galleria.classic.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -110,15 +108,16 @@
 
 </div>
 <!-- /.container -->
-
+<script src="/lib/angular/angular.min.js"></script>
+<script src="/lib/angular-bootstrap/ui-bootstrap.min.js"></script>
+<script src="/lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
 <!-- jQuery Version 1.11.0 -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/lib/angular-touch/angular-touch.js"></script>
 
-<script src="/lib/angular/angular.min.js"></script>
-<script src="/lib/angular-bootstrap/ui-bootstrap.min.js"></script>
 
 @html.block("scripts")
 

@@ -1,28 +1,31 @@
 // projectView.js
-(function (angular) {
+(function(angular) {
 
-    var theModule = angular.module("projectView", []);
-    
-    var projectViewController = function ($scope, $window, $http) {
-        
-        var onProjectComplete = function (response) {
+    var theModule = angular.module('projectView', ['ui.bootstrap', 'ngTouch']);
+
+    var projectViewController  = function ($scope, $window, $http) {
+        var baseUrl = "http://localhost:3000/api/projects/";
+        $scope.myInterval = 5000;
+
+        var onProjectComplete = function(response) {
             $scope.project = response.data;
         };
-        
-        var onError = function (reason) {
-            $scope.error = "Could not fetch the project.";
-            console.log("Could not fetch the project. " + reason);
+
+        var onProjectError = function(reason) {
+            $scope.error = reason;
+            console.log("Could not get the project information. " + reason);
         };
-        
+
         // Get the project name
         var urlParts = $window.location.pathname.split("/");
         var projectName = urlParts[urlParts.length - 1];
-        
-        $http.get("http://localhost:3000/api/projects/" + projectName)
-            .then(onProjectComplete, onError);
-                
+
+        $http.get(baseUrl + projectName)
+            .then(onProjectComplete, onProjectError);
     }
 
-    theModule.controller("projectViewController", ["$scope", "$window", "$http", projectViewController]);
+    theModule.controller('projectViewController', ["$scope", "$window", "$http", projectViewController]);
 
 })(window.angular);
+
+

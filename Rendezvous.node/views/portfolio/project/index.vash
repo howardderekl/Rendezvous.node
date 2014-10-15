@@ -4,6 +4,7 @@
 <!-- Page Heading Breadcrumbs -->
         <div ng-app="projectView">
             <div ng-controller="projectViewController">
+
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">{{ project.name }}</h1>
@@ -14,91 +15,90 @@
                         </ol>
                     </div>
                 </div>
-                <!-- /.row -->
+                    <!-- /.row -->
+                <div class="alert-warning text-center text-warning" ng-show="error">
+                    <p>There was an error getting the project information. {{error}}</p>
+                </div>
+                <div class="alert-info text-center text-info" ng-show="!project">
+                    <p>That is not a current project.  Please return to our <a href="/portfolio">Portfolio</a> and choose another project.</p>
+                </div>
 
-                <!-- Portfolio Item Row -->
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="galleria">
-                            <img ng-repeat="n in project.gallery" class="img-responsive" ng-src="{{ n.src }}" title="{{ n.alt }}" alt="{{ n.alt }}" />
+                <div ng-show="project">
+                    <!-- Portfolio Item Row -->
+                    <div class="row">
+
+                        <div class="col-md-8">
+                            <carousel interval="myInterval">
+                                <slide ng-repeat="slide in project.gallery" active="slide.active">
+                                    <img ng-src="{{slide.src}}" class="img-responsive">
+                                    <div class="carousel-caption">
+                                        <h4>{{slide.caption}}</h4>
+                                    </div>
+                                </slide>
+                            </carousel>
                         </div>
+
+
+                        <div class="col-md-4">
+                            <h3>{{ project.name }}</h3>
+                            <p>{{ project.projectDescription}}</p>
+                            <h3>Home Specs</h3>
+                            <dl class="dl-horizontal">
+                                <dt>Project Type</dt>
+                                <dd>{{ project.homeSpecs.projectType }}</dd>
+                                <dt>Square ft</dt>
+                                <dd>{{ project.homeSpecs.squareFt }}</dd>
+                                <dt>Bedrooms</dt>
+                                <dd>{{ project.homeSpecs.bedrooms }}</dd>
+                                <dt>Bathrooms</dt>
+                                <dd>{{ project.homeSpecs.bathrooms }}</dd>
+                                <dt>Plan Design</dt>
+                                <dd>{{ project.homeSpecs.planDesign }}</dd>
+                                <div ng-show="project.awards">
+                                    <h3>Awards</h3>
+                                    <ul>
+                                        <li ng-repeat="n in project.awards">{{ n.description }}</li>
+                                    </ul>
+                                </div>
+                            </dl>
+                            <h3>Testimonial</h3>
+                            <blockquote>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                            </blockquote>
+
+                        </div>
+
                     </div>
+                    <!-- /.row -->
 
+                    <!-- Related Projects Row -->
+                    <div class="row">
 
-                    <div class="col-md-4">
-                        <h3>{{ project.name }}</h3>
-                        <p>{{ project.projectDescription}}</p>
-                        <h3>Home Specs</h3>
-                        <dl class="dl-horizontal">
-                            <dt>Project Type</dt>
-                            <dd>{{ project.homeSpecs.projectType }}</dd>
-                            <dt>Square ft</dt>
-                            <dd>{{ project.homeSpecs.squareFt }}</dd>
-                            <dt>Bedrooms</dt>
-                            <dd>{{ project.homeSpecs.bedrooms }}</dd>
-                            <dt>Bathrooms</dt>
-                            <dd>{{ project.homeSpecs.bathrooms }}</dd>
-                            <dt>Plan Design</dt>
-                            <dd>{{ project.homeSpecs.planDesign }}</dd>
-                            <h3>Awards</h3>
-                            <ul>
-                                <li ng-repeat="n in project.awards">{{ n.description }}</li>
-                            </ul>
-                        </dl>
-                        <h3>Testimonial</h3>
-                        <blockquote>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                            <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                        </blockquote>
+                        <div class="col-lg-12">
+                            <h3 class="page-header">Related Projects</h3>
+                        </div>
+
+                        <div class="col-sm-3 col-xs-6">
+                            <a href="#">
+                                <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
+                            </a>
+                        </div>
+
+                        <div class="col-sm-3 col-xs-6">
+                            <a href="#">
+                                <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
+                            </a>
+                        </div>
 
                     </div>
-
+                    <!-- /.row -->
                 </div>
-                <!-- /.row -->
-
-                <!-- Related Projects Row -->
-                <div class="row">
-
-                    <div class="col-lg-12">
-                        <h3 class="page-header">Related Projects</h3>
-                    </div>
-
-                    <div class="col-sm-3 col-xs-6">
-                        <a href="#">
-                            <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
-                        </a>
-                    </div>
-
-                    <div class="col-sm-3 col-xs-6">
-                        <a href="#">
-                            <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
-                        </a>
-                    </div>
-
-                </div>
-                <!-- /.row -->
             </div>
         </div>
 })
 
 @html.block('scripts', function(model) {
-<script src="/js/projectView.js"></script>
-
-<!-- galleria -->
-<script src="/lib/jquery-galleria/src/galleria.js"></script>
-<script>
-    Galleria.loadTheme('/lib/jquery-galleria/src/themes/classic/galleria.classic.js');
-    Galleria.configure({
-        imageCrop: true,
-        transition: 'fade',
-        autoplay: true,
-        height: 500
-    });
-    if ($('.galleria').length > 0) {
-        Galleria.run('.galleria');
-    }
-
-</script>
+    <script src="/js/projectView.js"></script>
         })
-})
 })
