@@ -17,20 +17,20 @@
         <div class="row">{{ error }}</div>
         <!-- Project One -->
         <div ng-repeat="project in projects">
-        <div class="row">
-            <div class="col-md-7">
-                <a href="{{ project.portfolioLink}}">
-                    <img class="img-responsive" src="{{ project.portfolioDetailImage }}" alt="">
-                </a>
+            <div class="row">
+                <div class="col-md-7">
+                    <a href="{{ project.portfolioLink}}">
+                        <img class="img-responsive" src="{{ project.portfolioDetailImage }}" alt="">
+                    </a>
+                </div>
+                <div class="col-md-5">
+                    <h3>{{ project.name }}</h3>
+                    <h4>{{ project.homeSpecs.projectType }}</h4>
+                    <p>{{ project.projectDesription }}</p>
+                    <a class="btn btn-primary" href="{{ project.portfolioLink }}">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
             </div>
-            <div class="col-md-5">
-                <h3>{{ project.name }}</h3>
-                <h4>{{ project.homeSpecs.projectType }}</h4>
-                <p>{{ project.projectDesription }}</p>
-                <a class="btn btn-primary" href="{{ project.portfolioLink }}">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div>
-        </div>
-            
+            <hr/>
         </div>
         <!-- /.row -->
         
