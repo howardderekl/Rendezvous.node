@@ -13,7 +13,7 @@
             $scope.error = "Could not find any projects.";
             console.log("Could not find any projects. " + reason);
         };
-        var baseUrl = $location.protocol() +  "://" + $location.host() + ":8080/api/projects";
+        var baseUrl = $location.protocol() +  "://" + $location.host() + "/api/projects";
       $http.get(baseUrl)
             .then(onPortfolioComplete, onError);
                 

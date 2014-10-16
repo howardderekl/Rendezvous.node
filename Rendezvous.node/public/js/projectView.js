@@ -19,7 +19,7 @@
         var urlParts = $window.location.pathname.split("/");
         var projectName = urlParts[urlParts.length - 1];
 
-        var baseUrl = $location.protocol() +  "://" + $location.host() + ":8080/api/projects/";
+        var baseUrl = $location.protocol() +  "://" + $location.host() + "/api/projects/";
         $http.get(baseUrl + projectName)
             .then(onProjectComplete, onProjectError);
     }
