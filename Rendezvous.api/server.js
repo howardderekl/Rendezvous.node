@@ -7,7 +7,7 @@ var controllers = require('./controllers');
 
 var app = express();
 
-app.set('port', 3000);
+app.set('port', 8080);
 
 // opt into services
 //app.use(express.urlencoded());
@@ -17,6 +17,6 @@ app.set('port', 3000);
 
 controllers.init(app);
 
-http.createServer(app).listen(3000, function(){
+http.createServer(app).listen(8080, function(){
     console.log('Express server listening on port ' + app.get('port'));
 });
