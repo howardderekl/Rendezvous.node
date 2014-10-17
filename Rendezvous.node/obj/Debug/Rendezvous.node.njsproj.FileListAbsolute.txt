@@ -8,7 +8,7 @@ D:\GitRepository\Rendezvous.Node\Rendezvous.node\obj\Debug\data\index.js
 D:\GitRepository\Rendezvous.Node\Rendezvous.node\obj\Debug\data\seedData.js
 D:\GitRepository\Rendezvous.Node\Rendezvous.node\obj\Debug\gruntfile.js
 D:\GitRepository\Rendezvous.Node\Rendezvous.node\obj\Debug\public\js\ie10-viewport-bug-workaround.js
-D:\GitRepository\Rendezvous.Node\Rendezvous.node\obj\Debug\public\js\projectView.js
+D:\GitRepository\Rendezvous.Node\Rendezvous.node\obj\Debug\public\js\ProjectController.js
 D:\GitRepository\Rendezvous.Node\Rendezvous.node\obj\Debug\.bowerrc
 D:\GitRepository\Rendezvous.Node\Rendezvous.node\obj\Debug\package.json
 D:\GitRepository\Rendezvous.Node\Rendezvous.node\obj\Debug\public\css\stylish-portfolio.css

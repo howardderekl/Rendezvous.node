@@ -1,48 +1,45 @@
 ﻿@html.extend('layout2', function(model) {
 @html.block("body", function (model) {
 
-<div ng-app="portfolioView">
-    <div ng-controller="portfolioViewController">
-        <!-- Page Heading -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Portfolio</h1>
-                <ol class="breadcrumb">
-                    <li><a href="/">Home</a></li>
-                    <li class="active">Portfolio</li>
-                </ol>
-            </div>
+<div ng-controller="PortfolioController">
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Portfolio</h1>
+            <ol class="breadcrumb">
+                <li><a href="/">Home</a></li>
+                <li class="active">Portfolio</li>
+            </ol>
         </div>
-        <!-- /.row -->
-        <div class="row">{{ error }}</div>
-        <!-- Project One -->
-        <div ng-repeat="project in projects">
-            <div class="row">
-                <div class="col-md-7">
-                    <a href="{{ project.portfolioLink}}">
-                        <img class="img-responsive" ng-src="{{ project.portfolioDetailImage }}" alt="">
-                    </a>
-                </div>
-                <div class="col-md-5">
-                    <h3>{{ project.name }}</h3>
-                    <h4>{{ project.homeSpecs.projectType }}</h4>
-                    <p>{{ project.projectDesription }}</p>
-                    <a class="btn btn-primary" href="{{ project.portfolioLink }}">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
-                </div>
-            </div>
-            <hr/>
-        </div>
-        <!-- /.row -->
-        
-        
     </div>
+    <!-- /.row -->
+    <div class="row">{{ error }}</div>
+    <!-- Project One -->
+    <div ng-repeat="project in projects">
+        <div class="row">
+            <div class="col-md-7">
+                <a href="{{ project.portfolioLink}}">
+                    <img class="img-responsive" ng-src="{{ project.portfolioDetailImage }}" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>{{ project.name }}</h3>
+                <h4>{{ project.homeSpecs.projectType }}</h4>
+                <p>{{ project.projectDesription }}</p>
+                <a class="btn btn-primary" href="{{ project.portfolioLink }}">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <hr/>
+    </div>
+    <!-- /.row -->
+
+
 </div>
 
 })
 
 @html.block('scripts', function(model) {
-    <script src="/js/portfolioView.js"></script>
+    <script src="/js/controller/PortfolioController.js"></script>
 
         })
-})
 })

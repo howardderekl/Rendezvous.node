@@ -102,6 +102,12 @@
     
     <!-- Bootstrap Core JavaScript -->
     <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/js/app.js"></script>
+
+    @html.block("scripts")
+
+    <!-- custom services -->
+    <script src="/js/rendezvousApi.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script>
