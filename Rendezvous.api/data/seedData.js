@@ -1,6 +1,100 @@
 (function(seedData) {
     seedData.projects = [
         {
+            projectId: "baxter",
+            name: "Baxter Project",
+            projectDesription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.",
+            homepageImage: "/img/portfolio/baxter/proj01.jpg",
+            portfolioDetailImage: "/img/portfolio/baxter/proj01_1100x300.jpg",
+            portfolioLink: "/portfolio/project/baxter",
+            homeSpecs :
+            {
+                projectType: "Custom Log",
+                squareFt: "14,000",
+                bedrooms: "8",
+                bathrooms: "10",
+                planDesign: "Custom Design Firm"
+            },
+            awards: [
+                {
+                    description: "2012 Jackson Valley Best Home Design",
+                    url: "#"
+                }, {
+                    description: "Best Interior Design",
+                    url: ""
+                }],
+            gallery: [
+                {
+                    src: "/img/portfolio/baxter/proj01_750x500.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+                }, {
+                    src: "/img/portfolio/baxter/proj02_750x500.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "3"
+                }, {
+                    src: "/img/portfolio/baxter/proj03_750x500.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "5"
+                }, {
+                    src: "/img/portfolio/baxter/proj04_750x500.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "10"
+                }, {
+                    src: "/img/portfolio/baxter/proj05_750x500.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "15"
+                },{
+                    src: "/img/portfolio/baxter/proj06_750x500.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+                }, {
+                    src: "/img/portfolio/baxter/proj07_750x500.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "3"
+                }, {
+                    src: "/img/portfolio/baxter/proj08_750x500.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "5"
+                }, {
+                    src: "/img/portfolio/baxter/proj09_750x500.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "10"
+                }, {
+                    src: "/img/portfolio/baxter/proj10_750x500.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "15"
+                }, {
+                    src: "/img/portfolio/baxter/proj11_750x500.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+                }, {
+                    src: "/img/portfolio/baxter/proj12_750x500.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "3"
+                }, {
+                    src: "/img/portfolio/baxter/proj13_750x500.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "5"
+                }, {
+                    src: "/img/portfolio/baxter/proj15_750x500.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "3"
+                }, {
+                    src: "/img/portfolio/baxter/proj16_750x500.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "5"
+                }, {
+                    src: "/img/portfolio/baxter/proj17_750x500.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "10"
+                },{
+                    src: "/img/portfolio/baxter/proj14_750x500.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "10"
+                }]
+        },
+        {
             projectId: "kaswan",
             name: "Kaswan Project",
             projectDesription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.",
@@ -123,51 +217,6 @@
                     src: "/img/portfolio/paustenbach/proj09_750x500.jpg",
                     alt: "Kaswan Timber Frame Project",
                     order: "35"
-                }]
-        }, {
-            projectId: "baxter",
-            name: "Baxter Project",
-            projectDesription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.",
-            homepageImage: "/img/portfolio/baxter/proj01.jpg",
-            portfolioDetailImage: "/img/portfolio/baxter/proj01_1100x300.jpg",
-            portfolioLink: "/portfolio/project/baxter",
-            homeSpecs :
-            {
-                projectType: "Custom Log",
-                squareFt: "14,000",
-                bedrooms: "8",
-                bathrooms: "10",
-                planDesign: "Custom Design Firm"
-            },
-            awards: [
-                {
-                    description: "2012 Jackson Valley Best Home Design",
-                    url: "#"
-                }, {
-                    description: "Best Interior Design",
-                    url: ""
-                }],
-            gallery: [
-                {
-                    src: "/img/portfolio/baxter/proj01_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
-                    order: "0"
-                }, {
-                    src: "/img/portfolio/baxter/proj02_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
-                    order: "3"
-                }, {
-                    src: "/img/portfolio/baxter/proj03_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
-                    order: "5"
-                }, {
-                    src: "/img/portfolio/baxter/proj04_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
-                    order: "10"
-                }, {
-                    src: "/img/portfolio/baxter/proj05_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
-                    order: "15"
                 }]
         }
     ];
