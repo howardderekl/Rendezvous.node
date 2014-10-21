@@ -107,7 +107,7 @@
     @html.block("scripts")
 
     <!-- custom services -->
-    <script src="/js/rendezvousApi.js"></script>
+    <script src="/js/service/rendezvousApi.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script>

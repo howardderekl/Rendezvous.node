@@ -26,71 +26,71 @@
             gallery: [
                 {
                     src: "/img/portfolio/baxter/proj01_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Custom Log Project",
                     order: "0"
                 }, {
                     src: "/img/portfolio/baxter/proj02_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Custom Log Project",
                     order: "3"
                 }, {
                     src: "/img/portfolio/baxter/proj03_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Custom Log Project",
                     order: "5"
                 }, {
                     src: "/img/portfolio/baxter/proj04_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Custom Log Project",
                     order: "10"
                 }, {
                     src: "/img/portfolio/baxter/proj05_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Custom Log Project",
                     order: "15"
                 },{
                     src: "/img/portfolio/baxter/proj06_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Custom Log Project",
                     order: "0"
                 }, {
                     src: "/img/portfolio/baxter/proj07_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Custom Log Project",
                     order: "3"
                 }, {
                     src: "/img/portfolio/baxter/proj08_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Custom Log Project",
                     order: "5"
                 }, {
                     src: "/img/portfolio/baxter/proj09_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Custom Log Project",
                     order: "10"
                 }, {
                     src: "/img/portfolio/baxter/proj10_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Custom Log Project",
                     order: "15"
                 }, {
                     src: "/img/portfolio/baxter/proj11_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Custom Log Project",
                     order: "0"
                 }, {
                     src: "/img/portfolio/baxter/proj12_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Custom Log Project",
                     order: "3"
                 }, {
                     src: "/img/portfolio/baxter/proj13_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Custom Log Project",
                     order: "5"
                 }, {
                     src: "/img/portfolio/baxter/proj15_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Custom Log Project",
                     order: "3"
                 }, {
                     src: "/img/portfolio/baxter/proj16_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Custom Log Project",
                     order: "5"
                 }, {
                     src: "/img/portfolio/baxter/proj17_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Custom Log Project",
                     order: "10"
                 },{
                     src: "/img/portfolio/baxter/proj14_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Custom Log Project",
                     order: "10"
                 }]
         },
