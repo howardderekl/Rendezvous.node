@@ -27,7 +27,7 @@
         <!-- Portfolio Item Row -->
         <div class="row">
 
-            <div class="col-md-8">
+            <div class="col-md-8" id="slides-control">
                 <carousel interval="myInterval">
                     <slide ng-repeat="slide in project.gallery" active="slide.active">
                         <img ng-src="{{slide.src}}" class="img-responsive">
