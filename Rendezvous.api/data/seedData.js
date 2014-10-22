@@ -7,6 +7,7 @@
             homepageImage: "/img/portfolio/baxter/baxter-port-1.jpg",
             portfolioDetailImage: "/img/portfolio/baxter/baxter-home-2.jpg",
             portfolioLink: "/portfolio/project/baxter",
+            galleryLink: "/portfolio/gallery/baxter",
             homeSpecs :
             {
                 projectType: "Custom Log",
@@ -25,95 +26,95 @@
                 }],
             gallery: [
                 {
-                    src: "/img/portfolio/baxter/baxter-1-2.jpg",
+                    src: "/img/portfolio/baxter/baxter-10.jpg",
                     alt: "Custom Log Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/baxter/baxter-1-3.jpg",
+                    src: "/img/portfolio/baxter/baxter-6.jpg",
                     alt: "Custom Log Project",
                     order: "3"
                 }, {
-                    src: "/img/portfolio/baxter/baxter-1-4.jpg",
+                    src: "/img/portfolio/baxter/baxter-1.jpg",
                     alt: "Custom Log Project",
                     order: "5"
-                }, {
-                    src: "/img/portfolio/baxter/baxter-1-5.jpg",
-                    alt: "Custom Log Project",
-                    order: "10"
                 }, {
                     src: "/img/portfolio/baxter/baxter-2.jpg",
                     alt: "Custom Log Project",
+                    order: "10"
+                }, {
+                    src: "/img/portfolio/baxter/baxter-9.jpg",
+                    alt: "Custom Log Project",
                     order: "15"
                 },{
-                    src: "/img/portfolio/baxter/baxter-3.jpg",
+                    src: "/img/portfolio/baxter/baxter-13.jpg",
                     alt: "Custom Log Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/baxter/baxter-3-1.jpg",
+                    src: "/img/portfolio/baxter/baxter-14.jpg",
                     alt: "Custom Log Project",
                     order: "3"
                 }, {
-                    src: "/img/portfolio/baxter/baxter-3-2.jpg",
+                    src: "/img/portfolio/baxter/baxter-16.jpg",
                     alt: "Custom Log Project",
                     order: "5"
                 }, {
-                    src: "/img/portfolio/baxter/baxter-3-3.jpg",
+                    src: "/img/portfolio/baxter/baxter-15.jpg",
                     alt: "Custom Log Project",
                     order: "10"
                 }, {
-                    src: "/img/portfolio/baxter/baxter-11.jpg",
-                    alt: "Custom Log Project",
-                    order: "15"
-                }, {
-                    src: "/img/portfolio/baxter/baxter-11-1.jpg",
-                    alt: "Custom Log Project",
-                    order: "0"
-                }, {
-                    src: "/img/portfolio/baxter/baxter-11-2.jpg",
-                    alt: "Custom Log Project",
-                    order: "3"
-                }, {
-                    src: "/img/portfolio/baxter/baxter-11-3.jpg",
-                    alt: "Custom Log Project",
-                    order: "5"
-                }, {
-                    src: "/img/portfolio/baxter/baxter-11-4.jpg",
-                    alt: "Custom Log Project",
-                    order: "3"
-                }, {
-                    src: "/img/portfolio/baxter/baxter-11-5.jpg",
-                    alt: "Custom Log Project",
-                    order: "5"
-                }, {
-                    src: "/img/portfolio/baxter/baxter-11-6.jpg",
-                    alt: "Custom Log Project",
-                    order: "10"
-                },{
-                    src: "/img/portfolio/baxter/baxter-11-7.jpg",
-                    alt: "Custom Log Project",
-                    order: "10"
-                },{
                     src: "/img/portfolio/baxter/baxter-17.jpg",
                     alt: "Custom Log Project",
-                    order: "10"
-                },{
+                    order: "15"
+                }, {
                     src: "/img/portfolio/baxter/baxter-18.jpg",
                     alt: "Custom Log Project",
-                    order: "10"
-                },{
+                    order: "0"
+                }, {
                     src: "/img/portfolio/baxter/baxter-19.jpg",
                     alt: "Custom Log Project",
-                    order: "10"
-                },{
+                    order: "3"
+                }, {
+                    src: "/img/portfolio/baxter/baxter-20.jpg",
+                    alt: "Custom Log Project",
+                    order: "5"
+                }, {
                     src: "/img/portfolio/baxter/baxter-21.jpg",
                     alt: "Custom Log Project",
-                    order: "10"
-                },{
+                    order: "3"
+                }, {
                     src: "/img/portfolio/baxter/baxter-22.jpg",
+                    alt: "Custom Log Project",
+                    order: "5"
+                }, {
+                    src: "/img/portfolio/baxter/baxter-23.jpg",
                     alt: "Custom Log Project",
                     order: "10"
                 },{
-                    src: "/img/portfolio/baxter/baxter-22-1.jpg",
+                    src: "/img/portfolio/baxter/baxter-24.jpg",
+                    alt: "Custom Log Project",
+                    order: "10"
+                },{
+                    src: "/img/portfolio/baxter/baxter-25.jpg",
+                    alt: "Custom Log Project",
+                    order: "10"
+                },{
+                    src: "/img/portfolio/baxter/baxter-26.jpg",
+                    alt: "Custom Log Project",
+                    order: "10"
+                },{
+                    src: "/img/portfolio/baxter/baxter-27.jpg",
+                    alt: "Custom Log Project",
+                    order: "10"
+                },{
+                    src: "/img/portfolio/baxter/baxter-29.jpg",
+                    alt: "Custom Log Project",
+                    order: "10"
+                },{
+                    src: "/img/portfolio/baxter/baxter-28.jpg",
+                    alt: "Custom Log Project",
+                    order: "10"
+                },{
+                    src: "/img/portfolio/baxter/baxter-.jpg",
                     alt: "Custom Log Project",
                     order: "10"
                 },{
@@ -145,7 +146,11 @@
                     alt: "Custom Log Project",
                     order: "10"
                 },{
-                    src: "/img/portfolio/baxter/baxter-29-1.jpg",
+                    src: "/img/portfolio/baxter/baxter-30.jpg",
+                    alt: "Custom Log Project",
+                    order: "10"
+                },{
+                    src: "/img/portfolio/baxter/baxter-31.jpg",
                     alt: "Custom Log Project",
                     order: "10"
                 },{
@@ -153,15 +158,19 @@
                     alt: "Custom Log Project",
                     order: "10"
                 },{
-                    src: "/img/portfolio/baxter/baxter-32-1.jpg",
+                    src: "/img/portfolio/baxter/baxter-33.jpg",
                     alt: "Custom Log Project",
                     order: "10"
                 },{
-                    src: "/img/portfolio/baxter/baxter-36-1.jpg",
+                    src: "/img/portfolio/baxter/baxter-34.jpg",
                     alt: "Custom Log Project",
                     order: "10"
                 },{
-                    src: "/img/portfolio/baxter/baxter-36-2.jpg",
+                    src: "/img/portfolio/baxter/baxter-35.jpg",
+                    alt: "Custom Log Project",
+                    order: "10"
+                },{
+                    src: "/img/portfolio/baxter/baxter-36.jpg",
                     alt: "Custom Log Project",
                     order: "10"
                 },{
@@ -169,31 +178,43 @@
                     alt: "Custom Log Project",
                     order: "10"
                 },{
-                    src: "/img/portfolio/baxter/baxter-38.jpg",
-                    alt: "Custom Log Project",
-                    order: "10"
-                },{
                     src: "/img/portfolio/baxter/baxter-39.jpg",
                     alt: "Custom Log Project",
                     order: "10"
                 },{
-                    src: "/img/portfolio/baxter/baxter-42-1.jpg",
+                    src: "/img/portfolio/baxter/baxter-38.jpg",
                     alt: "Custom Log Project",
                     order: "10"
                 },{
-                    src: "/img/portfolio/baxter/baxter-42-2.jpg",
+                    src: "/img/portfolio/baxter/baxter-40.jpg",
                     alt: "Custom Log Project",
                     order: "10"
                 },{
-                    src: "/img/portfolio/baxter/baxter-42-3.jpg",
+                    src: "/img/portfolio/baxter/baxter-42.jpg",
                     alt: "Custom Log Project",
                     order: "10"
                 },{
-                    src: "/img/portfolio/baxter/baxter-42-4.jpg",
+                    src: "/img/portfolio/baxter/baxter-43.jpg",
                     alt: "Custom Log Project",
                     order: "10"
                 },{
-                    src: "/img/portfolio/baxter/baxter-42-5.jpg",
+                    src: "/img/portfolio/baxter/baxter-41.jpg",
+                    alt: "Custom Log Project",
+                    order: "10"
+                },{
+                    src: "/img/portfolio/baxter/baxter-3.jpg",
+                    alt: "Custom Log Project",
+                    order: "10"
+                },{
+                    src: "/img/portfolio/baxter/baxter-4.jpg",
+                    alt: "Custom Log Project",
+                    order: "10"
+                },{
+                    src: "/img/portfolio/baxter/baxter-5.jpg",
+                    alt: "Custom Log Project",
+                    order: "10"
+                },{
+                    src: "/img/portfolio/baxter/baxter-44.jpg",
                     alt: "Custom Log Project",
                     order: "10"
                 }]
@@ -205,6 +226,7 @@
             homepageImage: "/img/portfolio/kaswan/proj01_450x300.jpg",
             portfolioDetailImage: "/img/portfolio/kaswan/proj01_1100x300.jpg",
             portfolioLink: "/portfolio/project/kaswan",
+            galleryLink: "/portfolio/gallery/kaswan",
             homeSpecs :
             {
                 projectType: "Timber Frame",
@@ -270,8 +292,8 @@
             projectDesription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.",
             homepageImage: "/img/portfolio/paustenbach/proj01.jpg",
             portfolioDetailImage: "/img/portfolio/paustenbach/proj01_1100x300.jpg",
-
             portfolioLink: "/portfolio/project/spring_creek",
+            galleryLink: "/portfolio/gallery/spring_creek",
             homeSpecs :
             {
                 projectType: "Custom Log",

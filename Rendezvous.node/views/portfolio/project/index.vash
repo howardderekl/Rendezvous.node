@@ -26,22 +26,11 @@
     <div ng-show="project">
         <!-- Portfolio Item Row -->
         <div class="row">
-
-            <div class="col-md-8" id="slides-control">
-                <carousel interval="myInterval">
-                    <slide ng-repeat="slide in project.gallery" active="slide.active">
-                        <img ng-src="{{slide.src}}" class="img-responsive">
-                        <div class="carousel-caption">
-                            <h4>{{slide.caption}}</h4>
-                        </div>
-                    </slide>
-                </carousel>
-            </div>
-
-
             <div class="col-md-4">
                 <h3>{{ project.name }}</h3>
                 <p>{{ project.projectDescription}}</p>
+                </div>
+                <div class="col-md-4">
                 <h3>Home Specs</h3>
                 <dl class="dl-horizontal">
                     <dt>Project Type</dt>
@@ -54,19 +43,32 @@
                     <dd>{{ project.homeSpecs.bathrooms }}</dd>
                     <dt>Plan Design</dt>
                     <dd>{{ project.homeSpecs.planDesign }}</dd>
+                </dl>
+                </div>
+            <div class="col-md-4">
                     <div ng-show="project.awards">
                         <h3>Awards</h3>
                         <ul>
                             <li ng-repeat="n in project.awards">{{ n.description }}</li>
                         </ul>
                     </div>
-                </dl>
+
                 <h3>Testimonial</h3>
                 <blockquote>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                     <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
                 </blockquote>
 
+            </div>
+            <div class="col-md-12" id="slides-control">
+                <carousel interval="myInterval">
+                    <slide ng-repeat="slide in project.gallery" active="slide.active">
+                        <img ng-src="{{slide.src}}" class="img-responsive">
+                        <div class="carousel-caption">
+                            <h4>{{slide.caption}}</h4>
+                        </div>
+                    </slide>
+                </carousel>
             </div>
 
         </div>

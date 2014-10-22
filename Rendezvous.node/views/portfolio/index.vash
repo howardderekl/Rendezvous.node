@@ -18,7 +18,7 @@
     <div ng-repeat="project in projects">
         <div class="row">
             <div class="col-md-7">
-                <a href="{{ project.portfolioLink}}">
+                <a href="{{ project.galleryLink}}">
                     <img class="img-responsive" ng-src="{{ project.portfolioDetailImage }}" alt="">
                 </a>
             </div>

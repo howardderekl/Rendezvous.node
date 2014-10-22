@@ -50,6 +50,11 @@
             });
         });
 
+        app.get("/portfolio/gallery/:projectId", function (req, res) {
+            var projectId = req.params.projectId;
+            res.render('portfolio/gallery/index', { title: 'Rendezvous Custom Homes - Project Gallery - ' + projectId });
+        });
+
 
         // Contact US
         app.get("/contact", function (req, res) {
