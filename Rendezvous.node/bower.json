@@ -1,0 +1,34 @@
+{
+  "name": "Rendezvous.node",
+  "version": "1.0.0",
+  "homepage": "https://github.com/howardderekl/Rendezvous.node",
+  "authors": [
+    "Derek Howard <howardderekl@gmail.com>"
+  ],
+  "description": "Rendezvous Custom Homes",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~0.11.2",
+    "angular-masonry": "~0.9.1",
+    "angular-route": "~1.3.0",
+    "angular-touch": "~1.3.0",
+    "bootstrap": "~3.2.0",
+    "fluidbox": "~1.4.0",
+    "touch-imagelightbox": "~0.1.5"
+  },
+  "resolutions": {
+    "angular": ">=1"
+  }
+}

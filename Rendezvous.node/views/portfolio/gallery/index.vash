@@ -1,16 +1,15 @@
 @html.extend('layout2', function(model) {
-@html.block('body', function(model) {
 
-<!-- Page Heading Breadcrumbs -->
-<main id="content"  ng-controller="ProjectController">
+@html.block('body', function(model) {
+<main id="content"  ng-controller="GalleryController">
 
     <div class="row">
         <div class="col-lg-12">
             <h1 class="page-header">{{ project.name }}</h1>
             <ol class="breadcrumb">
                 <li><a href="/">Home</a></li>
-                <li><a href="/portfolio">Gallery</a></li>
-                <li class="active">{{ project.name }}</li>
+                <li><a href="/portfolio">Portfolio</a></li>
+                <li class="active">{{ project.name }} Gallery</li>
             </ol>
         </div>
     </div>
@@ -21,85 +20,23 @@
     <div class="alert-info text-center text-info" ng-show="!project">
         <p>That is not a current project.  Please return to our <a href="/portfolio">Portfolio</a> and choose another project.</p>
     </div>
-
-    <div ng-show="project">
-            <section class="demo">
-                <div class="gallery">
-                    <a href="/img/portfolio/baxter/baxter-10.jpg" title="" data-fluidbox class="col-1"><img src="/img/portfolio/baxter/baxter-10.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-6.jpg" title="" data-fluidbox class="col-1"><img src="/img/portfolio/baxter/baxter-6.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-1.jpg" title="" data-fluidbox class="col-2"><img src="/img/portfolio/baxter/baxter-1.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-2.jpg" title="" data-fluidbox class="col-2"><img src="/img/portfolio/baxter/baxter-2.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-9.jpg" title="" data-fluidbox class="col-1"><img src="/img/portfolio/baxter/baxter-9.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-13.jpg" title="" data-fluidbox class="col-2"><img src="/img/portfolio/baxter/baxter-13.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-14.jpg" title="" data-fluidbox class="col-2"><img src="/img/portfolio/baxter/baxter-14.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-16.jpg" title="" data-fluidbox class="col-1"><img src="/img/portfolio/baxter/baxter-16.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-15.jpg" title="" data-fluidbox class="col-3"><img src="/img/portfolio/baxter/baxter-15.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-17.jpg" title="" data-fluidbox class="col-3"><img src="/img/portfolio/baxter/baxter-17.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-18.jpg" title="" data-fluidbox class="col-3"><img src="/img/portfolio/baxter/baxter-18.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-19.jpg" title="" data-fluidbox class="col-3"><img src="/img/portfolio/baxter/baxter-19.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-20.jpg" title="" data-fluidbox class="col-3"><img src="/img/portfolio/baxter/baxter-20.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-21.jpg" title="" data-fluidbox class="col-3"><img src="/img/portfolio/baxter/baxter-21.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-22.jpg" title="" data-fluidbox class="col-1"><img src="/img/portfolio/baxter/baxter-22.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-23.jpg" title="" data-fluidbox class="col-2"><img src="/img/portfolio/baxter/baxter-23.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-24.jpg" title="" data-fluidbox class="col-2"><img src="/img/portfolio/baxter/baxter-24.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-25.jpg" title="" data-fluidbox class="col-1"><img src="/img/portfolio/baxter/baxter-25.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-26.jpg" title="" data-fluidbox class="col-1"><img src="/img/portfolio/baxter/baxter-26.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-27.jpg" title="" data-fluidbox class="col-2"><img src="/img/portfolio/baxter/baxter-27.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-29.jpg" title="" data-fluidbox class="col-2"><img src="/img/portfolio/baxter/baxter-29.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-28.jpg" title="" data-fluidbox class="col-2"><img src="/img/portfolio/baxter/baxter-28.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-30.jpg" title="" data-fluidbox class="col-2"><img src="/img/portfolio/baxter/baxter-30.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-31.jpg" title="" data-fluidbox class="col-1"><img src="/img/portfolio/baxter/baxter-31.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-32.jpg" title="" data-fluidbox class="col-2"><img src="/img/portfolio/baxter/baxter-32.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-33.jpg" title="" data-fluidbox class="col-2"><img src="/img/portfolio/baxter/baxter-33.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-34.jpg" title="" data-fluidbox class="col-2"><img src="/img/portfolio/baxter/baxter-34.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-35.jpg" title="" data-fluidbox class="col-2"><img src="/img/portfolio/baxter/baxter-35.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-36.jpg" title="" data-fluidbox class="col-3"><img src="/img/portfolio/baxter/baxter-36.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-37.jpg" title="" data-fluidbox class="col-3"><img src="/img/portfolio/baxter/baxter-37.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-39.jpg" title="" data-fluidbox class="col-3"><img src="/img/portfolio/baxter/baxter-39.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-38.jpg" title="" data-fluidbox class="col-1"><img src="/img/portfolio/baxter/baxter-38.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-40.jpg" title="" data-fluidbox class="col-3"><img src="/img/portfolio/baxter/baxter-40.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-42.jpg" title="" data-fluidbox class="col-3"><img src="/img/portfolio/baxter/baxter-42.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-43.jpg" title="" data-fluidbox class="col-3"><img src="/img/portfolio/baxter/baxter-43.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-41.jpg" title="" data-fluidbox class="col-1"><img src="/img/portfolio/baxter/baxter-41.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-3.jpg" title="" data-fluidbox class="col-3"><img src="/img/portfolio/baxter/baxter-3.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-4.jpg" title="" data-fluidbox class="col-3"><img src="/img/portfolio/baxter/baxter-4.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-5.jpg" title="" data-fluidbox class="col-3"><img src="/img/portfolio/baxter/baxter-5.jpg" alt="" title="" /></a>
-                    <a href="/img/portfolio/baxter/baxter-44.jpg" title="" data-fluidbox class="col-1"><img src="/img/portfolio/baxter/baxter-44.jpg" alt="" title="" /></a>
+    <div class="row">
+        <div class="span12 demo">
+            <div masonry column-width="280" gutter="10" class="gallery">
+                <div class="masonry-brick" ng-repeat="brick in project.gallery">
+                    <a ng-href="{{brick.src}}" title="{{ brick.alt}}" data-fluidbox class="overlay-1" ><img ng-src="{{ brick.src }}" alt="{{ brick.alt }}" title="{{ brick.alt }}" class="img-responsive"></a>
                 </div>
-            </section>
-        <!-- /.row -->
+            </div>
+        </div>
     </div>
 </main>
 })
 
 @html.block('scripts', function(model) {
-<script src="/js/controller/ProjectController.js"></script>
+<script src="/js/controller/GalleryController.js"></script>
 <script>
     $(function () {
-
-        // You can use any kind of selectors for jQuery Fluidbox
-        $('.demo a').fluidbox();
-
-        // Load an image dynamically
-        $('a[data-func="loadImg"]').on('click', function(e) {
-            e.preventDefault();
-
-            // Construct new content
-            $newContent = $('<p>This paragraph and its accompanying image are dynamically-added.</p><a href="http://i.imgur.com/aNhtkPh.jpg" title="" data-fluidbox><img src="http://i.imgur.com/aNhtkPh.jpg" alt="" title="" /></a>');
-
-            // Append new content to immediate sibling, <article>
-            // Then search for the anchor we want fluidbox to work on, apply method .fluidobx()
-            $(this)
-                    .next('article')
-                    .append($newContent)
-                    .find('a[data-fluidbox]')
-                    .fluidbox();
-
-            // Prevent repeated appending of content, just because it's gonna be silly
-            $(this).off('click').on('click', function(e) {
-                e.preventDefault();
-            });
-        });
+        $('.masonry-brick a').fluidbox();
 
         // Smooth scrolling plugin by Chris Coiyer - not needed for Fluidbox functionality
         // Source: http://css-tricks.com/snippets/jquery/smooth-scrolling/
@@ -116,6 +53,8 @@
             }
         });
     });
+
 </script>
 })
+
 })

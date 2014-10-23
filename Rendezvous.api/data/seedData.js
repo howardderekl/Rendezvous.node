@@ -114,38 +114,6 @@
                     alt: "Custom Log Project",
                     order: "10"
                 },{
-                    src: "/img/portfolio/baxter/baxter-.jpg",
-                    alt: "Custom Log Project",
-                    order: "10"
-                },{
-                    src: "/img/portfolio/baxter/baxter-23.jpg",
-                    alt: "Custom Log Project",
-                    order: "10"
-                },{
-                    src: "/img/portfolio/baxter/baxter-24.jpg",
-                    alt: "Custom Log Project",
-                    order: "10"
-                },{
-                    src: "/img/portfolio/baxter/baxter-25.jpg",
-                    alt: "Custom Log Project",
-                    order: "10"
-                },{
-                    src: "/img/portfolio/baxter/baxter-25-1.jpg",
-                    alt: "Custom Log Project",
-                    order: "10"
-                },{
-                    src: "/img/portfolio/baxter/baxter-26.jpg",
-                    alt: "Custom Log Project",
-                    order: "10"
-                },{
-                    src: "/img/portfolio/baxter/baxter-28.jpg",
-                    alt: "Custom Log Project",
-                    order: "10"
-                },{
-                    src: "/img/portfolio/baxter/baxter-29.jpg",
-                    alt: "Custom Log Project",
-                    order: "10"
-                },{
                     src: "/img/portfolio/baxter/baxter-30.jpg",
                     alt: "Custom Log Project",
                     order: "10"

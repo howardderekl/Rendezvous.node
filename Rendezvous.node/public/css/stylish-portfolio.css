@@ -223,6 +223,24 @@ hr.small {
     height:auto;
     width:auto;
 }
+
+.masonry-brick {
+    margin: 1em;
+    display: none;
+}
+
+.masonry-brick.loaded {
+    display: block;
+}
+
+/* 5 columns by default */
+.masonry-brick { width: 20%; }
+
+@media screen and (min-width: 720px) {
+    /* 10 columns for larger screens */
+    .grid-sizer { width: 10%; }
+}
+
 /* Call to Action */
 
 .call-to-action {

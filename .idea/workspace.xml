@@ -2,61 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8bd1b92-949a-4a40-be85-c3733e9d57bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/fonts/BLOKKRegular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/fonts/BLOKKRegular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/fonts/BLOKKRegular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/fonts/BLOKKRegular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/fluidbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/css/fluidbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/views/portfolio/gallery/index.vash" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-1-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-1-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-1-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-1-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-11-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-11-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-11-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-11-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-11-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-11-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-11-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-22-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-25-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-29-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-3-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-3-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-3-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-32-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-36-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-36-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-42-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-42-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-42-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-42-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\baxter\baxter-42-5.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-11.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-17.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-17.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-18.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-18.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-19.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-19.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-2.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-21.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-21.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-22.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-22.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-23.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-23.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-24.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-24.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-25.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-25.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-26.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-26.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-28.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-28.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-29.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-29.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-3.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-32.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-32.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-37.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-37.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-38.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-38.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-39.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/baxter/baxter-39.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/controllers/homeController.js" afterPath="$PROJECT_DIR$/Rendezvous.node/controllers/homeController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/js/controller/GalleryController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/views/layout3.vash" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\fluidbox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\TODO.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\demo.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\image-lightbox.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\image-lightbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\imagelightbox.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\imagelightbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\full\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\full\10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\full\11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\full\12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\full\13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\full\14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\full\15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\full\16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\full\17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\full\18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\full\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\full\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\full\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\full\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\full\6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\full\7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\full\8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\images\full\9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\imagelightbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\demo\index_files\main.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\dist\touch-imagelightbox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\dist\touch-imagelightbox.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\dist\touch-imagelightbox.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\dist\touch-imagelightbox.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\dist\touch-imagelightbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\js\touch-imagelightbox.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\sass\_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\lib\touch-imagelightbox\sass\touch-imagelightbox.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/lib/angular/.bower.json" afterPath="$PROJECT_DIR$/Rendezvous.node/public/lib/angular/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/js/app.js" afterPath="$PROJECT_DIR$/Rendezvous.node/public/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/css/fluidbox.css" afterPath="$PROJECT_DIR$/Rendezvous.node/public/css/fluidbox.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/views/portfolio/index.vash" afterPath="$PROJECT_DIR$/Rendezvous.node/views/portfolio/index.vash" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/views/portfolio/project/index.vash" afterPath="$PROJECT_DIR$/Rendezvous.node/views/portfolio/project/index.vash" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/views/portfolio/gallery/index.vash" afterPath="$PROJECT_DIR$/Rendezvous.node/views/portfolio/gallery/index.vash" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/views/layout2.vash" afterPath="$PROJECT_DIR$/Rendezvous.node/views/layout2.vash" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.api/data/seedData.js" afterPath="$PROJECT_DIR$/Rendezvous.api/data/seedData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/css/stylish-portfolio.css" afterPath="$PROJECT_DIR$/Rendezvous.node/public/css/stylish-portfolio.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Rendezvous.Node.iws" />
@@ -84,68 +117,8 @@
       <file leaf-file-name="layout2.vash" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/layout2.vash">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.0" vertical-offset="1282" max-vertical-offset="2312">
-              <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.vash" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/portfolio/project/index.vash">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5370188" vertical-offset="561" max-vertical-offset="1887">
-              <caret line="65" column="74" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".bower.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/lib/jquery/.bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="714">
-              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/lib/fluidbox/css/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4947" max-vertical-offset="6766">
-              <caret line="310" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="392" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stylish-portfolio.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/css/stylish-portfolio.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="4437">
-              <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.vash" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/portfolio/index.vash">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.884615" vertical-offset="0" max-vertical-offset="850">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seedData.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rendezvous.api/data/seedData.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="7191">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="23" />
+            <state vertical-scroll-proportion="-31.76923" vertical-offset="1520" max-vertical-offset="2567">
+              <caret line="138" column="52" selection-start-line="138" selection-start-column="52" selection-end-line="138" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -154,8 +127,8 @@
       <file leaf-file-name="index.vash" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/portfolio/gallery/index.vash">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.493976" vertical-offset="247" max-vertical-offset="2142">
-              <caret line="56" column="60" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="60" />
+            <state vertical-scroll-proportion="-5.962963" vertical-offset="120" max-vertical-offset="1105">
+              <caret line="26" column="100" selection-start-line="26" selection-start-column="100" selection-end-line="26" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -164,18 +137,80 @@
       <file leaf-file-name="fluidbox.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/css/fluidbox.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3704" max-vertical-offset="4743">
-              <caret line="246" column="30" selection-start-line="246" selection-start-column="30" selection-end-line="246" selection-end-column="30" />
+            <state vertical-scroll-proportion="-2.8421052" vertical-offset="3476" max-vertical-offset="4743">
+              <caret line="214" column="10" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fluidbox.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/fluidbox.css">
+      <file leaf-file-name="GalleryController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/js/controller/GalleryController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6766">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+              <caret line="7" column="60" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.032723773" vertical-offset="0" max-vertical-offset="1039">
+              <caret line="2" column="91" selection-start-line="2" selection-start-column="91" selection-end-line="2" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/js/controller/ProjectController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+              <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.vash" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/portfolio/index.vash">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="850">
+              <caret line="28" column="99" selection-start-line="28" selection-start-column="99" selection-end-line="28" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projectsController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rendezvous.node/controllers/projectsController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout3.vash" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/layout3.vash">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-22.76923" vertical-offset="547" max-vertical-offset="1547">
+              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="82" selection-end-column="22" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stylish-portfolio.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/css/stylish-portfolio.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3245" max-vertical-offset="4743">
+              <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -194,8 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Rendezvous.node/public/js/nicescroll.js" />
-        <option value="$PROJECT_DIR$/Rendezvous.node/public/js/jquery.dlmenu.js" />
         <option value="$PROJECT_DIR$/Rendezvous.node/public/js/jquery.knob.js" />
         <option value="$PROJECT_DIR$/Rendezvous.node/public/js/mobile_detector.js" />
         <option value="$PROJECT_DIR$/Rendezvous.node/public/js/jquery.easing.js" />
@@ -226,25 +259,27 @@
         <option value="$PROJECT_DIR$/Rendezvous.node/public/js/projectView.js" />
         <option value="$PROJECT_DIR$/Rendezvous.node/public/js/portfolioView.js" />
         <option value="$PROJECT_DIR$/Rendezvous.node/public/js/rendezvousApi.js" />
-        <option value="$PROJECT_DIR$/Rendezvous.node/public/js/app.js" />
         <option value="$PROJECT_DIR$/Rendezvous.node/public/js/view/portfolioView.js" />
         <option value="$PROJECT_DIR$/Rendezvous.node/public/js/service/rendezvousApi.js" />
         <option value="$PROJECT_DIR$/Rendezvous.node/public/js/view/ServiceController.js" />
         <option value="$PROJECT_DIR$/Rendezvous.node/public/js/controller/TeamMemberController.js" />
-        <option value="$PROJECT_DIR$/Rendezvous.node/public/js/controller/PortfolioController.js" />
-        <option value="$PROJECT_DIR$/Rendezvous.node/public/js/controller/ProjectController.js" />
         <option value="$PROJECT_DIR$/Rendezvous.node/views/services/index.vash" />
         <option value="$PROJECT_DIR$/Rendezvous.node/public/js/controller/ServiceController.js" />
         <option value="$PROJECT_DIR$/Rendezvous.node/views/layout.vash" />
         <option value="$PROJECT_DIR$/Rendezvous.node/controllers/homeController.js" />
-        <option value="$PROJECT_DIR$/Rendezvous.node/public/css/stylish-portfolio.css" />
-        <option value="$PROJECT_DIR$/Rendezvous.node/views/layout3.vash" />
-        <option value="$PROJECT_DIR$/Rendezvous.node/public/css/fluidbox.css" />
-        <option value="$PROJECT_DIR$/Rendezvous.node/views/portfolio/gallery/index.vash" />
-        <option value="$PROJECT_DIR$/Rendezvous.api/data/seedData.js" />
-        <option value="$PROJECT_DIR$/Rendezvous.node/views/portfolio/index.vash" />
-        <option value="$PROJECT_DIR$/Rendezvous.node/views/layout2.vash" />
         <option value="$PROJECT_DIR$/Rendezvous.node/views/portfolio/project/index.vash" />
+        <option value="$PROJECT_DIR$/Rendezvous.node/bower.json" />
+        <option value="$PROJECT_DIR$/Rendezvous.api/data/seedData.js" />
+        <option value="$PROJECT_DIR$/Rendezvous.node/public/js/controller/PortfolioController.js" />
+        <option value="$PROJECT_DIR$/Rendezvous.node/public/js/controller/DemoCtrl.js" />
+        <option value="$PROJECT_DIR$/Rendezvous.node/views/layout3.vash" />
+        <option value="$PROJECT_DIR$/Rendezvous.node/public/css/stylish-portfolio.css" />
+        <option value="$PROJECT_DIR$/Rendezvous.node/public/css/fluidbox.css" />
+        <option value="$PROJECT_DIR$/Rendezvous.node/views/portfolio/index.vash" />
+        <option value="$PROJECT_DIR$/Rendezvous.node/public/js/controller/ProjectController.js" />
+        <option value="$PROJECT_DIR$/Rendezvous.node/views/layout2.vash" />
+        <option value="$PROJECT_DIR$/Rendezvous.node/views/portfolio/gallery/index.vash" />
+        <option value="$PROJECT_DIR$/Rendezvous.node/public/js/app.js" />
       </list>
     </option>
   </component>
@@ -522,140 +557,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rendezvous.Node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rendezvous.Node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rendezvous.node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rendezvous.Node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rendezvous.Node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rendezvous.node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rendezvous.Node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rendezvous.Node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rendezvous.node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fluidbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rendezvous.Node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rendezvous.Node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rendezvous.node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fluidbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rendezvous.Node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rendezvous.Node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rendezvous.node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -910,88 +811,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Rendezvous.api/controllers/projectsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="680">
-          <caret line="16" column="11" selection-start-line="6" selection-start-column="8" selection-end-line="16" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/controllers/homeController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="423" max-vertical-offset="1564">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/portfolio/index.vash">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1275">
-          <caret line="20" column="85" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.api/data/seedData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="4216">
-          <caret line="67" column="18" selection-start-line="25" selection-start-column="21" selection-end-line="67" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/services/index.vash">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="2193">
-          <caret line="102" column="45" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.api/gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.api/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="442">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/controllers/projectsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.api/data/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
-          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/contact/index.vash">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="1156">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/about/index.vash">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.461538" vertical-offset="37" max-vertical-offset="2108">
@@ -1116,22 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/js/controller/ProjectController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="2" column="81" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/js/service/rendezvousApi.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
@@ -1144,14 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-32.03846" vertical-offset="0" max-vertical-offset="969">
           <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/js/controller/PortfolioController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1188,22 +983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.035714" vertical-offset="43336" max-vertical-offset="63325">
-          <caret line="2569" column="8" selection-start-line="2569" selection-start-column="7" selection-end-line="2569" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/controllers/homeController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1649">
-          <caret line="54" column="121" selection-start-line="54" selection-start-column="121" selection-end-line="54" selection-end-column="121" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/lib/fluidbox/css/fluidbox.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1039">
@@ -1228,66 +1007,200 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/css/stylish-portfolio.css">
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/portfolio/project/index.vash">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3092" max-vertical-offset="4437">
-          <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+        <state vertical-scroll-proportion="-22.23077" vertical-offset="561" max-vertical-offset="1887">
+          <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/fluidbox.css">
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6766">
+        <state vertical-scroll-proportion="0.083909184" vertical-offset="0" max-vertical-offset="1013">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/lib/angular/.bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1039">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/css/fluidbox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3704" max-vertical-offset="4743">
-          <caret line="246" column="30" selection-start-line="246" selection-start-column="30" selection-end-line="246" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/portfolio/gallery/index.vash">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.493976" vertical-offset="247" max-vertical-offset="2142">
-          <caret line="56" column="60" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rendezvous.api/data/seedData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7191">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6647">
+          <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/layout2.vash">
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/lib/angular/angular.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0" vertical-offset="1282" max-vertical-offset="2312">
-          <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435013">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/lib/angular-masonry/angular-masonry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2873">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/js/controller/PortfolioController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/lib/angular-masonry/.bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1039">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/lib/masonry/.bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1039">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/lib/masonry/masonry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3587">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/lib/get-style-property/get-style-property.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1039">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1039">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/controllers/homeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1649">
+          <caret line="54" column="121" selection-start-line="54" selection-start-column="121" selection-end-line="54" selection-end-column="121" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/controllers/projectsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1039">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/js/controller/GalleryController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/layout3.vash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.76923" vertical-offset="547" max-vertical-offset="1547">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="82" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="40205" max-vertical-offset="63325">
+          <caret line="2569" column="8" selection-start-line="2569" selection-start-column="7" selection-end-line="2569" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/css/stylish-portfolio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3245" max-vertical-offset="4743">
+          <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/portfolio/index.vash">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.884615" vertical-offset="0" max-vertical-offset="850">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="850">
+          <caret line="28" column="99" selection-start-line="28" selection-start-column="99" selection-end-line="28" selection-end-column="99" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/portfolio/project/index.vash">
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/js/controller/ProjectController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5370188" vertical-offset="561" max-vertical-offset="1887">
-          <caret line="65" column="74" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/layout2.vash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.76923" vertical-offset="1520" max-vertical-offset="2567">
+          <caret line="138" column="52" selection-start-line="138" selection-start-column="52" selection-end-line="138" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/portfolio/gallery/index.vash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.962963" vertical-offset="120" max-vertical-offset="1105">
+          <caret line="26" column="100" selection-start-line="26" selection-start-column="100" selection-end-line="26" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/css/fluidbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.8421052" vertical-offset="3476" max-vertical-offset="4743">
+          <caret line="214" column="10" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.032723773" vertical-offset="0" max-vertical-offset="1039">
+          <caret line="2" column="91" selection-start-line="2" selection-start-column="91" selection-end-line="2" selection-end-column="91" />
           <folding />
         </state>
       </provider>

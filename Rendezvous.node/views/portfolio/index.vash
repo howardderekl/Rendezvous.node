@@ -18,7 +18,7 @@
     <div ng-repeat="project in projects">
         <div class="row">
             <div class="col-md-7">
-                <a href="{{ project.galleryLink}}">
+                <a ng-href="{{ project.galleryLink}}">
                     <img class="img-responsive" ng-src="{{ project.portfolioDetailImage }}" alt="">
                 </a>
             </div>
@@ -26,7 +26,7 @@
                 <h3>{{ project.name }}</h3>
                 <h4>{{ project.homeSpecs.projectType }}</h4>
                 <p>{{ project.projectDesription }}</p>
-                <a class="btn btn-primary" href="{{ project.portfolioLink }}">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" ng-href="{{ project.galleryLink }}">View Project Gallery<span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
         <hr/>

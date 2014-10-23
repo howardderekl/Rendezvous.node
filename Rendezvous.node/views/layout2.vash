@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en" ng-app="rendezvousPortfolio">
+<html lang="en">
 
 <head>
 
@@ -30,7 +30,7 @@
 
 </head>
 
-<body class="layout2">
+<body class="layout2" ng-app="rendezvousPortfolio">
 
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -111,20 +111,35 @@
 
 </div>
 <!-- /.container -->
-<script src="/lib/angular/angular.min.js"></script>
+<script src="/lib/jquery/dist/jquery.js"></script>
+<script src="/lib/jquery-bridget/jquery.bridget.js"></script>
+<script src="/lib/get-style-property/get-style-property.js"></script>
+<script src="/lib/get-size/get-size.js"></script>
+<script src="/lib/eventEmitter/EventEmitter.js"></script>
+<script src="/lib/eventie/eventie.js"></script>
+<script src="/lib/doc-ready/doc-ready.js"></script>
+<script src="/lib/matches-selector/matches-selector.js"></script>
+<script src="/lib/outlayer/item.js"></script>
+<script src="/lib/outlayer/outlayer.js"></script>
+<script src="/lib/masonry/masonry.js"></script>
+<script src="/lib/imagesloaded/imagesloaded.js"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+<script src="/lib/angular-masonry/angular-masonry.js"></script>
 <script src="/lib/angular-bootstrap/ui-bootstrap.min.js"></script>
 <script src="/lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
 <!-- jQuery Version 1.11.0 -->
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
-<script src="/lib/jquery/dist/jquery.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
 <script src="/lib/fluidbox/jquery.fluidbox.min.js"></script>
 <!-- Bootstrap Core JavaScript -->
 <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="/lib/angular-touch/angular-touch.js"></script>
+
 <script src="/js/app.js"></script>
 <script src="/js/service/rendezvousApi.js"></script>
-
 @html.block("scripts")
+
+
 
 </body>
 
