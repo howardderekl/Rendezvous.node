@@ -71,7 +71,7 @@
                         @model.projects.forEach(function (project) {
                             <div class="col-md-6">
                                 <div class="portfolio-item">
-                                    <a href='@project.portfolioLink'>
+                                    <a href='@project.galleryLink'>
                                         <img class="img-portfolio img-responsive" src='@project.homepageImage'>
                                     </a>
                                 </div>
