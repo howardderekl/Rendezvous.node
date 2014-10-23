@@ -22,9 +22,9 @@
     </div>
     <div class="row">
         <div class="span12 demo">
-            <div masonry column-width="280" gutter="10" class="gallery">
-                <div class="masonry-brick" ng-repeat="brick in project.gallery">
-                    <a ng-href="{{brick.src}}" title="{{ brick.alt}}" data-fluidbox class="overlay-1" ><img ng-src="{{ brick.src }}" alt="{{ brick.alt }}" title="{{ brick.alt }}" class="img-responsive"></a>
+            <div masonry gutter="10">
+                <div class="masonry-brick gallery col-md-2" ng-repeat="brick in project.gallery">
+                    <a ng-href="{{brick.src}}" title="{{ brick.alt}}" data-fluidbox class=" overlay-1" ><img ng-src="{{ brick.src }}" alt="{{ brick.alt }}" title="{{ brick.alt }}" class="img-responsive" /></a>
                 </div>
             </div>
         </div>

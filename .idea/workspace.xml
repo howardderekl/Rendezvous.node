@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8bd1b92-949a-4a40-be85-c3733e9d57bd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/views/index.vash" afterPath="$PROJECT_DIR$/Rendezvous.node/views/index.vash" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/views/portfolio/gallery/index.vash" afterPath="$PROJECT_DIR$/Rendezvous.node/views/portfolio/gallery/index.vash" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/css/stylish-portfolio.css" afterPath="$PROJECT_DIR$/Rendezvous.node/public/css/stylish-portfolio.css" />
     </list>
     <ignored path="Rendezvous.Node.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +30,7 @@
       <file leaf-file-name="layout2.vash" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/layout2.vash">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-31.76923" vertical-offset="1520" max-vertical-offset="2567">
+            <state vertical-scroll-proportion="-51.384617" vertical-offset="1010" max-vertical-offset="2567">
               <caret line="138" column="52" selection-start-line="138" selection-start-column="52" selection-end-line="138" selection-end-column="52" />
               <folding />
             </state>
@@ -39,17 +40,17 @@
       <file leaf-file-name="index.vash" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/portfolio/gallery/index.vash">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.962963" vertical-offset="120" max-vertical-offset="1105">
-              <caret line="26" column="100" selection-start-line="26" selection-start-column="100" selection-end-line="26" selection-end-column="100" />
+            <state vertical-scroll-proportion="-5.3333335" vertical-offset="120" max-vertical-offset="1105">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fluidbox.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="fluidbox.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/css/fluidbox.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.8421052" vertical-offset="3476" max-vertical-offset="4743">
+            <state vertical-scroll-proportion="1.3289206" vertical-offset="2333" max-vertical-offset="4743">
               <caret line="214" column="10" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="10" />
               <folding />
             </state>
@@ -66,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.vash" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.vash" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/index.vash">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.388" vertical-offset="853" max-vertical-offset="2567">
-              <caret line="73" column="65" selection-start-line="73" selection-start-column="65" selection-end-line="73" selection-end-column="65" />
+            <state vertical-scroll-proportion="5.3461537" vertical-offset="1465" max-vertical-offset="2567">
+              <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -121,8 +122,8 @@
       <file leaf-file-name="stylish-portfolio.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/css/stylish-portfolio.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3245" max-vertical-offset="4743">
-              <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3500" max-vertical-offset="4607">
+              <caret line="235" column="0" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -184,14 +185,14 @@
         <option value="$PROJECT_DIR$/Rendezvous.node/public/js/controller/PortfolioController.js" />
         <option value="$PROJECT_DIR$/Rendezvous.node/public/js/controller/DemoCtrl.js" />
         <option value="$PROJECT_DIR$/Rendezvous.node/views/layout3.vash" />
-        <option value="$PROJECT_DIR$/Rendezvous.node/public/css/stylish-portfolio.css" />
         <option value="$PROJECT_DIR$/Rendezvous.node/public/css/fluidbox.css" />
         <option value="$PROJECT_DIR$/Rendezvous.node/views/portfolio/index.vash" />
         <option value="$PROJECT_DIR$/Rendezvous.node/public/js/controller/ProjectController.js" />
         <option value="$PROJECT_DIR$/Rendezvous.node/views/layout2.vash" />
-        <option value="$PROJECT_DIR$/Rendezvous.node/views/portfolio/gallery/index.vash" />
         <option value="$PROJECT_DIR$/Rendezvous.node/public/js/app.js" />
         <option value="$PROJECT_DIR$/Rendezvous.node/views/index.vash" />
+        <option value="$PROJECT_DIR$/Rendezvous.node/public/css/stylish-portfolio.css" />
+        <option value="$PROJECT_DIR$/Rendezvous.node/views/portfolio/gallery/index.vash" />
       </list>
     </option>
   </component>
@@ -450,26 +451,8 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rendezvous.Node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rendezvous.Node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rendezvous.node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,14 +471,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1045,14 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/css/stylish-portfolio.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3245" max-vertical-offset="4743">
-          <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/portfolio/index.vash">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="850">
@@ -1065,30 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
           <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/layout2.vash">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.76923" vertical-offset="1520" max-vertical-offset="2567">
-          <caret line="138" column="52" selection-start-line="138" selection-start-column="52" selection-end-line="138" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/portfolio/gallery/index.vash">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.962963" vertical-offset="120" max-vertical-offset="1105">
-          <caret line="26" column="100" selection-start-line="26" selection-start-column="100" selection-end-line="26" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/css/fluidbox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8421052" vertical-offset="3476" max-vertical-offset="4743">
-          <caret line="214" column="10" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1109,10 +1052,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/layout2.vash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-51.384617" vertical-offset="1010" max-vertical-offset="2567">
+          <caret line="138" column="52" selection-start-line="138" selection-start-column="52" selection-end-line="138" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/index.vash">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.388" vertical-offset="853" max-vertical-offset="2567">
-          <caret line="73" column="65" selection-start-line="73" selection-start-column="65" selection-end-line="73" selection-end-column="65" />
+        <state vertical-scroll-proportion="5.3461537" vertical-offset="1465" max-vertical-offset="2567">
+          <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/css/stylish-portfolio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3500" max-vertical-offset="4607">
+          <caret line="235" column="0" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/views/portfolio/gallery/index.vash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335" vertical-offset="120" max-vertical-offset="1105">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/css/fluidbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3289206" vertical-offset="2333" max-vertical-offset="4743">
+          <caret line="214" column="10" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="10" />
           <folding />
         </state>
       </provider>
