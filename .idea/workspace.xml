@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8bd1b92-949a-4a40-be85-c3733e9d57bd" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\kaswan\proj02_750x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\kaswan\proj03_750x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\kaswan\proj04_750x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\kaswan\proj05_750x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\kaswan\proj06_750x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\kaswan\proj07_750x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\kaswan\proj08_750x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\kaswan\proj09_750x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\kaswan\proj10_750x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\kaswan\proj11_750x500.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.api/data/seedData.js" afterPath="$PROJECT_DIR$/Rendezvous.api/data/seedData.js" />
     </list>
     <ignored path="Rendezvous.Node.iws" />
@@ -117,8 +107,8 @@
       <file leaf-file-name="seedData.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rendezvous.api/data/seedData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23781677" vertical-offset="8647" max-vertical-offset="10761">
-              <caret line="523" column="17" selection-start-line="523" selection-start-column="17" selection-end-line="523" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.37037036" vertical-offset="5995" max-vertical-offset="10761">
+              <caret line="375" column="57" selection-start-line="375" selection-start-column="57" selection-end-line="375" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -1406,8 +1396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rendezvous.api/data/seedData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23781677" vertical-offset="8647" max-vertical-offset="10761">
-          <caret line="523" column="17" selection-start-line="523" selection-start-column="17" selection-end-line="523" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.37037036" vertical-offset="5995" max-vertical-offset="10761">
+          <caret line="375" column="57" selection-start-line="375" selection-start-column="57" selection-end-line="375" selection-end-column="57" />
           <folding />
         </state>
       </provider>

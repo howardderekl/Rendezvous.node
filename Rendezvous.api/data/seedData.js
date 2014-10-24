@@ -373,7 +373,7 @@
                     order: "0"
 
                 }, {
-                    src: "/img/portfolio/kaswan/kaswan-33-1.jpg",
+                    src: "/img/portfolio/kaswan/kaswan-32-1.jpg",
                     alt: "Kaswan Timber Frame Project",
                     order: "0"
 
