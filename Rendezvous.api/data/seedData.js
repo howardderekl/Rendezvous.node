@@ -213,46 +213,280 @@
                 }],
             gallery: [
                 {
-                    src: "/img/portfolio/kaswan/proj02_750x500.jpg",
+                    src: "/img/portfolio/kaswan/kaswan-1.jpg",
                     alt: "Kaswan Timber Frame Project",
                     order: "0"
 
                 }, {
-                    src: "/img/portfolio/kaswan/proj03_750x500.jpg",
+                    src: "/img/portfolio/kaswan/kaswan-2.jpg",
                     alt: "Kaswan Timber Frame Project",
-                    order: "5"
+                    order: "0"
+
                 }, {
-                    src: "/img/portfolio/kaswan/proj04_750x500.jpg",
+                    src: "/img/portfolio/kaswan/kaswan-3.jpg",
                     alt: "Kaswan Timber Frame Project",
-                    order: "10"
+                    order: "0"
+
                 }, {
-                    src: "/img/portfolio/kaswan/proj05_750x500.jpg",
+                    src: "/img/portfolio/kaswan/kaswan-4.jpg",
                     alt: "Kaswan Timber Frame Project",
-                    order: "15"
+                    order: "0"
+
                 }, {
-                    src: "/img/portfolio/kaswan/proj06_750x500.jpg",
+                    src: "/img/portfolio/kaswan/kaswan-5.jpg",
                     alt: "Kaswan Timber Frame Project",
-                    order: "20"
+                    order: "0"
+
                 }, {
-                    src: "/img/portfolio/kaswan/proj07_750x500.jpg",
+                    src: "/img/portfolio/kaswan/kaswan-6.jpg",
                     alt: "Kaswan Timber Frame Project",
-                    order: "25"
+                    order: "0"
+
                 }, {
-                    src: "/img/portfolio/kaswan/proj08_750x500.jpg",
+                    src: "/img/portfolio/kaswan/kaswan-7.jpg",
                     alt: "Kaswan Timber Frame Project",
-                    order: "30"
+                    order: "0"
+
                 }, {
-                    src: "/img/portfolio/kaswan/proj09_750x500.jpg",
+                    src: "/img/portfolio/kaswan/kaswan-8.jpg",
                     alt: "Kaswan Timber Frame Project",
-                    order: "35"
+                    order: "0"
+
                 }, {
-                    src: "/img/portfolio/kaswan/proj10_750x500.jpg",
+                    src: "/img/portfolio/kaswan/kaswan-9.jpg",
                     alt: "Kaswan Timber Frame Project",
-                    order: "40"
+                    order: "0"
+
                 }, {
-                    src: "/img/portfolio/kaswan/proj11_750x500.jpg",
+                    src: "/img/portfolio/kaswan/kaswan-10.jpg",
                     alt: "Kaswan Timber Frame Project",
-                    order: "45"
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-11.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-12.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-13.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-14.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-15.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-16.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-17.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-18.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-19.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-20.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-21.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-22.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-23.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-24.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-25.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-26.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-27.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-28.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-29.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-30.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-31.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-32.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-33-1.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-34.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-35.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-36.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-37.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-38.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-39.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-40.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-41.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-42.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-43.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-44.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-45.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-46.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-47.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-48.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-49.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-50.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-51.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-52.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-53.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-54.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
+                }, {
+                    src: "/img/portfolio/kaswan/kaswan-55.jpg",
+                    alt: "Kaswan Timber Frame Project",
+                    order: "0"
+
                 }]
         }, {
             projectId: "spring_creek",
@@ -264,7 +498,7 @@
             galleryLink: "/portfolio/gallery/spring_creek",
             homeSpecs :
             {
-                projectType: "Custom Log",
+                projectType: "Timber Frame",
                 squareFt: "12,500",
                 bedrooms: "10",
                 bathrooms: "8",
@@ -280,36 +514,44 @@
                 }],
             gallery: [
                 {
-                    src: "/img/portfolio/paustenbach/proj02_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    src: "/img/portfolio/paustenbach/spring-creek-2.jpg",
+                    alt: "Spring Creek Timber Frame Project",
                     order: "0"
                 }, {
+                    src: "/img/portfolio/paustenbach/spring-creek-3.jpg",
+                    alt: "Spring Creek Timber Frame Project",
+                    order: "0"
+                }, {
+                    src: "/img/portfolio/paustenbach/proj02_750x500.jpg",
+                    alt: "Spring Creek Timber Frame Project",
+                    order: "0"
+                },{
                     src: "/img/portfolio/paustenbach/proj03_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Spring Creek Timber Frame Project",
                     order: "5"
                 }, {
                     src: "/img/portfolio/paustenbach/proj04_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Spring Creek Timber Frame Project",
                     order: "10"
                 }, {
                     src: "/img/portfolio/paustenbach/proj05_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Spring Creek Timber Frame Project",
                     order: "15"
                 }, {
                     src: "/img/portfolio/paustenbach/proj06_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Spring Creek Timber Frame Project",
                     order: "20"
                 }, {
                     src: "/img/portfolio/paustenbach/proj07_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Spring Creek Timber Frame Project",
                     order: "25"
                 }, {
                     src: "/img/portfolio/paustenbach/proj08_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Spring Creek Timber Frame Project",
                     order: "30"
                 }, {
                     src: "/img/portfolio/paustenbach/proj09_750x500.jpg",
-                    alt: "Kaswan Timber Frame Project",
+                    alt: "Spring Creek Timber Frame Project",
                     order: "35"
                 }]
         }
