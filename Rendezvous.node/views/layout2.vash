@@ -137,6 +137,7 @@
 
 <script src="/js/app.js"></script>
 <script src="/js/service/rendezvousApi.js"></script>
+<script src="/js/directive/prettyPicture.js"></script>
 @html.block("scripts")
 
 

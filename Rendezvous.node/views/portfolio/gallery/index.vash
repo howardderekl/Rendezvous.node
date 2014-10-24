@@ -33,8 +33,7 @@
 })
 
 @html.block('scripts', function(model) {
-<script src="/js/controller/GalleryController.js"></script>
-<script src="/js/directive/prettyPicture.js"></script>
+    <script src="/js/controller/GalleryController.js"></script>
 })
 
 })
