@@ -18,8 +18,7 @@
     @html.block("head")
     <!-- Custom CSS -->
     <link href="/css/stylish-portfolio.css" rel="stylesheet">
-    <link href="/css/fluidbox.css" rel="stylesheet">
-    <link href="/lib/fluidbox/css/fluidbox.css" rel="stylesheet">
+    <link rel="stylesheet" href="/lib/jquery-prettyPhoto/css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -130,10 +129,11 @@
 <script src="/lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
 <!-- jQuery Version 1.11.0 -->
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
-<script src="/lib/fluidbox/jquery.fluidbox.min.js"></script>
+
 <!-- Bootstrap Core JavaScript -->
 <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="/lib/angular-touch/angular-touch.js"></script>
+<script src="/lib/jquery-prettyPhoto/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 
 <script src="/js/app.js"></script>
 <script src="/js/service/rendezvousApi.js"></script>

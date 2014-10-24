@@ -4,9 +4,5 @@
     <option name="myLocal" value="false" />
     <inspection_tool class="CssInvalidPseudoSelector" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="CssOverwrittenProperties" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="W3CssValidation" enabled="false" level="WARNING" enabled_by_default="false">
-      <option name="myCssVersion" value="css3" />
-      <option name="myIgnoreVendorSpecificProperties" value="false" />
-    </inspection_tool>
   </profile>
 </component>
