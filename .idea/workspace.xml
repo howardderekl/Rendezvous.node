@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8bd1b92-949a-4a40-be85-c3733e9d57bd" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\paustenbach\spring-creek-120.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\paustenbach\spring-creek-130.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\paustenbach\spring-creek-140.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\paustenbach\spring-creek-50.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\paustenbach\spring-creek-51.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\paustenbach\spring-creek-52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\paustenbach\spring-creek-60.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\paustenbach\spring-creek-70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\paustenbach\spring-creek-80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\paustenbach\spring-creek-90.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\paustenbach\spring-creek-91.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public\img\portfolio\paustenbach\spring-creek-92.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/paustenbach/spring-creek-2.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/paustenbach/spring-creek-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/paustenbach/spring-creek-3.jpg" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/paustenbach/spring-creek-3.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.api/data/seedData.js" afterPath="$PROJECT_DIR$/Rendezvous.api/data/seedData.js" />
     </list>
     <ignored path="Rendezvous.Node.iws" />
@@ -121,8 +107,8 @@
       <file leaf-file-name="seedData.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rendezvous.api/data/seedData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32066277" vertical-offset="8647" max-vertical-offset="10897">
-              <caret line="528" column="69" selection-start-line="528" selection-start-column="69" selection-end-line="528" selection-end-column="69" />
+            <state vertical-scroll-proportion="0.3869396" vertical-offset="8647" max-vertical-offset="10965">
+              <caret line="532" column="67" selection-start-line="532" selection-start-column="67" selection-end-line="532" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -1410,8 +1396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rendezvous.api/data/seedData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32066277" vertical-offset="8647" max-vertical-offset="10897">
-          <caret line="528" column="69" selection-start-line="528" selection-start-column="69" selection-end-line="528" selection-end-column="69" />
+        <state vertical-scroll-proportion="0.3869396" vertical-offset="8647" max-vertical-offset="10965">
+          <caret line="532" column="67" selection-start-line="532" selection-start-column="67" selection-end-line="532" selection-end-column="67" />
           <folding />
         </state>
       </provider>
