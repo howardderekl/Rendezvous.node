@@ -522,6 +522,14 @@
                     alt: "Spring Creek Timber Frame Project",
                     order: "0"
                 }, {
+                    src: "/img/portfolio/paustenbach/spring-creek-3-3.jpg",
+                    alt: "Spring Creek Timber Frame Project",
+                    order: "0"
+                }, {
+                    src: "/img/portfolio/paustenbach/spring-creek-4-2.jpg",
+                    alt: "Spring Creek Timber Frame Project",
+                    order: "0"
+                }, {
                     src: "/img/portfolio/paustenbach/proj02_750x500.jpg",
                     alt: "Spring Creek Timber Frame Project",
                     order: "0"
