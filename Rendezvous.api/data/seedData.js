@@ -574,32 +574,32 @@
             serviceId: "custom_wood",
             name: "Custom Wood",
             homepageImage: "/img/services/wood.jpg",
-            description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit."
+            description: ""
         }, {
             serviceId: "timber_frame",
             name: "Timber Frame",
             homepageImage: "/img/services/TimberFrame.jpg",
-            description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit."
+            description: ""
         }, {
             serviceId: "western_contemporary",
             name: "Western Contemporary",
             homepageImage: "/img/services/WesternContemporary.jpg",
-            description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit."
+            description: ""
         }, {
             serviceId: "western_modern",
             name: "Western Modern",
             homepageImage: "/img/services/WesternModern.jpg",
-            description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit."
+            description: ""
         } , {
             serviceId: "historic",
             name: "Historyic",
             homepageImage: "/img/services/Historic.jpg",
-            description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit."
+            description: ""
         } , {
             serviceId: "green",
             name: "Green",
             homepageImage: "/img/services/Green.jpg",
-            description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit."
+            description: ""
         }
     ];
 
@@ -608,7 +608,7 @@
             teamMemberId: "jeff_jeppesen",
             name: "Jeff Jeppesen",
             title: "Co-Owner and Co-Founder",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+            description: "",
             homepageImage: "http://placehold.it/450x300",
             order: "0",
             contactInfo: {
@@ -619,7 +619,7 @@
             teamMemberId: "paul_wetzel",
             name: "Paul Wetzel",
             title: "Co-Owner and Co-Founder",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+            description: "",
             homepageImage: "http://placehold.it/450x300",
             order: "1",
             contactInfo: {
@@ -629,7 +629,7 @@
             teamMemberId: "chad_thompson",
             name: "Chad Thompson",
             title: "Supervisor",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+            description: "",
             homepageImage: "http://placehold.it/450x300",
             order: "2",
             contactInfo: {
