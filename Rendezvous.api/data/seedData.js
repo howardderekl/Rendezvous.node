@@ -3,7 +3,7 @@
         {
             projectId: "baxter",
             name: "Baxter Project",
-            projectDesription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.",
+            projectDesription: "",
             homepageImage: "/img/portfolio/baxter/baxter-port-1.jpg",
             portfolioDetailImage: "/img/portfolio/baxter/baxter-home-2.jpg",
             portfolioLink: "/portfolio/project/baxter",
@@ -11,9 +11,9 @@
             homeSpecs :
             {
                 projectType: "Custom Log",
-                squareFt: "14,000",
-                bedrooms: "8",
-                bathrooms: "10",
+                squareFt: "6,150",
+                bedrooms: "4",
+                bathrooms: "4.5",
                 planDesign: "Custom Design Firm"
             },
             awards: [
@@ -190,7 +190,7 @@
         {
             projectId: "kaswan",
             name: "Kaswan Project",
-            projectDesription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.",
+            projectDesription: "",
             homepageImage: "/img/portfolio/kaswan/proj01_450x300.jpg",
             portfolioDetailImage: "/img/portfolio/kaswan/proj01_1100x300.jpg",
             portfolioLink: "/portfolio/project/kaswan",
@@ -198,10 +198,10 @@
             homeSpecs :
             {
                 projectType: "Timber Frame",
-                squareFt: "9,500",
-                bedrooms: "4",
+                squareFt: "3,500",
+                bedrooms: "1",
                 bathrooms: "3",
-                planDesign: "Custom Design Firm"
+                planDesign: ""
             },
             awards: [
                 {
@@ -491,7 +491,7 @@
         }, {
             projectId: "spring_creek",
             name: "Spring Creek Project",
-            projectDesription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.",
+            projectDesription: "",
             homepageImage: "/img/portfolio/paustenbach/proj01.jpg",
             portfolioDetailImage: "/img/portfolio/paustenbach/proj01_1100x300.jpg",
             portfolioLink: "/portfolio/project/spring_creek",
@@ -499,10 +499,10 @@
             homeSpecs :
             {
                 projectType: "Timber Frame",
-                squareFt: "12,500",
-                bedrooms: "10",
-                bathrooms: "8",
-                planDesign: "Custom Design Firm"
+                squareFt: "10,000",
+                bedrooms: "7",
+                bathrooms: "7.5",
+                planDesign: "Rick Merrell Dynamic Design"
             },
             awards: [
                 {
