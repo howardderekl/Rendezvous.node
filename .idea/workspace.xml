@@ -2,23 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8bd1b92-949a-4a40-be85-c3733e9d57bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-port-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-port-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.api/package.json" afterPath="$PROJECT_DIR$/Rendezvous.api/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-19.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-21.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-25.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-26.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-27.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-28.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-29.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-30.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-port-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1/Brakke-port-2.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-port-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke/Brakke-port-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-port-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke/Brakke-port-2.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rendezvous.api/data/seedData.js" afterPath="$PROJECT_DIR$/Rendezvous.api/data/seedData.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -48,10 +96,31 @@
       <file leaf-file-name="seedData.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rendezvous.api/data/seedData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.118159205" vertical-offset="8500" max-vertical-offset="12375">
-              <caret line="573" column="58" selection-start-line="573" selection-start-column="58" selection-end-line="573" selection-end-column="58" />
+            <state vertical-scroll-proportion="2.0828876" vertical-offset="8552" max-vertical-offset="12495">
+              <caret line="674" column="58" selection-start-line="674" selection-start-column="58" selection-end-line="674" selection-end-column="58" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Brandhorst-port-1.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-port-1.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Brandhorst-16.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-16.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Brandhorst-port-2.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-port-2.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -355,7 +424,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Brakke" />
+              <option name="myItemId" value="brakke1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -410,6 +479,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brakke1" />
       <recent name="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst" />
       <recent name="$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/Brakke" />
       <recent name="D:\GitRepository\Rendezvous.Node\Rendezvous.node\public" />
@@ -564,13 +634,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/lib/angular-masonry/.bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1039">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/lib/masonry/.bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1039">
@@ -891,10 +954,25 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-port-2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-port-1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rendezvous.node/public/img/portfolio/brandhorst/Brandhorst-16.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Rendezvous.api/data/seedData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.118159205" vertical-offset="8500" max-vertical-offset="12375">
-          <caret line="573" column="58" selection-start-line="573" selection-start-column="58" selection-end-line="573" selection-end-column="58" />
+        <state vertical-scroll-proportion="2.0828876" vertical-offset="8552" max-vertical-offset="12495">
+          <caret line="674" column="58" selection-start-line="674" selection-start-column="58" selection-end-line="674" selection-end-column="58" />
           <folding />
         </state>
       </provider>
