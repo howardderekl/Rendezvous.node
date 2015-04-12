@@ -570,8 +570,8 @@
             projectId: "brakke",
             name: "Brakke Project",
             projectDesription: "",
-            homepageImage: "/img/portfolio/brakke/brakke-port-1.jpg",
-            portfolioDetailImage: "/img/portfolio/brakke/brakke-port-2.jpg",
+            homepageImage: "/img/portfolio/Brakke/Brakke-port-1.jpg",
+            portfolioDetailImage: "/img/portfolio/Brakke/Brakke-port-2.jpg",
             portfolioLink: "/portfolio/project/brakke",
             galleryLink: "/portfolio/gallery/brakke",
             homeSpecs :
@@ -592,80 +592,158 @@
                 }],
             gallery: [
                 {
-                    src: "/img/portfolio/brakke/brakke-10.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-10.jpg",
+                    alt: "Brakke Modern Contemporary Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/brakke/brakke-11.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-11.jpg",
+                    alt: "Brakke Modern Contemporary Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/brakke/brakke-12.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-12.jpg",
+                    alt: "Brakke Modern Contemporary Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/brakke/brakke-13.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-13.jpg",
+                    alt: "Brakke Modern Contemporary Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/brakke/brakke-15.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-15.jpg",
+                    alt: "Brakke Modern Contemporary Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/brakke/brakke-16.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-16.jpg",
+                    alt: "Brakke Modern Contemporary Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/brakke/brakke-17.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-17.jpg",
+                    alt: "Brakke Modern Contemporary Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/brakke/brakke-18.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-18.jpg",
+                    alt: "Brakke Modern Contemporary Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/brakke/brakke-19.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-19.jpg",
+                    alt: "Brakke Modern Contemporary Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/brakke/brakke-20.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-20.jpg",
+                    alt: "Brakke Modern Contemporary Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/brakke/brakke-21.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-21.jpg",
+                    alt: "Brakke Modern Contemporary Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/brakke/brakke-22.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-22.jpg",
+                    alt: "Brakke Modern Contemporary Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/brakke/brakke-23.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-23.jpg",
+                    alt: "Brakke Modern Contemporary Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/brakke/brakke-24.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-24.jpg",
+                    alt: "Brakke Modern Contemporary Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/brakke/brakke-25.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-25.jpg",
+                    alt: "Brakke Modern Contemporary Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/brakke/brakke-26.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-26.jpg",
+                    alt: "Brakke Modern Contemporary Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/brakke/brakke-27.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-27.jpg",
+                    alt: "Brakke Modern Contemporary Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/brakke/brakke-28.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-28.jpg",
+                    alt: "Brakke Modern Contemporary Project",
                     order: "0"
                 }, {
-                    src: "/img/portfolio/brakke/brakke-29.jpg",
-                    alt: "brakke Modern Contemporary Project",
+                    src: "/img/portfolio/Brakke/Brakke-29.jpg",
+                    alt: "Brakke Modern Contemporary Project",
+                    order: "0"
+                }]
+        }, {
+            projectId: "brandhorst",
+            name: "Brandhorst Project",
+            projectDesription: "",
+            homepageImage: "/img/portfolio/brandhorst/Brandhorst-port-1.jpg",
+            portfolioDetailImage: "/img/portfolio/brandhorst/Brandhorst-port-2.jpg",
+            portfolioLink: "/portfolio/project/brandhorst",
+            galleryLink: "/portfolio/gallery/brandhorst",
+            homeSpecs :
+            {
+                projectType: "Modern Contemporary",
+                squareFt: "10,000",
+                bedrooms: "7",
+                bathrooms: "7.5",
+                planDesign: "Plan Designer"
+            },
+            awards: [
+                {
+                    description: "2014 Best Plan Designer Award",
+                    url: "#"
+                }, {
+                    description: "Best Interior Design",
+                    url: ""
+                }],
+            gallery: [
+                {
+                    src: "/img/portfolio/brandhorst/Brandhorst-10.jpg",
+                    alt: "Brandhorst Modern Contemporary Project",
+                    order: "0"
+                }, {
+                    src: "/img/portfolio/brandhorst/Brandhorst-11.jpg",
+                    alt: "Brandhorst Modern Contemporary Project",
+                    order: "0"
+                }, {
+                    src: "/img/portfolio/brandhorst/Brandhorst-12.jpg",
+                    alt: "Brandhorst Modern Contemporary Project",
+                    order: "0"
+                }, {
+                    src: "/img/portfolio/brandhorst/Brandhorst-13.jpg",
+                    alt: "Brandhorst Modern Contemporary Project",
+                    order: "0"
+                }, {
+                    src: "/img/portfolio/brandhorst/Brandhorst-15.jpg",
+                    alt: "Brandhorst Modern Contemporary Project",
+                    order: "0"
+                }, {
+                    src: "/img/portfolio/brandhorst/Brandhorst-16.jpg",
+                    alt: "Brandhorst Modern Contemporary Project",
+                    order: "0"
+                }, {
+                    src: "/img/portfolio/brandhorst/Brandhorst-17.jpg",
+                    alt: "Brandhorst Modern Contemporary Project",
+                    order: "0"
+                }, {
+                    src: "/img/portfolio/brandhorst/Brandhorst-18.jpg",
+                    alt: "Brandhorst Modern Contemporary Project",
+                    order: "0"
+                }, {
+                    src: "/img/portfolio/brandhorst/Brandhorst-19.jpg",
+                    alt: "Brandhorst Modern Contemporary Project",
+                    order: "0"
+                }, {
+                    src: "/img/portfolio/brandhorst/Brandhorst-20.jpg",
+                    alt: "Brandhorst Modern Contemporary Project",
+                    order: "0"
+                }, {
+                    src: "/img/portfolio/brandhorst/Brandhorst-21.jpg",
+                    alt: "Brandhorst Modern Contemporary Project",
+                    order: "0"
+                }, {
+                    src: "/img/portfolio/brandhorst/Brandhorst-23.jpg",
+                    alt: "Brandhorst Modern Contemporary Project",
+                    order: "0"
+                }, {
+                    src: "/img/portfolio/brandhorst/Brandhorst-22.jpg",
+                    alt: "Brandhorst Modern Contemporary Project",
                     order: "0"
                 }]
         }
