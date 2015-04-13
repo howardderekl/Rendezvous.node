@@ -52,9 +52,9 @@
                     </div>
                 })
             </div>        
-            <div class="row text-center">
+            <!--<div class="row text-center">
                 <a href="/services" class="btn btn-light">Learn More</a>    
-            </div>
+            </div> -->
         </div>
     </div>
     
@@ -100,10 +100,10 @@
                     <!-- Team Member One -->
                     @model.teamMembers.forEach(function (teamMember) {
                         <div class="row">
-                            <div class="col-md-3">
+                            <!--<div class="col-md-3">
                                     <img class="img-responsive" src='@teamMember.homepageImage' alt='@teamMember.name - @teamMember.title'>
-                            </div>
-                            <div class="col-md-8">
+                            </div>-->
+                            <div class="col-md-12">
                                 <h3>@teamMember.name</h3>
                                 <h4>@teamMember.title</h4>
                                 <p>@teamMember.description</p>
