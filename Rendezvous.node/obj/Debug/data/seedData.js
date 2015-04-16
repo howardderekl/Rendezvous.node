@@ -199,9 +199,9 @@
             homepageImage: "/img/services/Historic.jpg",
             description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit."
         } , {
-            serviceId: "green",
-            name: "Green",
-            homepageImage: "/img/services/Green.jpg",
+            serviceId: "eco-friendly",
+            name: "Eco-Friendly",
+            homepageImage: "/img/services/Eco-Friendly.jpg",
             description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit."
         }
     ];

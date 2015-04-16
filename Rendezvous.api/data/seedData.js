@@ -780,13 +780,13 @@
             description: ""
         } , {
             serviceId: "historic",
-            name: "Historyic",
+            name: "Historic",
             homepageImage: "/img/services/Historic.jpg",
             description: ""
         } , {
-            serviceId: "green",
-            name: "Green",
-            homepageImage: "/img/services/Green.jpg",
+            serviceId: "eco-friendly",
+            name: "Eco-Friendly",
+            homepageImage: "/img/services/Eco-Friendly.jpg",
             description: ""
         }
     ];
